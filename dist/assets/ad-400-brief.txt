@@ -1,0 +1,16 @@
+AD-400 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A specialist platform for long-distance inspection of flooded water tunnels, combining a tethered vehicle with project-specific sensing and tether management.
+
+Vehicle weight: 300 kg
+Depth rating: 1,000 m
+Official-site maximum range: 5 km
+Dimensions: 1,600 × 900 × 548 mm
+Forward camera: 4K
+Rear camera: 1080p
+Power: External tethered supply
+
+Configuration note: The official website states a maximum operation distance of 5 km; the supplied brochure lists 5.5 km. The deliverable range must be confirmed against the supplied version and project conditions.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

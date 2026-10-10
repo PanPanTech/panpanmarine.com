@@ -1,0 +1,16 @@
+R-30 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A tethered inspection ROV for visual assessment of submerged structures, with payload and sensor selection matched to the task.
+
+Vehicle weight: 21 kg
+Depth rating: 300 m
+Payload: 3 kg
+Dimensions: 500 × 398 × 356 mm
+Camera: 1080p; 4× optical zoom
+Camera tilt: ±90°
+Power: External tethered supply
+
+Configuration note: Sonar, positioning and task-specific tools require confirmation of compatibility, mounting, power and delivered configuration.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

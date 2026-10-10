@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.tar.gz
+*.tgz
+node_modules/
+.openai/*.local.*
+.openai/artifacts/
+.openai/cache/

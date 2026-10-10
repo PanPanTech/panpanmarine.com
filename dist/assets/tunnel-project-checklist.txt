@@ -1,0 +1,28 @@
+UNDERWATER TUNNEL INSPECTION — PROJECT CHECKLIST
+
+Route & geometry
+[ ] Total intended inspection length
+[ ] Cross-sections, gradient and elevation profile
+[ ] Bends, transitions, constrictions and known obstructions
+
+Water & operating conditions
+[ ] Depth, flow range and expected visibility
+[ ] Sediment and debris conditions
+[ ] Isolation, shutdown and site permit requirements
+
+Access & field logistics
+[ ] Entry opening and launch/recovery area
+[ ] Lifting, reel location and available power
+[ ] Staffing, communications and emergency access
+
+Inspection & evidence
+[ ] Defects or condition to be assessed
+[ ] Coverage and sensor requirements
+[ ] Position reference, data formats and acceptance criteria
+
+Failure & recovery
+[ ] Response to snagging or lost communication
+[ ] Retrieval equipment and contact points
+[ ] Exit conditions and site owner responsibilities
+
+Mark unknown information explicitly. Review the complete system and recovery plan before purchase.

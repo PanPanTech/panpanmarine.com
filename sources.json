@@ -1,0 +1,13 @@
+{
+  "retrieved_date": "2026-10-04",
+  "manufacturer": "Boya Gongdao / ROBOOCEAN",
+  "assets": [
+    {"model":"R-30","local":"dist/assets/r-30.png","page":"https://www.boyagongdao.com/index/shows?catid=30&id=5","original":"https://www.boyagongdao.com/public/storage/upload/files/20260417/97cf73885dcbedd73a010821409f7f3c.png","note":"2026 official product rendering; confirm current version against brochure specifications"},
+    {"model":"R-45","local":"dist/assets/r-45.png","page":"https://www.boyagongdao.com/index/shows?catid=30&id=4","original":"https://www.boyagongdao.com/public/storage/upload/files/20260417/dfc68bad501a59429aa7306ab3b18446.png","note":"2026 official product rendering; confirm current version"},
+    {"model":"AD-400","local":"dist/assets/ad-400.jpg","page":"https://www.boyagongdao.com/index/shows?catid=32&id=23","original":"https://www.boyagongdao.com/public/storage/upload/files/20230809/fa9dfd9d334e19b1756e5f3c23397c79.jpg"},
+    {"model":"A-80","local":"dist/assets/a-80.jpg","page":"https://www.boyagongdao.com/index/shows?catid=32&id=10","original":"https://www.boyagongdao.com/public/storage/upload/files/20230809/5609a401f37446abf64477f0e35c4af4.jpg"},
+    {"model":"AD-100","local":"dist/assets/ad-100.jpg","source":"../宣传册-博雅工道海洋科技集团.pdf","pdf_page":32,"printed_page":29,"note":"Embedded manufacturer illustration extracted without AI editing; not a project photograph"}
+  ],
+  "text_sources": ["../博雅工道海洋科技集团_宣传册_中文版.md","../博雅工道海洋科技集团_宣传册_英文版.md","../海外代理网站_内容大纲与关键词规划_2026-10-04.md"],
+  "commercial_reuse_permission": "To be confirmed with manufacturer before public commercial use"
+}
