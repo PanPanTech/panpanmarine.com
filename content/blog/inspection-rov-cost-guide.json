@@ -1,0 +1,88 @@
+{
+  "status": "published",
+  "published_at": "2026-10-11",
+  "updated_at": "2026-10-11",
+  "related_paths": [],
+  "slug": "inspection-rov-cost-guide",
+  "title": "Inspection ROV Cost: What Drives the Price of an Underwater ROV",
+  "seo_title": "Inspection ROV Cost: What Drives the Price | PanPan Marine",
+  "description": "What does an inspection ROV cost? The price drivers: vehicle class, depth, sensors, tether, tools, training, spares and support, and how to compare quotes.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "inspection ROV cost",
+  "related_keywords": [
+    "underwater ROV price",
+    "how much does an ROV cost",
+    "ROV total cost of ownership",
+    "industrial ROV quotation"
+  ],
+  "answer": "The price of an inspection ROV depends far more on the complete configuration than on the vehicle alone. The main drivers are the vehicle class and depth rating, the sensors (especially sonar and positioning), tether length and reel, tools, training, spares and support. Compare quotations on an itemised, like-for-like scope and on cost over the inspection programme.",
+  "image": "r-45.png",
+  "alt": "R-45 inspection ROV, manufacturer rendering",
+  "sections": [
+    {
+      "id": "why-no-list-price",
+      "title": "1. Why there is no single “ROV price”",
+      "html": "<p>Ask ten suppliers for “the price of an inspection ROV” and you will get ten numbers that cannot be compared. One may quote a bare vehicle with a short tether; another a complete field system with sonar, positioning, a powered reel, spares and training. Industrial ROVs are configured systems, and the configuration is what you pay for.</p><p>That is why we do not publish list prices. A useful quotation starts from the task: the structure, depth, visibility, access and the evidence the inspection must produce. From that, the configuration — and the price — follow.</p>"
+    },
+    {
+      "id": "drivers",
+      "title": "2. The main cost drivers",
+      "html": "<table><caption>What changes the price of an inspection ROV system</caption><thead><tr><th>Driver</th><th>Why it matters</th><th>Question to ask</th></tr></thead><tbody><tr><th scope=\"row\">Vehicle class</th><td>Size, payload and thrust determine what the vehicle can carry and where it can work.</td><td>Is the payload enough for the sensors I need?</td></tr><tr><th scope=\"row\">Depth rating</th><td>Higher ratings need stronger housings, connectors and tethers.</td><td>Do I need the full rating, or only my working depth plus margin?</td></tr><tr><th scope=\"row\">Cameras and lighting</th><td>Resolution, zoom and lighting define the visual evidence.</td><td>Can I see samples at my working distance?</td></tr><tr><th scope=\"row\">Imaging sonar</th><td>Often one of the largest options; essential in turbid water.</td><td>Which sonar model, and is it integrated and recorded?</td></tr><tr><th scope=\"row\">Positioning</th><td>Needed to reference findings to a location.</td><td>What accuracy is required, and how is it achieved?</td></tr><tr><th scope=\"row\">Tether and reel</th><td>Length, construction and a manual or powered reel affect cost and handling.</td><td>What length do I need, with margin, from launch to the farthest target?</td></tr><tr><th scope=\"row\">Tools</th><td>Manipulators, cleaning tools or measurement devices add cost and weight.</td><td>Is the tool proven on this vehicle?</td></tr><tr><th scope=\"row\">Training</th><td>Operator competence determines the value of the system.</td><td>Where, how long and for how many operators?</td></tr><tr><th scope=\"row\">Spares and support</th><td>Downtime is expensive; critical spares avoid it.</td><td>What spares kit is recommended, and who supports me?</td></tr><tr><th scope=\"row\">Shipping and import</th><td>Freight, insurance, duties and certification vary by country.</td><td>Which Incoterm, and who handles import?</td></tr></tbody></table>"
+    },
+    {
+      "id": "vehicle-classes",
+      "title": "3. How vehicle class changes the budget",
+      "html": "<p>A compact inspection ROV such as the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> (21 kg, 300 m rating, 3 kg payload) is the entry point for visual inspection of dams, intakes and structures. A larger inspection ROV such as the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> (42 kg, 350 m rating, 8 kg payload) costs more but carries sonar, positioning and tools. Specialist systems such as the <a href=\"/equipment/ad-400-tunnel-inspection-rov/\">AD-400</a> long-distance tunnel ROV are a different category, with a long tether, power system and handling equipment engineered for the route.</p><p>Do not buy more vehicle than the task needs — but do not choose a vehicle whose payload leaves no room for the sensors the inspection actually requires. Use the <a href=\"/equipment/compare/\">side-by-side comparison</a> to see the figures together.</p>"
+    },
+    {
+      "id": "tco",
+      "title": "4. Look at total cost of ownership, not purchase price",
+      "html": "<p>The purchase price is only part of the cost. Over an inspection programme, include:</p><ul><li><strong>Operators:</strong> training, staffing and time on site.</li><li><strong>Maintenance:</strong> routine servicing, consumables and periodic checks of the tether and connectors.</li><li><strong>Spares and repairs:</strong> recommended spares, repair logistics and shipping.</li><li><strong>Downtime:</strong> the cost of a missed inspection window if the system is unavailable.</li><li><strong>Utilisation:</strong> how many inspections per year the system will perform. A system used often costs less per inspection.</li></ul><p>Compare this with the alternative: contracted ROV services or dive teams for each campaign. Our article on <a href=\"/blog/rov-vs-diver-underwater-inspection/\">ROV vs diver inspection</a> covers that comparison.</p>"
+    },
+    {
+      "id": "compare-quotes",
+      "title": "5. How to compare quotations like for like",
+      "html": "<p>Ask every supplier to itemise the same scope: vehicle and installed payload; control station and software; tether length, reel and power supply; sensors and tools by model; transport cases; spares; manuals; training; warranty provider and terms; delivery term and lead time; acceptance test. Mark each item as standard, optional or custom.</p><p>Then compare the configurations, not the totals. A lower price that omits sonar, uses a shorter tether or excludes training is not cheaper if you need those items to complete the inspection.</p>"
+    },
+    {
+      "id": "get-quote",
+      "title": "6. Get an itemised quotation",
+      "html": "<p>Send us the task, depth, visibility, access and the evidence you need. We will propose a configuration and return an itemised quotation that separates standard, optional and custom items. <a href=\"/request-a-proposal/\">Request a quote</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much does an inspection ROV cost?",
+      "answer": "It depends on the configuration. A compact ROV with a camera and short tether sits at the low end; adding imaging sonar, positioning, a long tether and powered reel, tools, training and spares raises the price significantly. Ask for an itemised quotation for your task."
+    },
+    {
+      "question": "What is the most expensive option on an inspection ROV?",
+      "answer": "Often the sensors, especially imaging sonar and positioning systems, followed by long tethers with powered reels and specialist tools."
+    },
+    {
+      "question": "Is it better to buy an ROV or hire an inspection service?",
+      "answer": "For occasional inspections, a service may cost less. For repeated inspections across several assets, owning a system and training operators often reduces cost per inspection and gives more control over scheduling."
+    },
+    {
+      "question": "Why do ROV quotations differ so much?",
+      "answer": "Because suppliers quote different scopes. Compare itemised configurations, including tether, sensors, training and spares, rather than totals."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Boya Gongdao R-30 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=5",
+      "note": "Manufacturer specifications."
+    },
+    {
+      "title": "Boya Gongdao R-45 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=4",
+      "note": "Manufacturer specifications."
+    },
+    {
+      "title": "Boya Gongdao AD-400 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=32&id=23",
+      "note": "Official-site maximum operating distance of 5 km."
+    }
+  ]
+}

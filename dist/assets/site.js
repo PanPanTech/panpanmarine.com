@@ -7,7 +7,8 @@
       const open = toggle.getAttribute('aria-expanded') !== 'true';
       toggle.setAttribute('aria-expanded', String(open));
       toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
-      toggle.textContent = open ? 'Close' : 'Menu';
+      const label = toggle.querySelector('.menu-text');
+      if (label) label.textContent = open ? 'Close' : 'Menu';
       nav.classList.toggle('open', open);
     });
     document.addEventListener('keydown', e => {
@@ -65,7 +66,28 @@
   if (form) {
     const params = new URLSearchParams(location.search);
     ['task','model'].forEach(k => { const v=params.get(k); if ([...form.elements[k].options].some(o=>o.value===v)) form.elements[k].value=v; });
-    form.addEventListener('submit', e => { e.preventDefault(); try { prepareBrief(); } catch (err) {document.getElementById('form-status').textContent=err.message;} });
+    const endpoint = form.dataset.endpoint;
+    const status = document.getElementById('form-status');
+    async function sendBrief() {
+      prepareBrief();
+      if (form.elements._gotcha && form.elements._gotcha.value) return;
+      const submit = form.querySelector('[type=submit]');
+      submit.disabled = true;
+      status.textContent = 'Sending your brief…';
+      try {
+        const data = new FormData(form);
+        data.delete('_gotcha');
+        data.append('brief', currentBrief);
+        data.append('_subject', 'Project brief — ' + form.elements.company.value);
+        const res = await fetch(endpoint, {method:'POST', body:data, headers:{Accept:'application/json'}});
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        location.href = '/thank-you/?sent=1';
+      } catch {
+        status.textContent = 'The brief could not be sent. Use “Open email draft” below or email us directly.';
+        submit.disabled = false;
+      }
+    }
+    form.addEventListener('submit', e => { e.preventDefault(); try { if (endpoint) sendBrief().catch(err => { status.textContent = err.message; }); else prepareBrief(); } catch (err) { status.textContent = err.message; } });
     form.addEventListener('input', () => {
       if (currentBrief) { currentBrief=''; document.getElementById('brief-result').hidden=true; document.getElementById('form-status').textContent='Your details changed. Review the brief again to update it.'; }
     });
@@ -81,6 +103,8 @@
       document.getElementById('form-status').textContent='Email draft requested. Review and send it in your mail application.';
     });
   }
+  document.querySelectorAll('[data-print]').forEach(b => b.addEventListener('click', () => window.print()));
+  if (new URLSearchParams(location.search).get('sent') === '1') document.querySelectorAll('[data-sent-note]').forEach(n => { n.hidden = false; });
   // Progressive enhancement: use the same visible actions in WebMCP-capable browsers.
   if (document.modelContext?.registerTool) {
     const lifecycle = new AbortController();

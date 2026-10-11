@@ -5,7 +5,7 @@
 ## 发布方式
 
 1. 在 `content/blog/` 复制 `_template.json`，改名为文章英文 slug；也可以提供 Markdown 初稿，再转换到此格式。
-2. 填写标题、描述、直接答案、章节 HTML、FAQ、来源、图片和内链。图片文件放在 `dist/assets/`，`image` 只填写文件名。所有性能数字注明来源、适用版本和条件。
+2. 填写标题、描述（≤155 字符，构建时超过 160 会报错）、可选 `seo_title`、直接答案、章节 HTML、FAQ、来源、图片和内链。图片文件放在 `dist/assets/`，`image` 只填写文件名。所有性能数字注明来源、适用版本和条件。
 3. 草稿保持 `status: draft`。审核后改为 `published`，填写实际发布日期和更新日期。仅有实质内容更新时修改 `updated_at`。
 4. 运行 `python build.py`，启动 `python -m http.server 4173 --directory dist --bind 127.0.0.1`，再运行 `python validate.py`。检查桌面、手机菜单、表格、图片和询价入口。
 5. 通过已有 Sites 工作流推送对应源代码，打包并保存版本、部署，然后同步 GitHub。仅推送 GitHub 不会自动更新现有托管网站。
@@ -20,6 +20,9 @@
 | 已发布 | industrial inspection ROV selection | 设备初筛 | 厂家版本参数、应用边界 |
 | 已发布 | flooded tunnel inspection procurement | 项目准备 | 路线、验收与交付字段 |
 | 已发布 | underwater cleaning vs dredging | 工艺初筛 | 沉积物、泵管与分离设备条件 |
+| 已发布 | ROV vs diver inspection | 方法对比 / 获客 | — |
+| 已发布 | inspection ROV cost | 预算与报价对比 | — |
+| 已发布 | underwater dam inspection ROV | 大坝场景长尾词 | — |
 | 4 | ROV payload capacity | 解释载荷与整机配置 | 各版本载荷定义与附件重量 |
 | 5 | R30 vs R45 inspection ROV | 产品比较 | 同一日期的配置表及适用场景 |
 | 6 | ROV depth rating and operating conditions | 避免只按深度选型 | 密封、传感器及线缆配置说明 |

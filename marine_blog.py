@@ -14,6 +14,25 @@ CATEGORIES = {
 }
 
 
+ASSETS = Path(__file__).resolve().parent / 'dist' / 'assets'
+
+
+def picture(filename, alt, cls='', lazy=True, sizes='(max-width: 650px) 100vw, 600px'):
+    """Responsive WebP <img> when tools/optimize_images.py variants exist, else the original file."""
+    stem = Path(filename).stem
+    loading = 'loading="lazy" decoding="async"' if lazy else 'fetchpriority="high"'
+    if (ASSETS / f'{stem}-600.webp').is_file() and (ASSETS / f'{stem}-1200.webp').is_file():
+        src = f'src="/assets/{stem}-1200.webp" srcset="/assets/{stem}-600.webp 600w, /assets/{stem}-1200.webp 1200w" sizes="{sizes}"'
+    else:
+        src = f'src="/assets/{escape(filename, quote=True)}"'
+    return f'<img class="{cls}" {src} alt="{escape(alt, quote=True)}" width="900" height="650" {loading}>'
+
+
+def og_image_for(filename):
+    stem = Path(filename).stem
+    return f'og-{stem}.jpg' if (ASSETS / f'og-{stem}.jpg').is_file() else filename
+
+
 def article_path(post):
     return '/blog/' + post['slug'] + '/'
 
@@ -63,7 +82,7 @@ def pretty_date(value):
 
 def card(post):
     url = article_path(post)
-    return f'''<article class="blog-card"><a class="blog-card-image" href="{url}"><img src="/assets/{escape(post['image'], quote=True)}" alt="{escape(post['alt'], quote=True)}" width="900" height="650" loading="lazy"></a><div class="blog-card-copy"><a class="eyebrow" href="/blog/topics/{post['category_slug']}/">{escape(post['category'])}</a><h3><a href="{url}">{escape(post['title'])}</a></h3><p>{escape(post['description'])}</p><p class="meta"><time datetime="{post['published_at']}">{pretty_date(post['published_at'])}</time> · {post['read_minutes']} min read</p><a class="text-link" href="{url}">Read the guide</a></div></article>'''
+    return f'''<article class="blog-card"><a class="blog-card-image" href="{url}">{picture(post['image'], post['alt'])}</a><div class="blog-card-copy"><a class="eyebrow" href="/blog/topics/{post['category_slug']}/">{escape(post['category'])}</a><h3><a href="{url}">{escape(post['title'])}</a></h3><p>{escape(post['description'])}</p><p class="meta"><time datetime="{post['published_at']}">{pretty_date(post['published_at'])}</time> · {post['read_minutes']} min read</p><a class="text-link" href="{url}">Read the guide</a></div></article>'''
 
 
 def cards(posts):
@@ -93,8 +112,17 @@ def breadcrumbs(origin, parts):
     return {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [dict({'@type': 'ListItem'}, position=i, name=name, item=origin + path) for i, (name, path) in enumerate(parts, 1)]}
 
 
-def render_blog(root, posts, write, intro, cta, origin, company, brand):
-    body = intro('BLOG / BUYING GUIDES', 'Better briefs.<br>Better equipment decisions.', 'Practical guidance for teams buying underwater inspection, cleaning and dredging equipment.')
+def render_blog(root, posts, write, intro, cta, origin, company, brand, author=None):
+    author = author or {}
+    org_ref = {'@id': origin + '/#organization'}
+    if author.get('name'):
+        author_ld = {'@type': 'Person', 'name': author['name'], 'worksFor': org_ref}
+        if author.get('job_title'): author_ld['jobTitle'] = author['job_title']
+        if author.get('url'): author_ld['url'] = author['url']
+        byline = escape(author['name']) + (', ' + escape(author['job_title']) if author.get('job_title') else '')
+    else:
+        author_ld, byline = {'@type': 'Organization', 'name': brand, 'url': origin + '/about/'}, 'PanPan Marine'
+    body = intro('BLOG / BUYING GUIDES', 'Underwater robotics blog &amp; buying guides', 'Practical guidance for teams buying underwater inspection, cleaning and dredging equipment.', 'Better briefs. Better equipment decisions.')
     body += '<section class="wrap section"><div class="blog-index-heading"><p>Start with your task, then review the configuration, evidence and responsibilities behind the quotation.</p><a class="text-link" href="/blog/feed.xml">Follow the RSS feed</a></div>' + topic_nav() + cards(posts) + '</section>'
     body += '<section class="wrap section two-col"><div><p class="eyebrow">TECHNICAL RESOURCES</p><h2>Keep the working documents close.</h2><p>Use the sensing guide and downloadable project checklist alongside these buying guides.</p><a class="text-link" href="/resources/">Open technical resources</a></div><div><p class="eyebrow">OUR EDITORIAL APPROACH</p><h2>Source, scope and configuration.</h2><p>Guides distinguish manufacturer information from project-planning recommendations. Figures and product suitability are checked against the supplied version and proposed application.</p><a class="text-link" href="/about/">About PanPan Marine</a></div></section>' + cta()
     collection = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'PanPan Marine Blog', 'url': origin + '/blog/', 'mainEntity': {'@type': 'ItemList', 'itemListElement': [dict({'@type': 'ListItem'}, position=i, url=origin + article_path(p), name=p['title']) for i, p in enumerate(posts, 1)]}}
@@ -109,7 +137,7 @@ def render_blog(root, posts, write, intro, cta, origin, company, brand):
     for p in posts:
         path = article_path(p)
         title, description = p['title'], p['description']
-        meta = f'<p class="blog-meta">By PanPan Marine · <time datetime="{p["published_at"]}">Published {pretty_date(p["published_at"])}</time>'
+        meta = f'<p class="blog-meta">By {byline} · <time datetime="{p["published_at"]}">Published {pretty_date(p["published_at"])}</time>'
         if p['updated_at'] != p['published_at']:
             meta += f' · Updated <time datetime="{p["updated_at"]}">{pretty_date(p["updated_at"])}</time>'
         meta += f' · {p["read_minutes"]} min read</p>'
@@ -118,7 +146,7 @@ def render_blog(root, posts, write, intro, cta, origin, company, brand):
         toc = ''.join(f'<a href="#{s["id"]}">{escape(s["title"])}</a>' for s in p['sections']) + '<a href="#faq">Frequently asked questions</a><a href="#sources">Sources &amp; scope</a>'
         body += '<article class="wrap section blog-layout"><aside class="blog-aside"><nav aria-label="On this page"><h2>On this page</h2>' + toc + '</nav><div class="blog-aside-cta"><h3>Put your brief to work.</h3><p>Share your task and site conditions for a configuration review.</p><a class="button" href="/request-a-proposal/">Plan your project</a></div></aside><div class="blog-content">' + meta
         body += '<section class="blog-answer" aria-labelledby="quick-answer"><h2 id="quick-answer">The short answer</h2><p>' + escape(p['answer']) + '</p></section>'
-        body += f'<figure class="blog-figure"><img src="/assets/{escape(p["image"], quote=True)}" alt="{escape(p["alt"], quote=True)}" width="900" height="650"><figcaption>Manufacturer equipment illustration. Configuration and appearance depend on the supplied version.</figcaption></figure>'
+        body += f'<figure class="blog-figure">{picture(p["image"], p["alt"], sizes="(max-width: 900px) 100vw, 780px")}<figcaption>Manufacturer equipment illustration. Configuration and appearance depend on the supplied version.</figcaption></figure>'
         for s in p['sections']:
             html = s['html'] if 'class="table-scroll"' in s['html'] else re.sub(r'(<table\b.*?</table>)', r'<div class="table-scroll">\1</div>', s['html'], flags=re.S | re.I)
             body += f'<section id="{s["id"]}"><h2>{escape(s["title"])}</h2>{html}</section>'
@@ -127,9 +155,9 @@ def render_blog(root, posts, write, intro, cta, origin, company, brand):
         body += '<section class="blog-source-note" id="sources"><h2>Sources &amp; scope</h2><ul>' + sources + '</ul><p>This guide offers procurement-planning guidance. Manufacturer specifications, site feasibility and contractual responsibilities are confirmed for the proposed system; this page is not an operating procedure.</p></section></div></article>'
         other = [a for a in posts if a['slug'] != p['slug']][:2]
         body += '<section class="section band"><div class="wrap"><p class="eyebrow">CONTINUE YOUR RESEARCH</p><h2>Related buying guides.</h2>' + cards(other) + '</div></section>' + cta()
-        schema = {'@context': 'https://schema.org', '@type': 'BlogPosting', '@id': origin + path + '#article', 'headline': title, 'description': description, 'url': origin + path, 'mainEntityOfPage': origin + path, 'datePublished': p['published_at'], 'dateModified': p['updated_at'], 'inLanguage': 'en', 'articleSection': p['category'], 'wordCount': p['word_count'], 'image': origin + '/assets/' + p['image'], 'author': {'@type':'Organization','name':brand,'url':origin + '/about/'}, 'publisher': {'@type':'Organization','name':company,'url':origin}, 'citation': [s['url'] for s in p['sources'] if s.get('url')]}
+        schema = {'@context': 'https://schema.org', '@type': 'BlogPosting', '@id': origin + path + '#article', 'headline': title, 'description': description, 'url': origin + path, 'mainEntityOfPage': origin + path, 'datePublished': p['published_at'], 'dateModified': p['updated_at'], 'inLanguage': 'en', 'articleSection': p['category'], 'wordCount': p['word_count'], 'image': origin + '/assets/' + p['image'], 'author': author_ld, 'publisher': org_ref, 'keywords': ', '.join([p.get('primary_keyword', '')] + p.get('related_keywords', [])).strip(', '), 'citation': [s['url'] for s in p['sources'] if s.get('url')]}
         fq = {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type':'Question','name':f['question'],'acceptedAnswer':{'@type':'Answer','text':f['answer']}} for f in p['faq']]}
-        write(path, title, description, body, schema_extra=[schema, fq, breadcrumbs(origin, [('Home','/'), ('Blog','/blog/'), (title,path)])], og_type='article', og_image=p['image'], lastmod=p['updated_at'])
+        write(path, title, description, body, schema_extra=[schema, fq, breadcrumbs(origin, [('Home','/'), ('Blog','/blog/'), (title,path)])], og_type='article', og_image=p['image'], lastmod=p['updated_at'], page_title=p.get('seo_title'))
     feed = '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PanPan Marine Blog</title><link>' + escape(origin + '/blog/') + '</link><description>Underwater robotics buying guides and procurement planning.</description><language>en</language><atom:link href="' + escape(origin + '/blog/feed.xml', quote=True) + '" rel="self" type="application/rss+xml"/>'
     for p in posts:
         url = origin + article_path(p)

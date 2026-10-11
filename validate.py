@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parent
 DIST=ROOT/'dist'
 routes=json.loads((DIST/'page-manifest.json').read_text(encoding='utf-8'))
 posts=load_posts(ROOT)
-expected=24+1+len(CATEGORIES)+len(posts)
+expected=24+3+1+5+1+len(CATEGORIES)+len(posts)
 assert len(routes)==expected, f'Expected {expected} routes, got {len(routes)}'
 assert len({p['title'] for p in routes})==len(routes), 'Duplicate page titles'
 errors=[]
@@ -33,6 +33,8 @@ for r in routes:
  if '/blog/' not in p.refs:errors.append(f'{path}: missing blog navigation')
  for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>',html,re.S):json.loads(block)
  if p.h1!=1:errors.append(f'{path}: h1 count {p.h1}')
+ if len(p.meta.get('description',''))>160:errors.append(f'{path}: description over 160 chars')
+ if not path.endswith('/spec-sheet/') and path not in ('/thank-you/','/privacy/','/terms/') and 'BreadcrumbList' not in html and path!='/':errors.append(f'{path}: missing breadcrumb schema')
  if not p.meta.get('description'):errors.append(f'{path}: missing description')
  for im in p.images:
   if not im.get('alt'):errors.append(f'{path}: missing image alt')
@@ -60,5 +62,10 @@ for post in posts:
  assert article['url']==origin+article_path(post)
  assert len(faq['mainEntity'])==len(post['faq'])
  assert all(f'id="{section["id"]}"' in html and f'href="#{section["id"]}"' in html for section in post['sections'])
+for f in ['llms.txt','assets/logo.png','assets/fonts/manrope-latin-800-normal.woff2']:
+ if not (DIST/f).is_file():errors.append(f'missing {f}')
+for p in ['r-30','r-45','ad-400','a-80','ad-100']:
+ html=(DIST/'equipment'/next(r['path'] for r in routes if r['path'].startswith('/equipment/'+p+'-') and r['path'].count('/')==3).split('/')[2]/'index.html').read_text(encoding='utf-8')
+ if '"@type": "Product"' not in html:errors.append(f'{p}: missing Product schema')
 assert not errors, '\n'.join(errors)
 print(f'PASS: {len(routes)} HTTP routes, local links/assets, metadata, blog navigation, article schema, TOC, RSS and sitemap indexing.')

@@ -1,185 +1,248 @@
 [
   {
     "path": "/",
-    "title": "Industrial Underwater Inspection & Maintenance Equipment",
-    "description": "Inspection ROVs, tunnel inspection systems, underwater cleaning and dredging equipment for water infrastructure.",
+    "title": "Underwater Inspection ROVs & Robotic Cleaning Equipment",
+    "description": "Underwater inspection ROVs, tunnel inspection robots, trash rack cleaning and dredging robots for dams, tunnels, intakes and sumps. Request a quote.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/solutions/",
     "title": "Underwater Robotics Applications",
-    "description": "Explore industrial inspection, long-distance tunnel inspection, underwater trash-rack cleaning and sump dredging.",
+    "description": "Applications for underwater ROVs and robots: industrial, dam, tunnel, penstock and bridge inspection, trash rack cleaning and sump dredging.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/solutions/industrial-underwater-inspection/",
-    "title": "Industrial underwater inspection",
-    "description": "Choose an ROV around the inspection result you need, then work back through visibility, access, depth and sensor requirements.",
+    "title": "Industrial Underwater Inspection ROVs",
+    "description": "Choose an industrial inspection ROV for intakes, dams and submerged structures: sensing, depth, access and outputs. Compare the R-30 and R-45.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/solutions/underwater-tunnel-inspection/",
-    "title": "Long-distance underwater tunnel inspection",
-    "description": "Inspection of flooded water tunnels depends on navigation, tether control and recovery as much as the vehicle\u2019s rated range.",
+    "title": "Underwater Tunnel Inspection ROVs",
+    "description": "Long-distance underwater tunnel inspection: plan route, tether, position reference and recovery for flooded water tunnels with the AD-400 ROV.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/solutions/underwater-trash-rack-cleaning/",
-    "title": "Robotic underwater trash-rack cleaning",
-    "description": "Evaluate contact cleaning of submerged intake and trash-rack surfaces against the deposits, rack geometry and support equipment.",
+    "title": "Underwater Trash Rack Cleaning Robots",
+    "description": "Robotic underwater trash rack cleaning: remove adhered deposits from intakes without divers or draining. Rack geometry, cleaning modules and the A-80.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/solutions/underwater-sump-cleaning/",
-    "title": "Robotic sump cleaning & confined-space dredging",
-    "description": "For submerged sumps, a viable dredging system connects the vehicle to a pump, conveyance route and sediment-treatment plan.",
+    "title": "Sump Cleaning & Underwater Dredging Robots",
+    "description": "Robotic sump cleaning and underwater dredging: plan sediment, access, pumping and separation together. Hydropower sump dredging with the AD-100.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/solutions/underwater-dam-inspection/",
+    "title": "Underwater Dam Inspection ROVs",
+    "description": "Underwater dam inspection with ROVs: plan camera and sonar for reservoir visibility, reference findings and choose between the R-30 and R-45.",
+    "noindex": false,
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/solutions/penstock-inspection/",
+    "title": "Penstock Inspection Robots & ROVs",
+    "description": "Penstock and pressure conduit inspection with ROVs: assess gradient, bends, tether and recovery, and compare the AD-400 and R-45 for your conduit.",
+    "noindex": false,
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/solutions/bridge-pier-port-inspection/",
+    "title": "Bridge Pier & Port Underwater Inspection",
+    "description": "Underwater inspection of bridge piers, piles and quay walls with compact ROVs: plan for current, turbidity and scour, and choose the R-30 or R-45.",
+    "noindex": false,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/equipment/",
-    "title": "Underwater Inspection & Cleaning Equipment",
-    "description": "Compare R-30, R-45, AD-400, A-80 and AD-100 underwater equipment by application and starting specifications.",
+    "title": "Underwater Inspection, Cleaning & Dredging Equipment",
+    "description": "Compare the R-30 and R-45 inspection ROVs, AD-400 tunnel ROV, A-80 cleaning robot and AD-100 dredging robot by application and specification.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/equipment/compare/",
+    "title": "Compare Underwater ROVs & Robots",
+    "description": "Compare R-30, R-45, AD-400, A-80 and AD-100 side by side: depth rating, weight, payload, cameras, dimensions and best-fit applications.",
+    "noindex": false,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/equipment/r-30-inspection-rov/",
-    "title": "R-30 Inspection ROV",
-    "description": "A tethered inspection ROV for visual assessment of submerged structures, with payload and sensor selection matched to the task.",
+    "title": "R-30 Compact Underwater Inspection ROV",
+    "description": "R-30 compact inspection ROV: 21 kg, 300 m depth rating, 3 kg payload, 1080p camera with 4\u00d7 zoom. Specs, applications and quotation checklist.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/equipment/r-30-inspection-rov/spec-sheet/",
+    "title": "R-30 Spec Sheet",
+    "description": "Printable R-30 specification sheet: key specifications, applications and quotation checks.",
+    "noindex": true,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/equipment/r-45-inspection-rov/",
-    "title": "R-45 Inspection ROV",
-    "description": "A tethered inspection platform with a higher brochure payload than the R-30, for projects needing additional sensing or tooling.",
+    "title": "R-45 Inspection ROV with 8 kg Payload",
+    "description": "R-45 inspection ROV: 42 kg, 350 m depth rating, 8 kg payload for sonar, positioning and tools. Specs, applications and quotation checklist.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/equipment/r-45-inspection-rov/spec-sheet/",
+    "title": "R-45 Spec Sheet",
+    "description": "Printable R-45 specification sheet: key specifications, applications and quotation checks.",
+    "noindex": true,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/equipment/ad-400-tunnel-inspection-rov/",
-    "title": "AD-400 Tunnel inspection ROV",
-    "description": "A specialist platform for long-distance inspection of flooded water tunnels, combining a tethered vehicle with project-specific sensing and tether management.",
+    "title": "AD-400 Long-Distance Tunnel Inspection ROV",
+    "description": "AD-400 tunnel inspection ROV for flooded water tunnels: 5 km official range, 1,000 m depth rating, 4K forward camera. Specs and project checklist.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/equipment/ad-400-tunnel-inspection-rov/spec-sheet/",
+    "title": "AD-400 Spec Sheet",
+    "description": "Printable AD-400 specification sheet: key specifications, applications and quotation checks.",
+    "noindex": true,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/equipment/a-80-cleaning-robot/",
-    "title": "A-80 Underwater cleaning robot",
-    "description": "A floating and crawling underwater platform described by the manufacturer for contact cleaning, with cavitation water-jet and brush configurations subject to application review.",
+    "title": "A-80 Underwater Crawler Cleaning Robot",
+    "description": "A-80 underwater cleaning robot for trash racks and intakes: wall-crawling, brush or cavitation water-jet cleaning, 300 m depth rating, 15 kg payload.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/equipment/a-80-cleaning-robot/spec-sheet/",
+    "title": "A-80 Spec Sheet",
+    "description": "Printable A-80 specification sheet: key specifications, applications and quotation checks.",
+    "noindex": true,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/equipment/ad-100-dredging-robot/",
-    "title": "AD-100 Underwater dredging robot",
-    "description": "A remotely operated platform described in the manufacturer brochure for underwater sump dredging, with suction, conveyance and treatment selected together.",
+    "title": "AD-100 Underwater Dredging Robot for Sumps",
+    "description": "AD-100 underwater dredging robot for hydropower sumps and confined spaces: 6 thrusters, front and rear cameras, paired with suction and mud-water separation.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/equipment/ad-100-dredging-robot/spec-sheet/",
+    "title": "AD-100 Spec Sheet",
+    "description": "Printable AD-100 specification sheet: key specifications, applications and quotation checks.",
+    "noindex": true,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/case-studies/",
-    "title": "Underwater Robotics Manufacturer Case Studies",
-    "description": "Manufacturer project references from China for long-distance tunnel inspection and underwater intake cleaning.",
+    "title": "Underwater Robotics Case Studies",
+    "description": "Manufacturer project references from China: AD-400 long-distance tunnel inspection and A-80 intake trash rack cleaning at hydropower stations.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/case-studies/long-distance-water-tunnel-inspection/",
     "title": "Long-distance water-tunnel inspection in China",
-    "description": "The supplied manufacturer brochure describes an AD-400 long-distance headrace water-tunnel inspection project associated with China Southern Power Grid.",
+    "description": "Manufacturer reference: AD-400 ROV inspection inside a 5.5 km flooded headrace tunnel in China, with 360\u00b0 coverage and long-distance power.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/case-studies/underwater-trash-rack-cleaning/",
     "title": "Underwater intake trash-rack cleaning in China",
-    "description": "The supplied manufacturer brochure identifies an A-80 application at the Baihetan hydropower intake trash rack in China.",
+    "description": "Manufacturer reference: A-80 robot cleaning the intake trash racks at Baihetan hydropower station, China, without draining or divers.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/support/",
-    "title": "Inspection ROV Training, Spare Parts & Support",
-    "description": "Plan operator training, fault reporting, manufacturer escalation, spare parts and warranty responsibilities.",
+    "title": "Inspection ROV Training, Spares & Support",
+    "description": "Plan operator training, fault reporting, manufacturer escalation, spare parts and warranty responsibilities for underwater ROVs and robots.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/about/",
-    "title": "About & Manufacturer Relationship",
-    "description": "Understand the equipment-selection approach, manufacturer relationship and commercial responsibilities.",
+    "title": "About PanPan Marine",
+    "description": "PanPan Marine, operated by Guangzhou PanPanTech Co., Ltd., helps infrastructure teams select, configure and buy underwater inspection and cleaning robots.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/resources/",
-    "title": "Inspection ROV Resources & Procurement Guides",
-    "description": "Practical guides to underwater sensing and tunnel-inspection project planning.",
+    "title": "Underwater Inspection Guides & Downloads",
+    "description": "Buying guides, technical guides, spec sheets and project checklists for underwater inspection ROVs, cleaning and dredging robots.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/resources/rov-camera-vs-sonar/",
-    "title": "Camera vs sonar for underwater inspection",
-    "description": "Choose the sensing approach around visibility, the inspection question and required outputs.",
+    "title": "Camera vs Sonar for Underwater Inspection",
+    "description": "When to use a camera, imaging sonar or both for ROV underwater inspection: visibility, navigation, measurement and reporting.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/resources/tunnel-inspection-project-checklist/",
-    "title": "Underwater tunnel inspection planning checklist",
-    "description": "Collect the geometry, flow, access, sensing and recovery information needed for a useful technical review.",
+    "title": "Underwater Tunnel Inspection Checklist",
+    "description": "Checklist for underwater tunnel inspection projects: route geometry, flow, access, sensing, position reference and recovery planning.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/request-a-proposal/",
-    "title": "Request a Technical Proposal",
-    "description": "Prepare a project brief for underwater equipment selection, configuration and a technical quotation.",
+    "title": "Request a Quote",
+    "description": "Request a quote and technical proposal for underwater inspection ROVs, tunnel inspection, cleaning or dredging robots. Share your task and site.",
     "noindex": false,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/thank-you/",
     "title": "Your Project Brief: Next Steps",
     "description": "Review the next steps after preparing an underwater equipment project brief.",
     "noindex": true,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/privacy/",
     "title": "Privacy & Cookies",
-    "description": "Privacy information for the local project-brief workflow and website hosting.",
+    "description": "Privacy information for the project-brief workflow, analytics and website hosting.",
     "noindex": true,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/terms/",
     "title": "Website Terms",
     "description": "Technical information, manufacturer attribution and commercial terms for equipment selection.",
     "noindex": true,
-    "lastmod": null
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/blog/",
     "title": "Underwater Robotics Blog & Buying Guides",
     "description": "Buying guides for industrial inspection ROVs, flooded tunnel inspection, underwater cleaning and dredging systems.",
     "noindex": false,
-    "lastmod": "2026-10-10"
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/blog/topics/equipment-selection/",
     "title": "Equipment selection Buying Guides",
     "description": "Compare inspection tasks, sensing, payloads and the complete field system before requesting a quotation.",
-    "noindex": true,
-    "lastmod": "2026-10-10"
+    "noindex": false,
+    "lastmod": "2026-10-11"
   },
   {
     "path": "/blog/topics/tunnel-inspection/",
@@ -196,23 +259,44 @@
     "lastmod": "2026-10-10"
   },
   {
+    "path": "/blog/underwater-dam-inspection-rov-guide/",
+    "title": "Underwater Dam Inspection with ROVs: A Planning Guide",
+    "description": "Plan an underwater dam inspection with an ROV: what to inspect, camera vs sonar in reservoirs, position referencing, intakes and gates, and ROV choice.",
+    "noindex": false,
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/blog/rov-vs-diver-underwater-inspection/",
+    "title": "ROV vs Diver for Underwater Inspection: How to Decide",
+    "description": "ROV or diver for underwater inspection? Compare safety, depth, endurance, data quality, hands-on capability and cost drivers for your task.",
+    "noindex": false,
+    "lastmod": "2026-10-11"
+  },
+  {
+    "path": "/blog/inspection-rov-cost-guide/",
+    "title": "Inspection ROV Cost: What Drives the Price of an Underwater ROV",
+    "description": "What does an inspection ROV cost? The price drivers: vehicle class, depth, sensors, tether, tools, training, spares and support, and how to compare quotes.",
+    "noindex": false,
+    "lastmod": "2026-10-11"
+  },
+  {
     "path": "/blog/underwater-cleaning-vs-dredging/",
     "title": "Underwater Cleaning vs Dredging: Choosing the Right System",
-    "description": "Compare underwater surface cleaning and sediment removal. Define deposits, access, pumps, separation and acceptance before choosing an A-80 or AD-100 system.",
+    "description": "Underwater cleaning vs dredging: compare surface cleaning and sediment removal by deposits, access, pumps and separation before choosing A-80 or AD-100.",
     "noindex": false,
     "lastmod": "2026-10-10"
   },
   {
     "path": "/blog/industrial-inspection-rov-selection-guide/",
     "title": "How to Choose an Industrial Inspection ROV",
-    "description": "Choose an industrial inspection ROV around visibility, access, payload, useful data and complete system cost. Includes an R-30/R-45 comparison and buyer checklist.",
+    "description": "How to choose an industrial inspection ROV: visibility, access, payload, useful data and system cost. R-30 vs R-45 comparison and buyer checklist.",
     "noindex": false,
     "lastmod": "2026-10-10"
   },
   {
     "path": "/blog/flooded-tunnel-inspection-procurement-guide/",
     "title": "Flooded Tunnel Inspection: A Procurement Planning Guide",
-    "description": "Plan flooded tunnel inspection procurement: engineering inputs, tether and sensor scope, AD-400 range evidence, acceptance data and complete-system costs.",
+    "description": "Plan flooded tunnel inspection procurement: engineering inputs, tether and sensor scope, AD-400 range evidence, acceptance data and system costs.",
     "noindex": false,
     "lastmod": "2026-10-10"
   }

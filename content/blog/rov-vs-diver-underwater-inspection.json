@@ -1,0 +1,93 @@
+{
+  "status": "published",
+  "published_at": "2026-10-11",
+  "updated_at": "2026-10-11",
+  "related_paths": [],
+  "slug": "rov-vs-diver-underwater-inspection",
+  "title": "ROV vs Diver for Underwater Inspection: How to Decide",
+  "seo_title": "ROV vs Diver Inspection: How to Decide | PanPan Marine",
+  "description": "ROV or diver for underwater inspection? Compare safety, depth, endurance, data quality, hands-on capability and cost drivers for your task.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "ROV vs diver inspection",
+  "related_keywords": [
+    "underwater inspection without divers",
+    "diver vs ROV cost",
+    "remote underwater inspection",
+    "ROV inspection advantages"
+  ],
+  "answer": "Use an ROV when the inspection is mainly visual or acoustic, when water is deep, long, enclosed or near intakes, or when the work repeats regularly. Use divers when the task needs hands-on work, tactile assessment or tools an ROV cannot carry. Many owners combine both: an ROV survey first, then targeted diver work only where it is needed.",
+  "image": "r-30.png",
+  "alt": "R-30 compact inspection ROV, manufacturer rendering",
+  "sections": [
+    {
+      "id": "question",
+      "title": "1. Start with the task, not the method",
+      "html": "<p>“ROV or diver?” is the wrong first question. The right one is: <strong>what must the inspection produce?</strong> A condition record of a dam face, a search for debris in front of an intake, a measurement of scour around a pier and the replacement of a seal are different tasks. Some need eyes and sensors; others need hands.</p><p>List the structures, the features of interest, the evidence the asset owner expects and any follow-up work. Once the task is written down, the choice between a remotely operated vehicle, a dive team or a combination usually becomes clear.</p>"
+    },
+    {
+      "id": "safety",
+      "title": "2. Safety and exposure: where ROVs change the risk",
+      "html": "<p>Commercial diving is regulated because the hazards are real: depth and decompression, differential pressure at intakes and gates, entanglement, poor visibility and confined spaces. In the United States, for example, commercial diving operations fall under <a href=\"https://www.osha.gov/commercial-diving\">OSHA commercial diving requirements</a>; other countries apply comparable rules.</p><p>An ROV keeps people on the surface. That matters most at intakes and gates where flow can create differential pressure, inside flooded tunnels and penstocks, at depths that would require decompression, and in water that is contaminated or very cold. In these situations an ROV can often collect the first inspection record without anyone entering the water.</p><p>An ROV does not remove all risk: tether snagging, recovery and lifting still need a plan. But the consequences of a stuck vehicle are very different from those of a stuck diver.</p>"
+    },
+    {
+      "id": "comparison",
+      "title": "3. ROV vs diver: side-by-side comparison",
+      "html": "<table><caption>ROV and diver inspection compared</caption><thead><tr><th>Factor</th><th>Inspection ROV</th><th>Commercial diver</th></tr></thead><tbody><tr><th scope=\"row\">People in the water</th><td>None; operators stay on the surface</td><td>Diver plus standby diver and surface team</td></tr><tr><th scope=\"row\">Depth</th><td>Limited by the vehicle and tether rating (for example 300 m for the R-30)</td><td>Limited by diving method, decompression and regulations</td></tr><tr><th scope=\"row\">Endurance</th><td>Tethered power allows long sessions; limited by crew and site</td><td>Limited bottom time per dive</td></tr><tr><th scope=\"row\">Long enclosed routes</th><td>Specialist vehicles such as the AD-400 are designed for kilometres of flooded tunnel</td><td>Generally impractical or high-risk</td></tr><tr><th scope=\"row\">Recorded evidence</th><td>Continuous video, sonar and telemetry recorded by default</td><td>Helmet video possible; depends on the diver’s position and description</td></tr><tr><th scope=\"row\">Hands-on work</th><td>Limited to fitted tools</td><td>Strong: cleaning, tactile checks, repairs, installations</td></tr><tr><th scope=\"row\">Turbid water</th><td>Imaging sonar can help navigation and recognition</td><td>Diver can work by touch, but visual record is poor</td></tr><tr><th scope=\"row\">Repeat inspections</th><td>Owned equipment can be redeployed at low marginal cost</td><td>Each campaign mobilises a full team</td></tr></tbody></table>"
+    },
+    {
+      "id": "data",
+      "title": "4. Data quality: the record is the deliverable",
+      "html": "<p>For asset owners, the inspection is only as useful as the record it leaves behind. An ROV records video, depth, heading and, where fitted, sonar continuously. Observations can be time-stamped and tied to a position along the structure, then compared with the next inspection.</p><p>Diver inspections rely more on the diver’s description and on helmet-camera footage that follows the diver’s viewpoint. Experienced divers add valuable judgement — especially tactile assessment of surfaces — but the record can be harder to repeat consistently.</p><p>Whichever method you use, agree the reporting format, position reference and acceptance criteria before the work. Our <a href=\"/resources/rov-camera-vs-sonar/\">camera vs sonar guide</a> explains how to choose the sensing package for an ROV inspection.</p>"
+    },
+    {
+      "id": "cost",
+      "title": "5. Cost drivers: one campaign vs a programme",
+      "html": "<p>For a single small inspection, hiring a local dive team can be the simplest option. The comparison changes when inspections repeat, sites are deep or enclosed, or the work would require shutdowns and extensive safety measures for divers.</p><p>Compare the complete cost of each approach over the inspection programme: mobilisation, crew size, safety and standby requirements, shutdown or isolation time, the number of inspections per year and the cost of re-inspection when the record is unclear. For an owned ROV, include training, spares, maintenance and the operators’ time. Our guide to <a href=\"/blog/inspection-rov-cost-guide/\">what drives the cost of an inspection ROV</a> covers the equipment side in detail.</p>"
+    },
+    {
+      "id": "combined",
+      "title": "6. The combined approach most owners use",
+      "html": "<p>In practice, ROVs and divers are complementary. A common pattern is:</p><ol><li><strong>ROV survey first</strong> to record the whole structure and locate anything that needs attention.</li><li><strong>Targeted diver intervention</strong> only where hands-on work or tactile assessment is required, with the ROV record used to plan the dive.</li><li><strong>ROV re-inspection</strong> to confirm the result and build a consistent record over time.</li></ol><p>This reduces the time people spend underwater and gives the owner a repeatable inspection record. For dams, intakes and structures, the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> and <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> are typical starting platforms; for long flooded tunnels, the <a href=\"/equipment/ad-400-tunnel-inspection-rov/\">AD-400</a>.</p>"
+    },
+    {
+      "id": "next-step",
+      "title": "7. Next step: describe the task",
+      "html": "<p>Send us the structure, depth, visibility, access and the evidence you need. We will suggest whether an ROV can do the job, which configuration fits, and where diver support may still be required. <a href=\"/request-a-proposal/\">Start a project brief</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can an ROV completely replace divers?",
+      "answer": "For visual and sonar inspection, often yes. For hands-on work such as repairs, installations or tactile assessment, divers are still needed. Many owners use an ROV survey to reduce and target diver work."
+    },
+    {
+      "question": "Is ROV inspection cheaper than diving?",
+      "answer": "It depends on the programme. For one small shallow job a dive team may cost less. For deep, enclosed or hazardous sites, and for repeated inspections, an owned or contracted ROV usually reduces mobilisation, safety overhead and shutdown time."
+    },
+    {
+      "question": "What can an ROV not do that a diver can?",
+      "answer": "Detailed manual work, tactile checks of surfaces, and tasks needing dexterity beyond the tools fitted to the vehicle. Confined spaces with complex obstacles can also be difficult for a tethered vehicle."
+    },
+    {
+      "question": "Which ROV is suitable for replacing diver inspections at a dam?",
+      "answer": "The R-30 suits compact visual inspection; the R-45 carries an 8 kg payload for imaging sonar, positioning or tools. Choose by depth, visibility and the features you need to record."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OSHA — Commercial diving",
+      "url": "https://www.osha.gov/commercial-diving",
+      "note": "Example of the regulatory framework for commercial diving (United States)."
+    },
+    {
+      "title": "NOAA Ocean Service — What is an ROV?",
+      "url": "https://oceanservice.noaa.gov/facts/rov.html",
+      "note": "General definition of remotely operated vehicles."
+    },
+    {
+      "title": "Boya Gongdao R-30 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=5",
+      "note": "Manufacturer depth rating and specifications."
+    }
+  ]
+}

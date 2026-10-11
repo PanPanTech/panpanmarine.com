@@ -2,10 +2,15 @@
   "status": "published",
   "slug": "underwater-cleaning-vs-dredging",
   "title": "Underwater Cleaning vs Dredging: Choosing the Right System",
-  "description": "Compare underwater surface cleaning and sediment removal. Define deposits, access, pumps, separation and acceptance before choosing an A-80 or AD-100 system.",
+  "description": "Underwater cleaning vs dredging: compare surface cleaning and sediment removal by deposits, access, pumps and separation before choosing A-80 or AD-100.",
   "category_slug": "cleaning-dredging",
   "primary_keyword": "underwater cleaning vs dredging",
-  "related_keywords": ["underwater cleaning robot", "underwater sediment removal", "sump dredging equipment", "trash rack cleaning"],
+  "related_keywords": [
+    "underwater cleaning robot",
+    "underwater sediment removal",
+    "sump dredging equipment",
+    "trash rack cleaning"
+  ],
   "published_at": "2026-10-10",
   "updated_at": "2026-10-10",
   "answer": "Choose underwater cleaning when the required result is removing deposits from a submerged surface. Consider dredging when the task is collecting and transferring accumulated sediment. Some sites need both. Specify the material, access, required result and complete supporting system before selecting a robot: the attachment, pump, hoses, separation equipment and handling arrangements can determine whether the proposed configuration is suitable.",
@@ -64,15 +69,43 @@
     }
   ],
   "faq": [
-    {"question":"What is the main difference between underwater cleaning and dredging?","answer":"Surface cleaning targets deposits on a submerged structure; dredging concerns collecting and transferring accumulated material. The correct approach depends on the required result, material and access. Mixed tasks may need both processes and a coordinated supporting system."},
-    {"question":"Can an A-80 replace every trash-rack cleaning machine?","answer":"No such universal suitability is established by the available manufacturer reference. Review rack geometry, deposit type, attachment, access and required results. Removing surface deposits is a different task from extracting every type of large trapped debris."},
-    {"question":"Does the AD-100 remove 5 cubic metres of sediment per hour?","answer":"The supplied brochure's 5 m³/h figure describes supporting mud-water separation equipment. It does not establish the robot's net sediment-removal productivity. Request a separate measured basis for the complete proposed system and relevant material conditions."},
-    {"question":"What information is needed to select a dredging package?","answer":"Provide sediment information, estimated quantity and distribution, access geometry, transfer route, elevation changes, available utilities and the receiving or treatment arrangement. State uncertainties so the supplier can identify what requires further assessment or a trial."},
-    {"question":"How should buyers compare underwater cleaning quotations?","answer":"Compare the required result and complete scope: vehicle, attachment, supporting equipment, handling, evidence, training, spares and responsibilities. Use the same site assumptions and acceptance method, and identify exclusions before comparing prices."}
+    {
+      "question": "What is the main difference between underwater cleaning and dredging?",
+      "answer": "Surface cleaning targets deposits on a submerged structure; dredging concerns collecting and transferring accumulated material. The correct approach depends on the required result, material and access. Mixed tasks may need both processes and a coordinated supporting system."
+    },
+    {
+      "question": "Can an A-80 replace every trash-rack cleaning machine?",
+      "answer": "No such universal suitability is established by the available manufacturer reference. Review rack geometry, deposit type, attachment, access and required results. Removing surface deposits is a different task from extracting every type of large trapped debris."
+    },
+    {
+      "question": "Does the AD-100 remove 5 cubic metres of sediment per hour?",
+      "answer": "The supplied brochure's 5 m³/h figure describes supporting mud-water separation equipment. It does not establish the robot's net sediment-removal productivity. Request a separate measured basis for the complete proposed system and relevant material conditions."
+    },
+    {
+      "question": "What information is needed to select a dredging package?",
+      "answer": "Provide sediment information, estimated quantity and distribution, access geometry, transfer route, elevation changes, available utilities and the receiving or treatment arrangement. State uncertainties so the supplier can identify what requires further assessment or a trial."
+    },
+    {
+      "question": "How should buyers compare underwater cleaning quotations?",
+      "answer": "Compare the required result and complete scope: vehicle, attachment, supporting equipment, handling, evidence, training, spares and responsibilities. Use the same site assumptions and acceptance method, and identify exclusions before comparing prices."
+    }
   ],
   "sources": [
-    {"title":"Boya Gongdao: official A-80 product information","url":"https://www.boyagongdao.com/index/shows?catid=32&id=10"},
-    {"title":"Boya Gongdao supplied product brochure","url":"","note":"Source for the A-80 application reference and AD-100 system description. The AD-100 illustration is on PDF page 32; confirm the offered version and capacity definitions against the quotation."}
+    {
+      "title": "Boya Gongdao: official A-80 product information",
+      "url": "https://www.boyagongdao.com/index/shows?catid=32&id=10"
+    },
+    {
+      "title": "Boya Gongdao supplied product brochure",
+      "url": "",
+      "note": "Source for the A-80 application reference and AD-100 system description. The AD-100 illustration is on PDF page 32; confirm the offered version and capacity definitions against the quotation."
+    }
   ],
-  "related_paths": ["/equipment/a-80-cleaning-robot/","/equipment/ad-100-dredging-robot/","/solutions/underwater-trash-rack-cleaning/","/solutions/underwater-sump-cleaning/","/request-a-proposal/"]
+  "related_paths": [
+    "/equipment/a-80-cleaning-robot/",
+    "/equipment/ad-100-dredging-robot/",
+    "/solutions/underwater-trash-rack-cleaning/",
+    "/solutions/underwater-sump-cleaning/",
+    "/request-a-proposal/"
+  ]
 }

@@ -1,0 +1,93 @@
+{
+  "status": "published",
+  "published_at": "2026-10-11",
+  "updated_at": "2026-10-11",
+  "related_paths": [],
+  "slug": "underwater-dam-inspection-rov-guide",
+  "title": "Underwater Dam Inspection with ROVs: A Planning Guide",
+  "seo_title": "Underwater Dam Inspection with ROVs: Planning Guide | PanPan Marine",
+  "description": "Plan an underwater dam inspection with an ROV: what to inspect, camera vs sonar in reservoirs, position referencing, intakes and gates, and ROV choice.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "underwater dam inspection ROV",
+  "related_keywords": [
+    "dam inspection ROV",
+    "upstream face inspection",
+    "intake inspection ROV",
+    "dam safety underwater inspection"
+  ],
+  "answer": "An underwater dam inspection with an ROV records the upstream face, joints, intakes, gates, trash racks and the toe without putting divers in the water. Plan it around the features to record, reservoir visibility, depth and flow at intakes. Use a compact ROV for visual work and a higher-payload ROV when sonar and positioning are needed.",
+  "image": "r-45.png",
+  "alt": "R-45 inspection ROV, manufacturer rendering",
+  "sections": [
+    {
+      "id": "why",
+      "title": "1. Why dams need underwater inspection",
+      "html": "<p>Much of a dam’s critical structure is permanently underwater: the upstream face, construction joints, intake structures, gates, trash racks, outlet works and the foundation area near the toe. Dam safety programmes rely on periodic inspection of these areas; national guidance such as the <a href=\"https://www.fema.gov/emergency-managers/risk-management/dam-safety\">US federal dam safety resources</a> describes inspection as a core part of dam safety management.</p><p>Traditionally this work has been done by divers. ROVs now allow much of the visual and acoustic inspection to be carried out from the surface, with a recorded result that can be compared between inspections.</p>"
+    },
+    {
+      "id": "what-to-inspect",
+      "title": "2. What to inspect",
+      "html": "<table><caption>Typical underwater dam inspection targets</caption><thead><tr><th>Area</th><th>What to look for</th><th>Sensing</th></tr></thead><tbody><tr><th scope=\"row\">Upstream face</th><td>Cracking, spalling, erosion, joint condition, seepage indicators</td><td>Camera where visible; sonar in turbid water</td></tr><tr><th scope=\"row\">Intakes and trash racks</th><td>Blockage, deposits, damage, debris build-up</td><td>Camera and sonar; consider flow</td></tr><tr><th scope=\"row\">Gates and stoplog slots</th><td>Seal condition, damage, obstructions</td><td>Close-up camera</td></tr><tr><th scope=\"row\">Outlet works</th><td>Erosion, obstruction, structural damage</td><td>Camera and sonar</td></tr><tr><th scope=\"row\">Toe and foundation</th><td>Scour, undermining, sediment accumulation</td><td>Imaging or profiling sonar</td></tr></tbody></table><p>Agree the list with the responsible dam engineer and state how each finding should be reported.</p>"
+    },
+    {
+      "id": "visibility",
+      "title": "3. Camera vs sonar in reservoir water",
+      "html": "<p>Reservoir water is often clear near the surface and turbid near the bed, especially after floods or near intakes. A camera-only inspection may produce good footage high on the face and very little lower down.</p><p>Plan for both: a camera with good lighting for close visual detail where visibility allows, and imaging sonar to navigate, find structures and record features when the camera cannot see. Confirm that the sonar is integrated with the vehicle and that its data is recorded alongside the video. See our <a href=\"/resources/rov-camera-vs-sonar/\">camera vs sonar guide</a>.</p>"
+    },
+    {
+      "id": "reference",
+      "title": "4. Reference every finding to a position",
+      "html": "<p>An inspection is only useful if the next one can find the same crack. Agree how each observation will be referenced: depth from the vehicle sensor, position along the face from a survey reference or positioning system, and heading. Mark findings on the dam drawings.</p><p>Ask the supplier for a sample report showing how video, sonar, depth and position are combined. A repeatable reference turns separate inspections into a condition trend.</p>"
+    },
+    {
+      "id": "safety-flow",
+      "title": "5. Intakes, gates and flow: plan for safety",
+      "html": "<p>Intakes and outlets can carry flow that draws objects — including an ROV and its tether — towards screens and openings. Agree with operations which units will be shut down or isolated, the exclusion zones, and the inspection window.</p><p>Plan the tether route, the launch position (crest, boat or pontoon) and the recovery plan for snagging or loss of communication before launch. An ROV keeps people out of the water, but the vehicle still needs a safe operating plan.</p>"
+    },
+    {
+      "id": "choose-rov",
+      "title": "6. Choosing the ROV for dam inspection",
+      "html": "<p>For most dam inspections, a tethered inspection ROV is the right class of vehicle:</p><ul><li>The <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> (21 kg, 300 m depth rating, 3 kg payload, 1080p camera with 4× zoom) is compact and easy to launch from a crest or small boat, suited to visual inspection.</li><li>The <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> (42 kg, 350 m rating, 8 kg payload) carries imaging sonar, positioning or tools for a fuller inspection package.</li></ul><p>Check the tether length from the launch point to the deepest and farthest target, the vehicle’s handling in any current at intakes, and the complete system including reel and power. Read more on our <a href=\"/solutions/underwater-dam-inspection/\">underwater dam inspection page</a>.</p>"
+    },
+    {
+      "id": "brief",
+      "title": "7. What to send for a quotation",
+      "html": "<ul><li>Dam type, drawings and the areas to inspect</li><li>Reservoir depth at each target and expected visibility</li><li>Flow conditions at intakes and outlets, and isolation options</li><li>Launch position and access for the control station</li><li>Features to record, position reference and report format</li></ul><p><a href=\"/request-a-proposal/?task=inspection\">Send a project brief</a> and we will propose a configuration.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can an ROV inspect a dam without divers?",
+      "answer": "For visual and sonar inspection of the upstream face, intakes, gates and toe, yes in many cases. Hands-on tasks may still need divers; an ROV survey helps target that work."
+    },
+    {
+      "question": "How deep can a dam inspection ROV go?",
+      "answer": "The R-30 has a manufacturer depth rating of 300 m and the R-45 350 m. The usable depth also depends on tether length and the supplied configuration."
+    },
+    {
+      "question": "What if the reservoir water is turbid?",
+      "answer": "Fit imaging sonar. It lets the operator navigate and recognise structures when the camera cannot see, while the camera provides close-up detail where visibility allows."
+    },
+    {
+      "question": "How often should underwater dam inspection be done?",
+      "answer": "Frequency is set by the dam owner and the applicable dam safety regulations, and by the dam’s risk and condition. An owned ROV makes more frequent inspections practical."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FEMA — Dam safety",
+      "url": "https://www.fema.gov/emergency-managers/risk-management/dam-safety",
+      "note": "US federal dam safety programme and guidance."
+    },
+    {
+      "title": "Boya Gongdao R-30 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=5",
+      "note": "Manufacturer specifications."
+    },
+    {
+      "title": "Boya Gongdao R-45 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=4",
+      "note": "Manufacturer specifications."
+    }
+  ]
+}
