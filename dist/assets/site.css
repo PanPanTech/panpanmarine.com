@@ -4,3 +4,4 @@
 
 /* PanPan Marine wordmark and contact layout. */
 .brand{font-size:clamp(19px,2.3vw,25px);letter-spacing:.045em;white-space:nowrap}.contact-email{overflow-wrap:anywhere}.footer .contact-email{font-size:13px}.brand span{font-size:11px}@media(max-width:360px){.header{gap:16px}.brand{font-size:19px}.brand span{font-size:10px}}
+.brand,.header>.button,.menu-toggle{flex-shrink:0}.header nav a,.header>.button{white-space:nowrap}@media(min-width:1051px){.header nav{flex-wrap:nowrap;align-items:center}}@media(min-width:1051px) and (max-width:1250px){.header nav{gap:16px;font-size:13.5px}}

@@ -1,5 +1,6 @@
 'use strict';
 (() => {
+  const inquiryEndpoint = 'https://inquiry.panpantechnology.com/api/inquiries';
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.getElementById('navigation');
   if (toggle && nav) {
@@ -55,19 +56,51 @@
     const data = Object.fromEntries(new FormData(form));
     const val = key => String(data[key] || 'Not specified').trim();
     const selected = key => form.elements[key].selectedOptions[0]?.textContent || val(key);
-    currentBrief = ['UNDERWATER EQUIPMENT — PROJECT BRIEF','',`Name: ${val('name')}`,`Work email: ${val('email')}`,`Company: ${val('company')}`,`Country: ${val('country')}`,`Application: ${selected('task')}`,`Platform: ${selected('model')}`,'','Task and required result:',val('description'),'','SITE DETAILS',`Working depth: ${val('depth')}`,`Route / area: ${val('extent')}`,`Current / visibility: ${val('conditions')}`,`Procurement timing: ${val('timing')}`,'','Prepared locally. This document has not been sent to a sales team.'].join('\n');
+    currentBrief = ['UNDERWATER EQUIPMENT — PROJECT BRIEF','',`Name: ${val('name')}`,`Work email: ${val('email')}`,`Company: ${val('company')}`,`Country: ${val('country')}`,`Application: ${selected('task')}`,`Platform: ${selected('model')}`,'','Task and required result:',val('description'),'','SITE DETAILS',`Working depth: ${val('depth')}`,`Route / area: ${val('extent')}`,`Current / visibility: ${val('conditions')}`,`Procurement timing: ${val('timing')}`,].join('\n');
     document.getElementById('brief-preview').textContent = currentBrief;
-    document.getElementById('brief-result').hidden = false;
-    document.getElementById('form-status').textContent = 'Your brief is ready to review. No inquiry has been sent.';
-    document.getElementById('brief-result').scrollIntoView({behavior:'smooth',block:'start'});
     return {status:'prepared_not_sent',brief:currentBrief};
+  }
+  function showFallback(message) {
+    document.getElementById('brief-result').hidden = false;
+    document.getElementById('form-status').textContent = message;
+    document.getElementById('brief-result').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  async function sendBrief() {
+    const {brief} = prepareBrief();
+    const data = new FormData(form);
+    const params = new URLSearchParams(location.search);
+    const text = key => String(data.get(key) || '').trim();
+    const payload = {
+      lead_brand: 'PanPan Marine', site_domain: location.hostname, page_url: location.href, page_title: document.title,
+      language: document.documentElement.lang || 'en', market: 'global',
+      utm_source: params.get('utm_source') || '', utm_medium: params.get('utm_medium') || '', utm_campaign: params.get('utm_campaign') || '',
+      utm_term: params.get('utm_term') || '', utm_content: params.get('utm_content') || '',
+      name: text('name'), email: text('email'), company: text('company'), country: text('country'),
+      product_interest: form.elements.model.value ? form.elements.model.selectedOptions[0].textContent : (form.elements.task.value ? form.elements.task.selectedOptions[0].textContent : ''),
+      message: brief
+    };
+    const button = form.querySelector('button[type="submit"]');
+    button.disabled = true; button.textContent = 'Sending...';
+    document.getElementById('form-status').textContent = 'Sending your brief...';
+    try {
+      const res = await fetch(inquiryEndpoint, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)});
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok || body.ok === false) throw new Error(body.error || 'HTTP ' + res.status);
+      document.getElementById('form-status').textContent = 'Sent. Thank you — our team will reply by email.';
+      location.href = '/thank-you/';
+    } catch (err) {
+      console.error('[PanPan Marine inquiry failed]', err);
+      showFallback('Online sending is temporarily unavailable. Your brief has not been sent — download it or open an email draft below.');
+    } finally {
+      button.disabled = false; button.textContent = 'Send project brief';
+    }
   }
   if (form) {
     const params = new URLSearchParams(location.search);
     ['task','model'].forEach(k => { const v=params.get(k); if ([...form.elements[k].options].some(o=>o.value===v)) form.elements[k].value=v; });
-    form.addEventListener('submit', e => { e.preventDefault(); try { prepareBrief(); } catch (err) {document.getElementById('form-status').textContent=err.message;} });
+    form.addEventListener('submit', e => { e.preventDefault(); sendBrief().catch(err => {document.getElementById('form-status').textContent=err.message;}); });
     form.addEventListener('input', () => {
-      if (currentBrief) { currentBrief=''; document.getElementById('brief-result').hidden=true; document.getElementById('form-status').textContent='Your details changed. Review the brief again to update it.'; }
+      if (!document.getElementById('brief-result').hidden) { currentBrief=''; document.getElementById('brief-result').hidden=true; document.getElementById('form-status').textContent='Your details changed. Press Send project brief again.'; }
     });
     document.getElementById('download-brief').addEventListener('click', () => {
       if (!currentBrief) return;
@@ -78,7 +111,7 @@
       if (!currentBrief || !form.dataset.email) return;
       const mailto='mailto:'+encodeURIComponent(form.dataset.email)+'?subject='+encodeURIComponent('Underwater equipment project — '+form.elements.company.value)+'&body='+encodeURIComponent(currentBrief);
       location.href=mailto;
-      document.getElementById('form-status').textContent='Email draft requested. Review and send it in your mail application.';
+      document.getElementById('form-status').textContent='Email draft opened. Press Send in your mail application to deliver it.';
     });
   }
   // Progressive enhancement: use the same visible actions in WebMCP-capable browsers.

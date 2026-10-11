@@ -20,11 +20,11 @@ Run `python build.py`, then `python -m http.server 4173 --directory dist --bind 
 
 ## Enquiries
 
-The site displays the confirmed business email and prepares project briefs locally in the visitor's browser. **Open email draft** opens the visitor's mail application with the recipient and brief. The visitor must send that email. This version does not submit enquiries to a server, store leads in a database or claim that a draft has been delivered.
+The project-brief form sends enquiries to the shared PanPanTech enquiry service (Feishu + Zoho), tagged `lead_brand: "PanPan Marine"`. If online sending fails, the visitor can download the brief or open an email draft to the confirmed business email.
 
 ## Hosting
 
-Hosting is managed by Sites using the existing identity in `.openai/hosting.json`; the static directory is `dist`. GitHub is a source mirror. A GitHub push alone does not publish a new Sites version. See [DEPLOYMENT.md](DEPLOYMENT.md) for DNS and publication steps. Keep credentials outside source files and commits.
+GitHub Pages, deployed automatically from `main` by `.github/workflows/pages.yml` (static directory `dist`). See [DEPLOYMENT.md](DEPLOYMENT.md) for DNS and publication steps. Keep credentials outside source files and commits.
 
 ## Product attribution
 

@@ -1,29 +1,29 @@
 # PanPan Marine deployment
 
-Primary canonical domain: `www.panpanmarine.com`. Both apex and www are bound to the same site. Hosting uses Sites; preserve `.openai/hosting.json`. The GitHub repository is a source mirror, not the hosting provider.
+Primary canonical domain: `www.panpanmarine.com`. Hosting is GitHub Pages, deployed from the `main` branch of `PanPanTech/panpanmarine.com` by `.github/workflows/pages.yml`. The workflow runs `python build.py`, `python validate.py` and `node --check`, writes `dist/CNAME` and publishes `dist/`.
 
-## Alibaba Cloud DNS
+The previous Sites version (`.openai/hosting.json`) is kept as a fallback until the GitHub Pages version has been verified. A push to GitHub no longer needs a separate Sites deployment.
 
-These current records were returned by Sites and configured for apex/www on 9–10 October 2026. Add them in the existing `panpanmarine.com` DNS zone, with the default routing line and a normal TTL such as 600 seconds. Verification TXT records are public DNS values, not API credentials.
+## Alibaba Cloud DNS (GitHub Pages)
+
+Replace only the website records in the existing `panpanmarine.com` zone. Keep mail and unrelated verification records. Do not change nameservers.
 
 | Type | Host | Value |
 | --- | --- | --- |
-| A | @ | 162.159.143.30 |
-| A | @ | 172.66.3.26 |
-| TXT | _openai-site-verification | openai-site-verification=VvrvcF83mxBfKnppPoWEDjGz4NQzLFgMh0nIf0zpVTs |
-| CNAME | www | custom-domains.chatgpt.site |
-| TXT | _openai-site-verification.www | openai-site-verification=Fwt7ea_ewb4PsZ-PKblG3FTm_xptj2O1v4ALkPpAusk |
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | panpantech.github.io |
 
-Retain unrelated mail and verification records. If the apex has a parking CNAME or conflicting web A/AAAA records, review and replace only those conflicting website records. Do not change nameservers or unrelated records.
+Remove the old Sites records for `@` (162.159.143.30, 172.66.3.26) and `www` (custom-domains.chatgpt.site). The `_openai-site-verification` TXT records can be removed once the Sites version is retired.
 
-After propagation, refresh the custom-domain status in Sites. Confirm hostname and SSL are active, then verify the homepage, equipment routes, enquiry page and sitemap over HTTPS.
-
-Both hostname bindings and SSL were confirmed active on 10 October 2026. Canonical tags use www; this does not configure an apex-to-www HTTP redirect.
+After propagation, check the custom domain in the repository's Pages settings, enable Enforce HTTPS, and verify the homepage, equipment routes, enquiry form and sitemap over HTTPS.
 
 ## Updates
 
-Run `python build.py`; run the local HTTP server and `python validate.py`. Synchronize the exact source through the Sites workflow, save its matching archive, and deploy that saved version. Mirror the source to GitHub. A GitHub push alone does not deploy Sites.
+Run `python build.py`, start `python -m http.server 4173 --directory dist --bind 127.0.0.1`, then run `python validate.py`. Commit and push to `main`; GitHub Actions publishes the site.
 
-Enquiries use `panda@panpantechnology.com`. The brief form runs locally and opens a mail draft; visitors send it through their own mail application. It does not claim server-side delivery.
+## Enquiries
 
-These instructions do not by themselves confirm DNS or HTTPS activation. Verify returned hosting and domain states after applying the configuration.
+The project-brief form posts to the shared enquiry service `https://inquiry.panpantechnology.com/api/inquiries` with `lead_brand: "PanPan Marine"`; leads go to Feishu and Zoho like the other PanPanTech sites. The service must list `https://panpanmarine.com` and `https://www.panpanmarine.com` as allowed origins. If submission fails, the form shows the brief with download and email-draft options addressed to `panda@panpantechnology.com`.
