@@ -44,7 +44,7 @@
   {
     "path": "/equipment/",
     "title": "Underwater Inspection & Cleaning Equipment",
-    "description": "Compare R-30, R-45, AD-400, A-80 and AD-100 underwater equipment by application and starting specifications.",
+    "description": "Compare portable, inspection and light work-class ROVs, a crawler robot, tunnel inspection, cleaning and dredging equipment by application and starting specifications.",
     "noindex": false,
     "lastmod": null
   },
@@ -84,9 +84,37 @@
     "lastmod": null
   },
   {
+    "path": "/equipment/r-20-portable-inspection-rov/",
+    "title": "R-20 / R-20Li Portable inspection ROV",
+    "description": "A compact 16 kg observation ROV with a tethered power supply (R-20) or an internal lithium battery (R-20Li), for fast visual checks where vehicle size and handling matter.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/equipment/r-150-light-work-class-rov/",
+    "title": "R-150 Light work-class ROV",
+    "description": "A 195 kg light work-class ROV rated to 500 m, with a 20 kg payload and modular interfaces for sensors and tools on offshore and hydraulic-structure tasks.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/equipment/a-400-crawler-inspection-robot/",
+    "title": "A-400 Crawler inspection robot",
+    "description": "A 400 kg tracked underwater robot that switches between swimming and crawling on submerged structures, for dam, intake and hydropower inspection to 300 m.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/equipment/rov-tools-accessories/",
+    "title": "ROV Tools & Accessories",
+    "description": "Manipulator arms, intervention tools, sensors, thrusters and release hooks from the manufacturer\u2019s ROV accessory range. Check compatibility before ordering.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
     "path": "/case-studies/",
     "title": "Underwater Robotics Manufacturer Case Studies",
-    "description": "Manufacturer project references from China for long-distance tunnel inspection and underwater intake cleaning.",
+    "description": "Manufacturer project references from China for long-distance tunnel inspection, underwater intake cleaning and hydropower crawler inspection.",
     "noindex": false,
     "lastmod": null
   },
@@ -101,6 +129,13 @@
     "path": "/case-studies/underwater-trash-rack-cleaning/",
     "title": "Underwater intake trash-rack cleaning in China",
     "description": "The supplied manufacturer brochure identifies an A-80 application at the Baihetan hydropower intake trash rack in China.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/case-studies/hydropower-dam-crawler-inspection/",
+    "title": "Dual-mode crawler inspection of hydropower structures in China",
+    "description": "The supplied manufacturer brochure describes the development of a dual-mode (swimming and crawling) underwater inspection robot for China Yangtze Power, for inspection of submerged hydropower structures.",
     "noindex": false,
     "lastmod": null
   },

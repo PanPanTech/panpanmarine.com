@@ -1,0 +1,16 @@
+R-150 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 195 kg light work-class ROV rated to 500 m, with a 20 kg payload and modular interfaces for sensors and tools on offshore and hydraulic-structure tasks.
+
+Vehicle weight: 195 ± 5 kg
+Depth rating: 500 m
+Payload: 20 kg
+Dimensions: 1,170 × 780 × 770 mm
+Thrusters: 8 (4 horizontal vector + 4 vertical)
+Cameras: 1080p front, rear, left and right
+Power: External tethered supply
+
+Configuration note: The manufacturer describes stable operation in sea state 4 and modular tool interfaces; confirm the test conditions and the specific tools offered for the supplied version. Sonar is an optional item purchased separately. The complete system includes the tether management system, control station and power supply.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

@@ -1,0 +1,16 @@
+A-400 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 400 kg tracked underwater robot that switches between swimming and crawling on submerged structures, for dam, intake and hydropower inspection to 300 m.
+
+Vehicle weight: 400 kg
+Depth rating: 300 m
+Motion modes: Free swimming + tracked crawling
+Dimensions: 1,800 × 1,200 × 750 mm
+Thrusters: 8 (4 horizontal vector + 4 vertical)
+Cameras: 1080p front, rear, left and right
+Power: External tethered supply
+
+Configuration note: Sonar and a manipulator are optional items purchased separately. The manufacturer describes logged inspection data for comparing surveys over time; request sample data before relying on it for asset reporting. Launch and recovery of a 400 kg vehicle needs lifting equipment and a planned access point.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

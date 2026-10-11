@@ -1,0 +1,17 @@
+R-20 / R-20Li — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A compact 16 kg observation ROV with a tethered power supply (R-20) or an internal lithium battery (R-20Li), for fast visual checks where vehicle size and handling matter.
+
+Vehicle weight: 16 kg
+Depth rating: 150 m
+Payload: 0.6 kg
+Dimensions: 430 × 380 × 340 mm
+Camera: 1080p; ±60° built-in tilt
+Thrusters: 6 (4 horizontal vector + 2 vertical)
+Power · R-20: External tethered supply
+Power · R-20Li: Internal lithium battery; brochure 2–5 h
+
+Configuration note: Sonar and a single-function gripper are optional items purchased separately. The brochure lists 2–5 hours of R-20Li battery operation; actual runtime depends on load, current and installed equipment. Battery shipment follows the dangerous-goods rules that apply to the supplied battery.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.
