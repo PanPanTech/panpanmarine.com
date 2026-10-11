@@ -2,121 +2,218 @@
   {
     "path": "/",
     "title": "Industrial Underwater Inspection & Maintenance Equipment",
-    "description": "Inspection ROVs, tunnel inspection systems, underwater cleaning and dredging equipment for water infrastructure."
+    "description": "Inspection ROVs, tunnel inspection systems, underwater cleaning and dredging equipment for water infrastructure.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/solutions/",
     "title": "Underwater Robotics Applications",
-    "description": "Explore industrial inspection, long-distance tunnel inspection, underwater trash-rack cleaning and sump dredging."
+    "description": "Explore industrial inspection, long-distance tunnel inspection, underwater trash-rack cleaning and sump dredging.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/solutions/industrial-underwater-inspection/",
     "title": "Industrial underwater inspection",
-    "description": "Choose an ROV around the inspection result you need, then work back through visibility, access, depth and sensor requirements."
+    "description": "Choose an ROV around the inspection result you need, then work back through visibility, access, depth and sensor requirements.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/solutions/underwater-tunnel-inspection/",
     "title": "Long-distance underwater tunnel inspection",
-    "description": "Inspection of flooded water tunnels depends on navigation, tether control and recovery as much as the vehicle\u2019s rated range."
+    "description": "Inspection of flooded water tunnels depends on navigation, tether control and recovery as much as the vehicle\u2019s rated range.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/solutions/underwater-trash-rack-cleaning/",
     "title": "Robotic underwater trash-rack cleaning",
-    "description": "Evaluate contact cleaning of submerged intake and trash-rack surfaces against the deposits, rack geometry and support equipment."
+    "description": "Evaluate contact cleaning of submerged intake and trash-rack surfaces against the deposits, rack geometry and support equipment.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/solutions/underwater-sump-cleaning/",
     "title": "Robotic sump cleaning & confined-space dredging",
-    "description": "For submerged sumps, a viable dredging system connects the vehicle to a pump, conveyance route and sediment-treatment plan."
+    "description": "For submerged sumps, a viable dredging system connects the vehicle to a pump, conveyance route and sediment-treatment plan.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/equipment/",
     "title": "Underwater Inspection & Cleaning Equipment",
-    "description": "Compare R-30, R-45, AD-400, A-80 and AD-100 underwater equipment by application and starting specifications."
+    "description": "Compare R-30, R-45, AD-400, A-80 and AD-100 underwater equipment by application and starting specifications.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/equipment/r-30-inspection-rov/",
     "title": "R-30 Inspection ROV",
-    "description": "A tethered inspection ROV for visual assessment of submerged structures, with payload and sensor selection matched to the task."
+    "description": "A tethered inspection ROV for visual assessment of submerged structures, with payload and sensor selection matched to the task.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/equipment/r-45-inspection-rov/",
     "title": "R-45 Inspection ROV",
-    "description": "A tethered inspection platform with a higher brochure payload than the R-30, for projects needing additional sensing or tooling."
+    "description": "A tethered inspection platform with a higher brochure payload than the R-30, for projects needing additional sensing or tooling.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/equipment/ad-400-tunnel-inspection-rov/",
     "title": "AD-400 Tunnel inspection ROV",
-    "description": "A specialist platform for long-distance inspection of flooded water tunnels, combining a tethered vehicle with project-specific sensing and tether management."
+    "description": "A specialist platform for long-distance inspection of flooded water tunnels, combining a tethered vehicle with project-specific sensing and tether management.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/equipment/a-80-cleaning-robot/",
     "title": "A-80 Underwater cleaning robot",
-    "description": "A floating and crawling underwater platform described by the manufacturer for contact cleaning, with cavitation water-jet and brush configurations subject to application review."
+    "description": "A floating and crawling underwater platform described by the manufacturer for contact cleaning, with cavitation water-jet and brush configurations subject to application review.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/equipment/ad-100-dredging-robot/",
     "title": "AD-100 Underwater dredging robot",
-    "description": "A remotely operated platform described in the manufacturer brochure for underwater sump dredging, with suction, conveyance and treatment selected together."
+    "description": "A remotely operated platform described in the manufacturer brochure for underwater sump dredging, with suction, conveyance and treatment selected together.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/case-studies/",
     "title": "Underwater Robotics Manufacturer Case Studies",
-    "description": "Manufacturer project references from China for long-distance tunnel inspection and underwater intake cleaning."
+    "description": "Manufacturer project references from China for long-distance tunnel inspection and underwater intake cleaning.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/case-studies/long-distance-water-tunnel-inspection/",
     "title": "Long-distance water-tunnel inspection in China",
-    "description": "The supplied manufacturer brochure describes an AD-400 long-distance headrace water-tunnel inspection project associated with China Southern Power Grid."
+    "description": "The supplied manufacturer brochure describes an AD-400 long-distance headrace water-tunnel inspection project associated with China Southern Power Grid.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/case-studies/underwater-trash-rack-cleaning/",
     "title": "Underwater intake trash-rack cleaning in China",
-    "description": "The supplied manufacturer brochure identifies an A-80 application at the Baihetan hydropower intake trash rack in China."
+    "description": "The supplied manufacturer brochure identifies an A-80 application at the Baihetan hydropower intake trash rack in China.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/support/",
     "title": "Inspection ROV Training, Spare Parts & Support",
-    "description": "Plan operator training, fault reporting, manufacturer escalation, spare parts and warranty responsibilities."
+    "description": "Plan operator training, fault reporting, manufacturer escalation, spare parts and warranty responsibilities.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/about/",
     "title": "About & Manufacturer Relationship",
-    "description": "Understand the equipment-selection approach, manufacturer relationship and commercial responsibilities."
+    "description": "Understand the equipment-selection approach, manufacturer relationship and commercial responsibilities.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/resources/",
     "title": "Inspection ROV Resources & Procurement Guides",
-    "description": "Practical guides to underwater sensing and tunnel-inspection project planning."
+    "description": "Practical guides to underwater sensing and tunnel-inspection project planning.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/resources/rov-camera-vs-sonar/",
     "title": "Camera vs sonar for underwater inspection",
-    "description": "Choose the sensing approach around visibility, the inspection question and required outputs."
+    "description": "Choose the sensing approach around visibility, the inspection question and required outputs.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/resources/tunnel-inspection-project-checklist/",
     "title": "Underwater tunnel inspection planning checklist",
-    "description": "Collect the geometry, flow, access, sensing and recovery information needed for a useful technical review."
+    "description": "Collect the geometry, flow, access, sensing and recovery information needed for a useful technical review.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/request-a-proposal/",
     "title": "Request a Technical Proposal",
-    "description": "Prepare a project brief for underwater equipment selection, configuration and a technical quotation."
+    "description": "Prepare a project brief for underwater equipment selection, configuration and a technical quotation.",
+    "noindex": false,
+    "lastmod": null
   },
   {
     "path": "/thank-you/",
     "title": "Your Project Brief: Next Steps",
-    "description": "Review the next steps after preparing an underwater equipment project brief."
+    "description": "Review the next steps after preparing an underwater equipment project brief.",
+    "noindex": true,
+    "lastmod": null
   },
   {
     "path": "/privacy/",
     "title": "Privacy & Cookies",
-    "description": "Privacy information for the local project-brief workflow and website hosting."
+    "description": "Privacy information for the local project-brief workflow and website hosting.",
+    "noindex": true,
+    "lastmod": null
   },
   {
     "path": "/terms/",
     "title": "Website Terms",
-    "description": "Technical information, manufacturer attribution and commercial terms for equipment selection."
+    "description": "Technical information, manufacturer attribution and commercial terms for equipment selection.",
+    "noindex": true,
+    "lastmod": null
+  },
+  {
+    "path": "/blog/",
+    "title": "Underwater Robotics Blog & Buying Guides",
+    "description": "Buying guides for industrial inspection ROVs, flooded tunnel inspection, underwater cleaning and dredging systems.",
+    "noindex": false,
+    "lastmod": "2026-10-10"
+  },
+  {
+    "path": "/blog/topics/equipment-selection/",
+    "title": "Equipment selection Buying Guides",
+    "description": "Compare inspection tasks, sensing, payloads and the complete field system before requesting a quotation.",
+    "noindex": true,
+    "lastmod": "2026-10-10"
+  },
+  {
+    "path": "/blog/topics/tunnel-inspection/",
+    "title": "Tunnel inspection Buying Guides",
+    "description": "Plan flooded-tunnel procurement around route geometry, usable inspection evidence and a reviewed recovery approach.",
+    "noindex": true,
+    "lastmod": "2026-10-10"
+  },
+  {
+    "path": "/blog/topics/cleaning-dredging/",
+    "title": "Cleaning & dredging Buying Guides",
+    "description": "Identify whether your task involves surface deposits or loose sediment, then specify the tools and supporting system.",
+    "noindex": true,
+    "lastmod": "2026-10-10"
+  },
+  {
+    "path": "/blog/underwater-cleaning-vs-dredging/",
+    "title": "Underwater Cleaning vs Dredging: Choosing the Right System",
+    "description": "Compare underwater surface cleaning and sediment removal. Define deposits, access, pumps, separation and acceptance before choosing an A-80 or AD-100 system.",
+    "noindex": false,
+    "lastmod": "2026-10-10"
+  },
+  {
+    "path": "/blog/industrial-inspection-rov-selection-guide/",
+    "title": "How to Choose an Industrial Inspection ROV",
+    "description": "Choose an industrial inspection ROV around visibility, access, payload, useful data and complete system cost. Includes an R-30/R-45 comparison and buyer checklist.",
+    "noindex": false,
+    "lastmod": "2026-10-10"
+  },
+  {
+    "path": "/blog/flooded-tunnel-inspection-procurement-guide/",
+    "title": "Flooded Tunnel Inspection: A Procurement Planning Guide",
+    "description": "Plan flooded tunnel inspection procurement: engineering inputs, tether and sensor scope, AD-400 range evidence, acceptance data and complete-system costs.",
+    "noindex": false,
+    "lastmod": "2026-10-10"
   }
 ]

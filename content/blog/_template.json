@@ -1,0 +1,35 @@
+{
+  "status": "draft",
+  "slug": "new-procurement-guide",
+  "title": "",
+  "description": "",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "",
+  "related_keywords": [],
+  "answer": "",
+  "image": "r-45.png",
+  "alt": "",
+  "published_at": "2026-10-10",
+  "updated_at": "2026-10-10",
+  "sections": [
+    {
+      "id": "procurement-question",
+      "title": "",
+      "html": "<p></p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "",
+      "answer": ""
+    }
+  ],
+  "sources": [
+    {
+      "title": "",
+      "url": "",
+      "note": ""
+    }
+  ],
+  "related_paths": []
+}

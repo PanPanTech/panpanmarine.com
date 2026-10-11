@@ -1,0 +1,123 @@
+{
+  "slug": "industrial-inspection-rov-selection-guide",
+  "title": "How to Choose an Industrial Inspection ROV",
+  "description": "Choose an industrial inspection ROV around visibility, access, payload, useful data and complete system cost. Includes an R-30/R-45 comparison and buyer checklist.",
+  "category": "Equipment selection",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "how to choose an industrial inspection ROV",
+  "related_keywords": [
+    "inspection ROV selection",
+    "industrial ROV buying guide",
+    "underwater inspection equipment",
+    "ROV payload selection",
+    "inspection ROV system cost"
+  ],
+  "date": "2026-10-10",
+  "answer": "Choose an industrial inspection ROV by defining the evidence your inspection must produce, then checking visibility, access, depth, flow, integrated sensors and recovery. Compare the complete field system, including its tether, control station, power, training and support. Shortlist a platform only when the supplier can demonstrate the proposed configuration against your task and provide a clear, itemized quotation.",
+  "image": "r-45.png",
+  "alt": "Manufacturer rendering of the Boya Gongdao R-45 inspection ROV",
+  "sections": [
+    {
+      "id": "inspection-result",
+      "title": "1. Define the inspection result before comparing vehicles",
+      "html": "<p>An inspection contractor documenting a submerged pier, a utility checking an intake and a hydropower team examining a dam face can need different equipment. Write down the structure, suspected condition, coverage and decision that the inspection will support. A request for underwater video is too broad to establish whether a proposed system is adequate.</p><p>Separate finding an object, recognizing a surface defect, measuring it and locating it for later repair. Each step introduces a different evidence requirement. A camera may produce a useful condition record while leaving the defect's dimensions or repeatable location unresolved.</p><p>Specify the smallest feature of interest, the intended viewing distance and the deliverables the asset owner expects. Ask the responsible engineer to define acceptable evidence where the inspection supports structural decisions. Use our <a href=\"/solutions/industrial-underwater-inspection/\">industrial underwater inspection application page</a> to organize the initial brief before moving to a model shortlist.</p>"
+    },
+    {
+      "id": "site-envelope",
+      "title": "2. Match the system to depth, access and operating conditions",
+      "html": "<p>Record the maximum working depth, water conditions, access opening and route from launch to target. Include obstructions, sharp edges, possible tether contact and the space available for deployment. Check clearance using the vehicle with its actual sonar, tool and protective fittings installed.</p><p>A depth rating describes a stated operating limit; it does not establish visibility, controllability or access at that depth. A vehicle that fits through an opening may still lack room to turn, inspect a surface or retreat with its tether following.</p><p>Provide the supplier with drawings and recent site photographs. State measured current where available and identify uncertain conditions explicitly. If isolation or an operating interruption is required, include the available inspection window. Long enclosed routes deserve a separate navigation and retrieval assessment rather than assuming a general inspection ROV can handle any flooded tunnel.</p>"
+    },
+    {
+      "id": "camera-sonar",
+      "title": "3. Choose camera and sonar around the feature you need to see",
+      "html": "<p>Optical video can show material appearance, surface details and markings when water clarity, lighting and viewing distance allow. Compare recorded footage from relevant conditions, including the approach to the structure. Camera resolution alone says little about whether a particular feature will remain visible at the intended distance.</p><p>Active sonar transmits sound and interprets returning echoes. <a href=\"https://oceanservice.noaa.gov/facts/sonar.html\">NOAA explains its acoustic basis</a> and use in locating and mapping underwater objects. For a buyer, the next question is which sonar type and geometry suit the task: navigation, profiling and detailed acoustic inspection require different capabilities.</p><p>A combined package may help an operator find or approach a target acoustically and obtain closer visual evidence where visibility permits. It does not automatically prove that a fine crack can be identified, measured or classified. Request representative raw recordings and explain the required feature size. Our <a href=\"/resources/rov-camera-vs-sonar/\">camera versus sonar guide</a> covers the sensing questions in more detail.</p>"
+    },
+    {
+      "id": "motion-control",
+      "title": "4. Evaluate control with the tether and payload installed",
+      "html": "<p>Useful inspection requires controlled movement near the target. Ask how the operator holds viewing distance, moves along a wall, approaches an obstruction and backs out. Evaluate those maneuvers with the planned sensors and tether, rather than judging the vehicle from a straight-line demonstration.</p><p>Published travel speed is different from the ability to remain steady in current. Payload shape, balance, mounting position and tether drag also affect the integrated setup. Ask for the conditions behind any current-handling claim and evidence for the proposed configuration.</p><p>The operator interface matters too. Check whether camera control, sonar view, depth information and recording can be managed without losing the working scene. An accessible controller and clear displays may reduce operating friction, but staffing still depends on deployment, tether handling and the site owner's procedures.</p>"
+    },
+    {
+      "id": "r30-r45-comparison",
+      "title": "5. Compare R-30 and R-45 as starting platforms",
+      "html": "<p>The supplied Boya Gongdao brochure offers a useful initial comparison. The <a href=\"https://www.boyagongdao.com/index/shows?catid=30&amp;id=5\">official R-30 page</a> emphasizes a compact, modular observation platform, while the <a href=\"https://www.boyagongdao.com/index/shows?catid=30&amp;id=4\">R-45 page</a> emphasizes carrying additional equipment. Confirm the current supplied version before treating brochure figures as contractual specifications.</p><div class=\"table-scroll\"><table><caption>Manufacturer brochure figures for initial screening</caption><thead><tr><th scope=\"col\">Consideration</th><th scope=\"col\">R-30</th><th scope=\"col\">R-45</th></tr></thead><tbody><tr><th scope=\"row\">Vehicle weight</th><td>21 kg</td><td>42 kg</td></tr><tr><th scope=\"row\">Dimensions</th><td>500 × 398 × 356 mm</td><td>675 × 500 × 445 mm</td></tr><tr><th scope=\"row\">Depth rating</th><td>300 m</td><td>350 m</td></tr><tr><th scope=\"row\">Listed payload</th><td>3 kg</td><td>8 kg</td></tr><tr><th scope=\"row\">Power approach</th><td>External tethered supply</td><td>External tethered supply</td></tr></tbody></table></div><p>A smaller vehicle may suit tighter access and simpler handling; more payload allowance may support a larger sensing package. Neither conclusion replaces an integration check. Include mounts, connectors, buoyancy, power demand and software compatibility in the payload review. Ask for a drawing of the delivered arrangement and its tested limits. Review the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> and <a href=\"/equipment/r-45-inspection-rov/\">R-45 equipment pages</a> alongside your site brief.</p>"
+    },
+    {
+      "id": "field-system",
+      "title": "6. Plan power, tether management and recovery together",
+      "html": "<p>A vehicle is one part of the field system. Identify the control station, power supply, tether length and type, reel, transport cases and launch arrangement. Verify the site's electrical supply against the delivered equipment requirements, including connectors and any necessary conversion equipment.</p><p>Tether length is not the same as assured reach. The route, bends, contact points, deployed length and working conditions influence what can be achieved. Decide where the reel sits, who handles the tether and how excess length is controlled during inspection.</p><p>Discuss loss of power or communications, snagging and failure to move before purchase. Obtain the approved recovery method and identify any lifting equipment or access required to use it. Do not assume a communications tether is a lifting line. Confirm post-mission cleaning, inspection and storage procedures as part of the handover, especially when the equipment will move between freshwater and marine sites.</p>"
+    },
+    {
+      "id": "data-deliverables",
+      "title": "7. Check whether the data can become a useful report",
+      "html": "<p>Request sample exports before accepting a recording feature as sufficient. Review video and sonar file formats, timestamps, annotations and the way findings connect to an asset drawing or inspection route. Check whether another engineer can open and review the files without purchasing additional software.</p><p>Depth readings alone do not locate a finding along a structure. Define the required location reference and uncertainty, then confirm the instruments and method that support it. Scaled measurements likewise need a suitable reference or calibrated workflow.</p><p>Run a small reporting exercise during evaluation: locate a representative feature, capture evidence and produce the record the owner expects. This exposes gaps in export, location and interpretation while configuration changes are still practical.</p>"
+    },
+    {
+      "id": "complete-system-cost",
+      "title": "8. Compare complete system cost on a common scope",
+      "html": "<p>Request itemized quotations against the same project brief. A lower vehicle price can leave essential sensing, deployment or support items outside the offer. Mark every required item as included, optional, supplied by the buyer or awaiting confirmation.</p><div class=\"table-scroll\"><table><caption>Scope to align before comparing quotations</caption><thead><tr><th scope=\"col\">Cost area</th><th scope=\"col\">What to include</th><th scope=\"col\">Question to resolve</th></tr></thead><tbody><tr><th scope=\"row\">Vehicle and sensors</th><td>Camera, sonar, mounts and integration</td><td>Which exact delivered models?</td></tr><tr><th scope=\"row\">Field equipment</th><td>Tether, reel, power, control and recovery</td><td>Can this package work at our site?</td></tr><tr><th scope=\"row\">Delivery and commissioning</th><td>Packing, freight, import arrangements and setup</td><td>Who pays and performs each step?</td></tr><tr><th scope=\"row\">Operating readiness</th><td>Training, manuals, spares and software</td><td>What is required before the first mission?</td></tr><tr><th scope=\"row\">Ownership and support</th><td>Maintenance, repairs, transport and renewals</td><td>Which recurring costs and responsibilities apply?</td></tr></tbody></table></div><p>Assess ownership over your expected workload. Estimate deployment days, staffing, transport, maintenance and repair arrangements using your own assumptions. Compare the result with hiring a suitably equipped contractor when use will be occasional. There is no defensible universal equipment price or payback period without a defined configuration and workload.</p><p>Include the cost of producing acceptable inspection evidence. Repeating a visit because a sensor, location reference or export was missing can outweigh an apparent saving in the purchase offer.</p>"
+    },
+    {
+      "id": "acceptance-test",
+      "title": "9. Specify a demonstration that tests your purchase decision",
+      "html": "<p>Build the demonstration around representative targets and conditions. Record the configuration, visibility, depth, current where relevant, viewing distance and tether arrangement. Agree what must be detected and recorded, how it will be located and which results count as acceptable.</p><p>Include deployment, approach, controlled observation, data export and recovery. A short pool video can show basic operation, but it provides limited evidence about an enclosed route, poor visibility or a different sensor package.</p><p>Where direct site testing is impractical, agree which parts can be verified through comparable recordings, a representative trial and document review. Keep unresolved assumptions visible in the purchase decision. Define the acceptance process in the quotation or agreement, including the supplied configuration, buyer prerequisites, evidence to retain and the response if the agreed test is not met.</p>"
+    },
+    {
+      "id": "supplier-questions",
+      "title": "10. Ask the supplier questions that change the quotation",
+      "html": "<p>Use these questions to turn general product discussions into a reviewable offer:</p><ul><li>Which current vehicle version and exact sensors are quoted, and which brochure specifications apply?</li><li>What is included in the standard system, and what must we supply or buy separately?</li><li>Has this complete payload been integrated, and can we review the installation and sample outputs?</li><li>What conditions support the stated depth, control and reach limits for this configuration?</li><li>How are findings located, measured and exported for our reporting workflow?</li><li>What training, manuals, initial spares and maintenance procedures are included?</li><li>Who is the legal seller, who handles technical escalation and where are repairs performed?</li><li>Which product documents, warranty terms and acceptance evidence accompany this specific shipment?</li></ul><p>Follow up on vague answers with a document, drawing or test request. Identify the manufacturer, seller and support provider separately. Ask who authorizes substitutions and how a changed sensor or vehicle version affects the agreed performance and acceptance test.</p>"
+    },
+    {
+      "id": "prepare-project-brief",
+      "title": "11. Send a project brief before requesting a final recommendation",
+      "html": "<p>A useful first inquiry includes the asset, inspection objective, required evidence, depth, visibility, current, access dimensions, route or working area and available power. Add drawings, existing footage and procurement timing where available. Mark unknown information clearly so the technical review can identify what to measure next.</p><p>Then shortlist against the constraints that matter most: sensing, clearance, controllability, useful data and a workable field setup. Explore the <a href=\"/equipment/\">equipment range</a>, compare compatible configurations and request a common quotation scope. Keep optional sensors connected to an inspection requirement rather than adding them solely because an interface is available.</p><p><a href=\"/request-a-proposal/\">Prepare your project brief for PanPan Marine</a> to discuss equipment selection and manufacturer coordination. The next useful outcome is a documented configuration with its open questions, evidence requirements and commercial responsibilities.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need sonar on an industrial inspection ROV?",
+      "answer": "It depends on visibility and the required result. Sonar may help locate features and navigate when optical visibility is poor. Confirm the appropriate sensor type, delivered integration and sample data. A sonar option does not automatically establish fine-defect detection or dimensional accuracy."
+    },
+    {
+      "question": "Is a higher depth rating always the better choice?",
+      "answer": "Choose a rating appropriate to the required depth and supplied configuration. Greater rated depth does not resolve poor access, unsuitable sensors or difficult recovery. Evaluate those constraints together rather than using depth as a proxy for overall suitability."
+    },
+    {
+      "question": "How should I choose between R-30 and R-45?",
+      "answer": "Use the required payload and site access for initial screening. The supplied brochure lists R-30 at 21 kg with a 3 kg payload and R-45 at 42 kg with an 8 kg payload. Confirm the current version and evaluate the complete installed sensing package before choosing."
+    },
+    {
+      "question": "Can an ROV replace every diver inspection?",
+      "answer": "Suitability depends on the task and the required evidence. An ROV can support observation and selected sensor work, but tool access, inspection methods and owner requirements vary. Ask the responsible inspection team which activities the proposed system can complete and which need another method."
+    },
+    {
+      "question": "What should an inspection ROV quotation include?",
+      "answer": "Request the vehicle version, sensor package, integration, tether and reel, power, controls, launch and recovery needs, data outputs, training, spares, delivery responsibilities, warranty and acceptance process. Mark buyer-supplied items and recurring charges explicitly so offers can be compared on a common scope."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Boya Gongdao official R-30 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=5"
+    },
+    {
+      "title": "Boya Gongdao official R-45 product page",
+      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=4"
+    },
+    {
+      "title": "NOAA National Ocean Service: What is sonar?",
+      "url": "https://oceanservice.noaa.gov/facts/sonar.html"
+    }
+  ],
+  "related_paths": [
+    "/equipment/",
+    "/equipment/r-30-inspection-rov/",
+    "/equipment/r-45-inspection-rov/",
+    "/solutions/industrial-underwater-inspection/",
+    "/resources/rov-camera-vs-sonar/",
+    "/request-a-proposal/"
+  ],
+  "status": "published",
+  "published_at": "2026-10-10",
+  "updated_at": "2026-10-10"
+}

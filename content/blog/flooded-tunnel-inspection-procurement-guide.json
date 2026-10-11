@@ -1,0 +1,114 @@
+{
+  "slug": "flooded-tunnel-inspection-procurement-guide",
+  "title": "Flooded Tunnel Inspection: A Procurement Planning Guide",
+  "description": "Plan flooded tunnel inspection procurement: engineering inputs, tether and sensor scope, AD-400 range evidence, acceptance data and complete-system costs.",
+  "category": "Tunnel inspection",
+  "category_slug": "tunnel-inspection",
+  "primary_keyword": "flooded tunnel inspection",
+  "related_keywords": [
+    "underwater tunnel inspection ROV",
+    "long-distance tunnel inspection",
+    "tunnel inspection procurement",
+    "ROV acceptance testing",
+    "AD-400 tunnel inspection"
+  ],
+  "answer": "To procure a flooded tunnel inspection system, define the inspection result first, then compare the complete vehicle, sensing, tether, power, positioning and recovery package against your actual tunnel. Require sample deliverables, a stated configuration, site assumptions and an agreed acceptance plan before comparing prices. A manufacturer's maximum range is a starting specification; it does not establish usable coverage, defect-location accuracy or recoverability in your tunnel.",
+  "image": "ad-400.jpg",
+  "alt": "Boya Gongdao AD-400 tunnel inspection ROV product image",
+  "published_date": "2026-10-10",
+  "sections": [
+    {
+      "id": "define-the-purchase",
+      "title": "1. Define the inspection result you are buying",
+      "html": "<p>A procurement brief should say what the asset owner needs to decide after the inspection. General condition video, a mapped defect register and a measured tunnel cross-section are different deliverables. A system capable of producing one should not automatically be priced or accepted as capable of all three.</p><p>For each objective, identify the target condition, required coverage, usable evidence and intended reviewer. For example, a buyer may want suspected concrete spalling linked to a location reference and supported by clear imagery. That is a requirement to discuss, rather than proof that a particular camera or sonar will identify every defect.</p><p>Also distinguish an equipment purchase from an inspection service. Ownership of a vehicle does not include an operator, field deployment or an engineering assessment unless those items appear in the offer. Our <a href=\"/solutions/underwater-tunnel-inspection/\">underwater tunnel inspection application page</a> explains the equipment-selection context.</p>"
+    },
+    {
+      "id": "engineering-inputs",
+      "title": "2. Build an engineering input pack with an assumptions register",
+      "html": "<p>Give competing suppliers the same starting information. Use current drawings where available, record their revision and identify gaps. Mark unknown conditions explicitly so a supplier can explain how they affect configuration, price or the decision to proceed.</p><div class=\"table-scroll\"><table><caption>Engineering inputs for a flooded tunnel inspection request</caption><thead><tr><th scope=\"col\">Input</th><th scope=\"col\">Information to provide</th><th scope=\"col\">Procurement question</th></tr></thead><tbody><tr><th scope=\"row\">Route and geometry</th><td>Intended inspection length, sections, bends, gradients and restrictions</td><td>Which portions are within the proposed system's assessed scope?</td></tr><tr><th scope=\"row\">Water environment</th><td>Depth, available flow information, visibility, sediment and debris</td><td>What operating assumptions and sensing choices underpin the offer?</td></tr><tr><th scope=\"row\">Access and logistics</th><td>Entry dimensions, available space, transport route and lifting interfaces</td><td>What support equipment and buyer-provided facilities are needed?</td></tr><tr><th scope=\"row\">Existing asset records</th><td>Drawings, previous observations and the location-reference convention</td><td>How will new findings connect to the asset record?</td></tr><tr><th scope=\"row\">Required outputs</th><td>Video, acoustic records, defect observations and report format</td><td>Which outputs are included and how will they be checked?</td></tr></tbody></table></div><p>Keep an assumptions register beside this pack. Record each unresolved item, who will supply the information and which part of the quotation depends on it. A qualified price based on unknown flow should remain distinguishable from a confirmed configuration. The existing <a href=\"/resources/tunnel-inspection-project-checklist/\">tunnel inspection planning checklist</a> provides a downloadable collection sheet; this guide explains how to turn those inputs into purchasing decisions.</p>"
+    },
+    {
+      "id": "range-evidence",
+      "title": "3. Separate nominal range from an achievable inspection mission",
+      "html": "<p>The <a href=\"https://www.boyagongdao.com/index/shows?catid=32&amp;id=23\">official AD-400 product page</a> states a maximum operation distance of <strong>5 km</strong>. The supplied manufacturer brochure lists <strong>5.5 km</strong>, including a long-tunnel project reference. These figures are different statements from different materials. Neither is a guarantee of suitability for any tunnel.</p><p>Do not silently choose the larger figure. Request the current vehicle version, tether and power configuration, basis of the stated range, relevant test record and conditions attached to the proposed mission. Intended route length, tether length and inspected coverage should be identified separately.</p><p>A route with bends, constrictions or deposited material requires its own assessment. Procurement should ask what evidence supports the offered configuration under comparable conditions and where its scope ends. Consult the <a href=\"/equipment/ad-400-tunnel-inspection-rov/\">AD-400 equipment page</a> for the published starting specifications, then resolve the deliverable range in the written proposal.</p>"
+    },
+    {
+      "id": "complete-system",
+      "title": "4. Specify the tether, power and recovery package as part of the purchase",
+      "html": "<p>A long-distance vehicle needs an integrated field system. The supplied AD-400 brochure describes external umbilical power and shows tether management, a control station and a power-supply system. A vehicle-only line item therefore cannot describe everything needed to support the intended inspection.</p><p>Ask for the tether's proposed length, reel or management arrangement, power interfaces, communication equipment and relevant installation constraints. Require a list of buyer-provided facilities. Review how the supplier assessed the proposed route's bends, contact points and drag rather than accepting an unsupported statement that a long cable solves the reach problem.</p><p>Recovery is also a procurement responsibility. Request a documented engineering assessment of abnormal events and the included recovery capabilities, equipment and support responsibilities. Features mentioned in a development project should be confirmed for the delivered version. This review should be carried out by the responsible site and engineering teams; a purchasing article cannot supply operating or emergency procedures.</p>"
+    },
+    {
+      "id": "positioning-and-sensors",
+      "title": "5. Buy usable location references and sensing evidence",
+      "html": "<p>Useful observations need a connection to the tunnel. Ask how the proposed system references distance and position, where that reference begins, how sensor records are synchronized and what uncertainty the supplier can substantiate. A feature described as defect localization is not, by itself, a measured accuracy specification.</p><p>The appropriate sensing package depends on the question and environment. Ask suppliers to demonstrate that the proposed camera, sonar or measurement arrangement can produce the required evidence in comparable visibility and geometry. Sonar intended to support navigation should not automatically be accepted as a complete condition-measurement package.</p><p>Specify sensor models and interfaces rather than a generic optional-sonar label. Request representative exported files, the software needed to open them, license conditions and any processing steps required. Review ownership and access to original records as well as the final report. Our <a href=\"/resources/rov-camera-vs-sonar/\">camera versus sonar guide</a> helps frame that discussion without assuming that every instrument has been integrated into every vehicle.</p>"
+    },
+    {
+      "id": "acceptance-evidence",
+      "title": "6. Agree acceptance evidence before the order",
+      "html": "<p>Acceptance should test the purchased scope, using criteria agreed by the buyer and supplier. Separate checks of the supplied equipment from demonstration of the inspection output. A functional camera check alone does not establish tunnel coverage or the usefulness of a defect register.</p><p>The following is an <strong>illustrative record structure</strong>, not a completed inspection, a manufacturer test result or a proposed accuracy threshold. Actual values and criteria must be agreed for the project.</p><div class=\"table-scroll\"><table><caption>Example acceptance-data fields, without invented results</caption><thead><tr><th scope=\"col\">Record</th><th scope=\"col\">Fields to agree</th><th scope=\"col\">Evidence to review</th></tr></thead><tbody><tr><th scope=\"row\">Inspection coverage</th><td>Route reference, inspected section, recorded segments and gaps</td><td>Coverage map or register linked to the original records</td></tr><tr><th scope=\"row\">Observation entry</th><td>Observation ID, time reference, location reference and description</td><td>Corresponding image, video segment or acoustic record</td></tr><tr><th scope=\"row\">Position statement</th><td>Reference method, stated uncertainty and verification method</td><td>Documented basis for the location claim</td></tr><tr><th scope=\"row\">Delivered configuration</th><td>Vehicle identity, sensor list, software version and tether package</td><td>Equipment schedule and agreed test documentation</td></tr></tbody></table></div><p>Ask to review a sample observation entry and navigate from it to the underlying file. Record how missing coverage, unusable imagery or uncertain positions will be identified. Avoid accepting an attractive edited video as the only evidence when the purchase requires traceable findings. Specify who reviews the results and how deviations are documented before acceptance is decided.</p>"
+    },
+    {
+      "id": "system-cost",
+      "title": "7. Compare the complete system cost",
+      "html": "<p>No reliable general price can be inferred from a model name or maximum range. The useful comparison is the cost of the package that meets the same stated requirements. Separate one-time equipment costs from services, recurring software charges and buyer-provided facilities.</p><ul><li><strong>Core equipment:</strong> vehicle, installed payload, controller, tether, reel, power equipment and transport protection.</li><li><strong>Sensing and data:</strong> named instruments, integration, recording, processing software, licenses and report preparation where included.</li><li><strong>Project preparation:</strong> configuration review, agreed testing, documentation and any custom engineering.</li><li><strong>Deployment support:</strong> training, field attendance, transport coordination and specifically included support.</li><li><strong>Lifecycle items:</strong> spare parts, consumables, repair arrangements and ongoing software costs.</li></ul><p>State currency, quotation validity, delivery basis and what transport or other destination expenses are included. Avoid treating a lower equipment subtotal as a lower project cost if the other offer includes sensors, tests or support that must otherwise be purchased separately.</p><p>For uncertain items, request a priced option or a clearly stated dependency. This preserves a useful comparison without asking suppliers to disguise unresolved engineering as a fixed commitment.</p>"
+    },
+    {
+      "id": "quotation-scope",
+      "title": "8. Require a quotation scope that identifies responsibility",
+      "html": "<p>A reviewable proposal should include an equipment schedule, the assessed application, exclusions, acceptance evidence, delivery milestones and named commercial responsibilities. List standard, optional and custom items separately so a sensor shown in an illustration is not mistaken for supplied equipment.</p><p>Require the proposal to identify the seller, equipment manufacturer, test provider and parties responsible for training, warranty assessment and repair coordination. State which activities are included remotely or on site, and which depend on a separate service arrangement. Do not assume an overseas service location exists unless it is identified in the offer.</p><p>Finally, connect payment and delivery stages to the agreed deliverables. A buyer should be able to determine what is supplied, what remains conditional and what documents will accompany it. Clarify how configuration changes or newly discovered site information affect scope and price. Keep unresolved questions in a decision log rather than accepting broad promises that cannot be checked.</p>"
+    },
+    {
+      "id": "manufacturer-reference",
+      "title": "9. Use the manufacturer tunnel reference as evidence to investigate",
+      "html": "<p>The supplied brochure attributes a 5.5 km hydropower diversion-tunnel development project to the manufacturer and China Southern Power Grid. The manufacturer's <a href=\"https://www.boyagongdao.com/index/shows?catid=26&amp;id=18\">official project report</a> describes acceptance work, long-distance umbilical engineering and motion, sensing and return-related development. It is a manufacturer reference in China, not an overseas delivery by PanPan Marine.</p><p>Use that reference to request the original configuration, relevant records and conditions. Identify which development features are present in the system currently offered and which need additional work. A reference can show that a technical approach has been investigated; it does not transfer every reported result to a different tunnel.</p><p>The <a href=\"/case-studies/long-distance-water-tunnel-inspection/\">manufacturer tunnel case page</a> separates the reported project context from questions a buyer should resolve for a comparable application.</p>"
+    },
+    {
+      "id": "prepare-the-request",
+      "title": "10. Send a purchasing brief that can produce a useful response",
+      "html": "<p>Start with the asset, intended route, inspection objective, known operating conditions and required outputs. Attach or describe the engineering input pack, then list the unknowns. Indicate whether you need equipment, a service proposal or help deciding between them.</p><p>Ask for a preliminary suitability response before a firm configuration where important information is missing. Request a proposal that separates scope, evidence and price, with a clear next step for unresolved engineering questions. This lets both sides identify whether further assessment is justified.</p><p>Use the <a href=\"/request-a-proposal/\">project enquiry page</a> to prepare a structured brief or contact PanPan Marine. A focused enquiry gives the supplier a better basis to respond than a request for the price of a long-range ROV alone.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What should I include in a flooded tunnel inspection RFQ?",
+      "answer": "Include the inspection objective, intended route and geometry, depth and available flow information, access constraints, expected visibility, required data outputs and known uncertainties. State whether the request concerns equipment or an inspection service. Ask for the assessed configuration, exclusions, acceptance evidence and itemized commercial scope."
+    },
+    {
+      "question": "Does the AD-400 support a guaranteed 5.5 km inspection?",
+      "answer": "No universal guarantee can be taken from the published figures. The official product page states 5 km, while the supplied brochure and manufacturer project reference describe 5.5 km. Confirm the currently offered version, complete tether and power package, site conditions and project-specific evidence in the proposal."
+    },
+    {
+      "question": "Can flooded tunnel inspection be procured for operation without shutdown?",
+      "answer": "Only as a project-specific question for the asset owner and responsible engineering teams. A manufacturer reference describing a particular operating arrangement does not establish that arrangement for another tunnel. The procurement scope should record the assessed conditions and responsibilities without assuming permission or prescribing operating procedures."
+    },
+    {
+      "question": "How can I compare quotations with different sensor packages?",
+      "answer": "Use the same required outputs and engineering assumptions, then compare named sensors, integration, data access, software, testing and support. Identify items omitted from the cheaper offer and request comparable options. A navigation-sonar package and a measured condition-reporting package may be materially different purchases."
+    },
+    {
+      "question": "Is inspection video enough for acceptance?",
+      "answer": "It may be enough for a narrowly defined visual deliverable, but it is insufficient by itself when the scope requires traceable coverage, referenced observations or measurement evidence. Agree the records, location references, treatment of gaps and review method before ordering, and examine a sample deliverable before setting acceptance criteria."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Boya Gongdao: official AD-400 product information",
+      "url": "https://www.boyagongdao.com/index/shows?catid=32&id=23"
+    },
+    {
+      "title": "Boya Gongdao: long-tunnel underwater robot development project acceptance report",
+      "url": "https://www.boyagongdao.com/index/shows?catid=26&id=18"
+    }
+  ],
+  "related_paths": [
+    "/solutions/underwater-tunnel-inspection/",
+    "/equipment/ad-400-tunnel-inspection-rov/",
+    "/resources/tunnel-inspection-project-checklist/",
+    "/resources/rov-camera-vs-sonar/",
+    "/case-studies/long-distance-water-tunnel-inspection/",
+    "/request-a-proposal/"
+  ],
+  "status": "published",
+  "published_at": "2026-10-10",
+  "updated_at": "2026-10-10"
+}
