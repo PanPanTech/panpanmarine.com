@@ -9,9 +9,9 @@ Payload: 50 kg
 Dimensions: 2,080 × 1,020 × 1,150 mm
 Thrusters: 12 (8 horizontal vector + 4 vertical)
 Cruise speed: 1.65 m/s
-Cameras: 1080p, multi-direction; count to confirm
+Cameras: Four 1080p: front, rear, left, right
 Power: External tethered supply, shore power unit
 
-Configuration note: Sonar and five- or seven-function manipulators are optional items purchased separately. The manufacturer describes modest support-vessel requirements; confirm the vessel, launch system and complete-system footprint for each project. The two brochure versions differ on camera count (four or five directions).
+Configuration note: Sonar and five- or seven-function manipulators are optional items purchased separately. The manufacturer describes modest support-vessel requirements; confirm the vessel, launch system and complete-system footprint for each project.
 
 Confirm current specifications and delivered scope with the manufacturer before purchase.

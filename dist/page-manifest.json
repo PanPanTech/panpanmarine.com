@@ -128,14 +128,14 @@
   {
     "path": "/equipment/s-cleaner-surface-cleaning-vessel/",
     "title": "S-Cleaner Surface cleaning vessel",
-    "description": "A 2 m autonomous catamaran that detects and collects floating debris in harbours, reservoirs, rivers and scenic waters, using lidar and cameras to avoid obstacles.",
+    "description": "A 2 m, 270 kg autonomous catamaran that detects and collects floating debris in harbours, reservoirs, rivers and scenic waters, using lidar and cameras to avoid obstacles.",
     "noindex": false,
     "lastmod": null
   },
   {
     "path": "/equipment/m-cleaner-surface-cleaning-vessel/",
     "title": "M-Cleaner Large surface cleaning vessel",
-    "description": "A 5.3 m autonomous cleaning vessel with a 500 kg debris capacity for harbours, coastal waters within 2 km of shore, lakes and reservoirs, including algae and floating waste.",
+    "description": "A 5 m-class autonomous cleaning vessel with a 500 kg debris capacity for harbours, coastal waters within 2 km of shore, lakes and reservoirs, including algae and floating waste.",
     "noindex": false,
     "lastmod": null
   },
