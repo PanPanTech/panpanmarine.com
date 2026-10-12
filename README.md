@@ -8,7 +8,7 @@ English B2B website for industrial underwater inspection and maintenance equipme
 - Enquiries: panda@panpantechnology.com
 - Source repository: https://github.com/PanPanTech/panpanmarine.com
 
-The site contains 42 content routes: five application pillars, twelve equipment models (including three unmanned surface vessels), a tools & accessories page, four manufacturer case studies, support, buying resources, company information, a project-brief form and legal pages, plus a blog hub, three topic pages and three initial buying guides.
+The site contains 50 content routes: five application pillars, nineteen equipment models (including five unmanned surface vessels and two ocean observation systems), a tools & accessories page, four manufacturer case studies, a manufacturer capabilities page, support, buying resources, company information, a project-brief form and legal pages, plus a blog hub, three topic pages and three initial buying guides.
 
 ## Build and preview
 

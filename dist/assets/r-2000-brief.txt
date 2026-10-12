@@ -1,0 +1,16 @@
+R-2000 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 2.2 t heavy work-class ROV rated to 1,000 m, supplied with a tether management system and shore control for subsea engineering, survey and recovery tasks.
+
+Vehicle weight: 2,200 kg
+Depth rating: 1,000 m
+Payload: 100 kg (without TMS)
+Dimensions: 2,500 × 1,400 × 1,500 mm
+Thrusters: 8 (4 horizontal vector + 4 vertical)
+Cameras: Five 1080p; ±90° two-axis pan-tilt
+Power: External tethered supply
+
+Configuration note: The system comprises the vehicle, umbilical management, a tether management system (TMS) and shore control. Heavy systems are quoted per project; the delivered scope and acceptance tests are confirmed item by item.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

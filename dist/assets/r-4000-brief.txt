@@ -1,0 +1,16 @@
+R-4000 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 3.3 t heavy work-class ROV rated to 3,000 m with a 200 kg payload and titanium-alloy frame, for deep-water engineering maintenance and resource exploration.
+
+Vehicle weight: 3,300 kg
+Depth rating: 3,000 m (6,000 m custom on request)
+Payload: 200 kg
+Dimensions: 3,000 × 1,700 × 1,650 mm
+Thrusters: 7 (4 horizontal vector + 3 vertical)
+Cameras: 1080p front, rear, left and right
+Power: External tethered supply
+
+Configuration note: The manufacturer describes a titanium-alloy frame, composite pressure-resistant buoyancy and a high-power electric drive. A 3,000 m rating is not full ocean depth, and the 6,000 m option is offered as custom development rather than an existing delivery. Heavy systems are quoted per project.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

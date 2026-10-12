@@ -1,0 +1,17 @@
+USTL15 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 15 m unmanned transport vessel with at least 1,000 kg payload for offshore supply runs, equipment sea trials and area patrols.
+
+Length: 15 m
+Working speed: ≥ 4 m/s
+Maximum speed: ≥ 6 m/s
+Maximum payload: ≥ 1,000 kg
+Range: ≥ 90 km
+Payload mounting: Side, stern, stern-lifted or towed
+Instrument interfaces: Sonar, multibeam, weather, salinity, radar
+Role: Supply, sea trials, patrol
+
+Configuration note: The manufacturer describes a lightweight composite hull, modular architecture, intelligent energy management, autonomous navigation and obstacle avoidance. Figures follow the 2026 product introduction; earlier brochure entries with conflicting wave ratings are not used.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

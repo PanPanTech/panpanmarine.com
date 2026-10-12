@@ -87,9 +87,59 @@
       "source": "../宣传册-博雅工道海洋科技集团.pdf",
       "pdf_page": 46,
       "note": "Embedded manufacturer rendering (1920x1439) extracted without AI editing and resized; not a project photograph; no official-site page exists"
+    },
+    {
+      "model": "A-30",
+      "local": "dist/assets/a-30.png",
+      "page": "https://www.boyagongdao.com/index/shows?catid=30&id=11",
+      "original": "https://www.boyagongdao.com/public/storage/upload/files/20230821/79dc68ff1125f0a1c3abb89a874bca4f.png",
+      "retrieved_date": "2026-10-12"
+    },
+    {
+      "model": "R-2000",
+      "local": "dist/assets/r-2000.jpg",
+      "source": "../博雅工道产品介绍2026.pdf",
+      "pdf_page": 7,
+      "note": "Embedded manufacturer image extracted from the 2026 product introduction without AI editing; resized only"
+    },
+    {
+      "model": "R-4000",
+      "local": "dist/assets/r-4000.jpg",
+      "source": "../博雅工道产品介绍2026.pdf",
+      "pdf_page": 6,
+      "note": "Embedded manufacturer image extracted from the 2026 product introduction without AI editing; resized only"
+    },
+    {
+      "model": "USOL10",
+      "local": "dist/assets/usol10.jpg",
+      "source": "../博雅工道产品介绍2026.pdf",
+      "pdf_page": 39,
+      "note": "Embedded manufacturer image extracted from the 2026 product introduction without AI editing; resized only"
+    },
+    {
+      "model": "USTL15",
+      "local": "dist/assets/ustl15.jpg",
+      "source": "../博雅工道产品介绍2026.pdf",
+      "pdf_page": 40,
+      "note": "Embedded manufacturer image extracted from the 2026 product introduction without AI editing; resized only"
+    },
+    {
+      "model": "HY-FB-GX01",
+      "local": "dist/assets/hy-fb-gx01.jpg",
+      "source": "../博雅工道产品介绍2026.pdf",
+      "pdf_page": 42,
+      "note": "Embedded manufacturer image extracted from the 2026 product introduction without AI editing; resized only"
+    },
+    {
+      "model": "GL-1300",
+      "local": "dist/assets/gl-1300.jpg",
+      "source": "../博雅工道产品介绍2026.pdf",
+      "pdf_page": 43,
+      "note": "Embedded manufacturer image extracted from the 2026 product introduction without AI editing; resized only"
     }
   ],
   "text_sources": [
+    "../博雅工道产品介绍2026.md",
     "../博雅工道海洋科技集团_宣传册_中文版.md",
     "../博雅工道海洋科技集团_宣传册_英文版.md",
     "../海外代理网站_内容大纲与关键词规划_2026-10-04.md"

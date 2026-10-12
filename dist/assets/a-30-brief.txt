@@ -1,0 +1,16 @@
+A-30 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 35 kg crawler inspection robot that swims, rolls onto a wall and crawls along it, for close inspection of tanks, pools, pipes and structure surfaces to 100 m.
+
+Vehicle weight: 35 kg
+Depth rating: 100 m
+Payload: 3 kgf (test method to confirm)
+Dimensions: 400 × 400 × 300 mm
+Thrusters: 6 (2 horizontal vector + 4 vertical)
+Camera: 1080p; ±90° tilt
+Power: External tethered supply
+
+Configuration note: The manufacturer designs the A-30 for one-person deployment and lists compatibility with a line-tracking system. The 3 kgf payload is expressed as a force; confirm how it was measured. NDT probes, their certification and the inspection procedure are specified per project.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

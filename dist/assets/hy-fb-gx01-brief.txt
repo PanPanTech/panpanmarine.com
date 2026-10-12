@@ -1,0 +1,17 @@
+HY-FB-GX01 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 2 m moored buoy for long-term optical, water-quality and weather observation, designed to stay level in wind and waves.
+
+Buoy diameter: 2 m
+Design draught: 1.25 m
+Water depth: 3–30 m
+Design life: 10 years
+Wind speed: ≤ 60 m/s
+Wave height: ≤ 10 m
+Surface current: ≤ 3.5 m/s
+Temperature: −10 to +55 °C
+
+Configuration note: The system includes the mooring, a custom data logger, wireless transmission, battery and solar panels, data-receiving software and watertight cables. Measured parameters can include air temperature, pressure, wind, humidity, solar radiation, water temperature, conductivity, salinity, turbidity and chlorophyll. Radio certification for the target country is confirmed per project.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

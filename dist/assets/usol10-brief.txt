@@ -1,0 +1,17 @@
+USOL10 — Starting selection brief
+Manufacturer: Boya Gongdao
+
+An 11 m unmanned observation vessel for coastal and offshore monitoring, carrying multibeam, ADCP, CTD and water samplers, with an optional two-person manual mode.
+
+Length: 11 m
+Full-load displacement: 8 t
+Cruise speed: 8 kn (4.1 m/s)
+Endurance: 200 min at 8 kn (to confirm)
+Manual mode: Crewed operation for 2 people
+Communication: Radio and satellite, multi-mode
+Payload wells: Multibeam, ADCP, CTD, water sampler
+Weather sensors: Optional weather station
+
+Configuration note: The manufacturer describes closed-loop operation from mission planning to data return, sea-state tolerance and multi-payload observation. A manual mode allows two crew on board. Communication, payload and operating mode are configured per project.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.
