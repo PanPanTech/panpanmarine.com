@@ -7,3 +7,4 @@
 .brand,.header>.button,.menu-toggle{flex-shrink:0}.header nav a,.header>.button{white-space:nowrap}@media(min-width:1051px){.header nav{flex-wrap:nowrap;align-items:center}}@media(min-width:1051px) and (max-width:1250px){.header nav{gap:16px;font-size:13.5px}}
 .solution-grid{gap:1px;background:var(--line)}.solution-card{border:0!important;background:white}@media(min-width:1151px){.solution-grid.n5{grid-template-columns:repeat(5,minmax(0,1fr))}.solution-grid.n5 .solution-card{padding:24px}.solution-grid.n5 .solution-card h3{font-size:20px}}@media(min-width:651px) and (max-width:1150px){.solution-card:last-child:nth-child(odd){grid-column:1/-1}}
 .product-video{display:block;width:100%;max-width:960px;height:auto;aspect-ratio:16/9;background:#000;margin:30px 0 18px}
+.export-note{margin:0 0 26px;font-size:14px}
