@@ -1,0 +1,17 @@
+USUG-Skaters — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 4.5 m autonomous catamaran for bathymetry, hydraulic-structure inspection and hydrological monitoring, with modular payload bays and an optional ROV and docking station.
+
+Weight: 1.1 ± 0.2 t
+Draught: 50 ± 10 cm
+Minimum water depth: 1 m
+Dimensions: 4.46 × 2.50 × 1.97 m
+Payload: 155 + 100 kg
+Speed: Max 3.3 m/s; economy 1.8 m/s
+Endurance: ≈ 20.5 h / 136 km per charge
+Cameras: Front and rear, up to 2560 × 1440
+
+Configuration note: The USUG-Wharf docking station (automatic charging and return), USUG-R-45 ROV and USUG-Center remote control centre are optional. The manufacturer designs the platform for routine unattended duty; unattended operation must comply with local waterway rules. The meaning of the 155 + 100 kg payload figure is to be confirmed with the manufacturer.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

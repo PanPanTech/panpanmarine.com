@@ -57,6 +57,36 @@
       "page": "https://www.boyagongdao.com/index/shows?catid=30&id=22",
       "original": "https://www.boyagongdao.com/public/storage/upload/files/20230809/c67706ceadd8e32092eb8210bd1e8762.jpg",
       "retrieved_date": "2026-10-11"
+    },
+    {
+      "model": "R-400",
+      "local": "dist/assets/r-400.jpg",
+      "page": "https://www.boyagongdao.com/index/shows?catid=30&id=8",
+      "original": "https://www.boyagongdao.com/public/storage/upload/files/20230809/7350d455de00b860255fe4d1550f0040.jpg",
+      "retrieved_date": "2026-10-11"
+    },
+    {
+      "model": "USUG-Skaters",
+      "local": "dist/assets/usug-skaters.png",
+      "page": "https://www.boyagongdao.com/index/shows?catid=30&id=31",
+      "original": "https://www.boyagongdao.com/public/storage/upload/files/20260417/c687f39009509e3671246f0ed8b86a72.png",
+      "retrieved_date": "2026-10-11",
+      "note": "resized only"
+    },
+    {
+      "model": "S-Cleaner",
+      "local": "dist/assets/s-cleaner.png",
+      "page": "https://www.boyagongdao.com/index/shows?catid=30&id=32",
+      "original": "https://www.boyagongdao.com/public/storage/upload/files/20260515/14c5d0dc5ebd71453cea2c6e836f453f.png",
+      "retrieved_date": "2026-10-11",
+      "note": "resized only"
+    },
+    {
+      "model": "M-Cleaner",
+      "local": "dist/assets/m-cleaner.jpg",
+      "source": "../宣传册-博雅工道海洋科技集团.pdf",
+      "pdf_page": 46,
+      "note": "Embedded manufacturer rendering (1920x1439) extracted without AI editing and resized; not a project photograph; no official-site page exists"
     }
   ],
   "text_sources": [

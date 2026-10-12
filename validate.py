@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parent
 DIST=ROOT/'dist'
 routes=json.loads((DIST/'page-manifest.json').read_text(encoding='utf-8'))
 posts=load_posts(ROOT)
-expected=29+1+len(CATEGORIES)+len(posts)
+expected=35+1+len(CATEGORIES)+len(posts)
 assert len(routes)==expected, f'Expected {expected} routes, got {len(routes)}'
 assert len({p['title'] for p in routes})==len(routes), 'Duplicate page titles'
 errors=[]

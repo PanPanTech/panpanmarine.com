@@ -1,0 +1,17 @@
+M-Cleaner — Starting selection brief
+Manufacturer: Boya Gongdao
+
+A 5.3 m autonomous cleaning vessel with a 500 kg debris capacity for harbours, coastal waters within 2 km of shore, lakes and reservoirs, including algae and floating waste.
+
+Weight: 1.5 t
+Draught: ≤ 80 cm
+Minimum water depth: 1 m
+Dimensions: 5.3 × 2.4 × 2.5 m
+Debris capacity: ≥ 500 kg
+Rated coverage: ≥ 26,700 m²/h
+Speed: Max 2.1 m/s; economy 1 m/s
+Endurance: ≈ 5 h per run
+
+Configuration note: The manufacturer describes automatic charging and full-load detection, and optional modules for water-quality and hydrological measurement, bathymetry and reservoir-capacity surveys, security patrol and water rescue. Confirm which modules are available for the supplied version. Oil-film collection is a manufacturer-described capability, not a certification as oil-spill response equipment.
+
+Confirm current specifications and delivered scope with the manufacturer before purchase.

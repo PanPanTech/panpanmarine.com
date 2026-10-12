@@ -9,7 +9,7 @@
   {
     "path": "/solutions/",
     "title": "Underwater Robotics Applications",
-    "description": "Explore industrial inspection, long-distance tunnel inspection, underwater trash-rack cleaning and sump dredging.",
+    "description": "Explore industrial inspection, long-distance tunnel inspection, underwater trash-rack cleaning, sump dredging and water-surface cleaning.",
     "noindex": false,
     "lastmod": null
   },
@@ -42,9 +42,16 @@
     "lastmod": null
   },
   {
+    "path": "/solutions/water-surface-cleaning/",
+    "title": "Autonomous water-surface cleaning",
+    "description": "Choosing a surface-cleaning vessel depends on the water area, the type and volume of debris, shore facilities for docking and charging, and whether local rules allow unmanned operation.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
     "path": "/equipment/",
     "title": "Underwater Inspection & Cleaning Equipment",
-    "description": "Compare portable, inspection and light work-class ROVs, a crawler robot, tunnel inspection, cleaning and dredging equipment by application and starting specifications.",
+    "description": "Compare inspection and work-class ROVs, a crawler robot, tunnel inspection, cleaning and dredging equipment and unmanned surface vessels by application and starting specifications.",
     "noindex": false,
     "lastmod": null
   },
@@ -105,6 +112,34 @@
     "lastmod": null
   },
   {
+    "path": "/equipment/r-400-work-class-rov/",
+    "title": "R-400 Work-class ROV",
+    "description": "A 520 kg work-class ROV rated to 800 m, with a 50 kg payload and 12 thrusters for offshore wind foundations, subsea cables and hydropower tasks.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/equipment/usug-skaters-unmanned-survey-vessel/",
+    "title": "USUG-Skaters Unmanned survey vessel",
+    "description": "A 4.5 m autonomous catamaran for bathymetry, hydraulic-structure inspection and hydrological monitoring, with modular payload bays and an optional ROV and docking station.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/equipment/s-cleaner-surface-cleaning-vessel/",
+    "title": "S-Cleaner Surface cleaning vessel",
+    "description": "A 2 m autonomous catamaran that detects and collects floating debris in harbours, reservoirs, rivers and scenic waters, using lidar and cameras to avoid obstacles.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/equipment/m-cleaner-surface-cleaning-vessel/",
+    "title": "M-Cleaner Large surface cleaning vessel",
+    "description": "A 5.3 m autonomous cleaning vessel with a 500 kg debris capacity for harbours, coastal waters within 2 km of shore, lakes and reservoirs, including algae and floating waste.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
     "path": "/equipment/rov-tools-accessories/",
     "title": "ROV Tools & Accessories",
     "description": "Manipulator arms, intervention tools, sensors, thrusters and release hooks from the manufacturer\u2019s ROV accessory range. Check compatibility before ordering.",
@@ -114,7 +149,7 @@
   {
     "path": "/case-studies/",
     "title": "Underwater Robotics Manufacturer Case Studies",
-    "description": "Manufacturer project references from China for long-distance tunnel inspection, underwater intake cleaning and hydropower crawler inspection.",
+    "description": "Manufacturer project references from China for long-distance tunnel inspection, underwater intake cleaning, hydropower crawler inspection and fishing-port surface cleaning.",
     "noindex": false,
     "lastmod": null
   },
@@ -136,6 +171,13 @@
     "path": "/case-studies/hydropower-dam-crawler-inspection/",
     "title": "Dual-mode crawler inspection of hydropower structures in China",
     "description": "The supplied manufacturer brochure describes the development of a dual-mode (swimming and crawling) underwater inspection robot for China Yangtze Power, for inspection of submerged hydropower structures.",
+    "noindex": false,
+    "lastmod": null
+  },
+  {
+    "path": "/case-studies/fishing-port-surface-cleaning/",
+    "title": "Autonomous surface cleaning at a fishing port in China",
+    "description": "The supplied manufacturer brochure describes routine surface cleaning by an S-Cleaner vessel at the Yazhou central fishing port in Sanya, China.",
     "noindex": false,
     "lastmod": null
   },
