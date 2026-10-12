@@ -87,8 +87,8 @@ def write(path,title,description,body,noindex=False,schema_extra=None,og_type='w
 <meta property="og:type" content="{og_type}"><meta property="og:url" content="{ORIGIN}{path}"><meta property="og:site_name" content="{B}"><meta property="og:image" content="{ORIGIN}/assets/{og_image}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title,quote=True)}"><meta name="twitter:description" content="{esc(description,quote=True)}"><meta name="twitter:image" content="{ORIGIN}/assets/{og_image}">
 <link rel="alternate" type="application/rss+xml" title="PanPan Marine Blog" href="{ORIGIN}/blog/feed.xml">
-<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="stylesheet" href="/assets/site.css?v=20261012"><link rel="stylesheet" href="/assets/blog.css?v=20261010">
-<script type="application/ld+json">{json.dumps(schema)}</script>{extra_ld}<script defer src="/assets/site.js?v=20261011"></script></head>
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="stylesheet" href="/assets/site.css?v=20261013"><link rel="stylesheet" href="/assets/blog.css?v=20261013">
+<script type="application/ld+json">{json.dumps(schema)}</script>{extra_ld}<script defer src="/assets/site.js?v=20261013"></script></head>
 <body>{header(path)}<main id="main">{body}</main>{footer()}</body></html>'''
  dest.write_text(html,encoding='utf-8')
 
@@ -221,7 +221,7 @@ write('/terms/','Website Terms','Technical information, manufacturer attribution
 render_blog(ROOT,BLOG_POSTS,write,intro,cta,ORIGIN,C['legal_company'],C['brand'])
 
 # A useful 404 is operational, separate from the content routes.
-notfound='<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | '+B+'</title><link rel="stylesheet" href="/assets/site.css?v=20261012"><body>'+header('')+'<main class="wrap section"><p class="eyebrow">404 / PAGE NOT FOUND</p><h1>Let’s find your route.</h1><p class="lead">This page is unavailable. Explore the equipment or start with your application.</p>'+button('Explore equipment','/equipment/')+'</main>'+footer()+'<script src="/assets/site.js?v=20261011"></script></body></html>'
+notfound='<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | '+B+'</title><link rel="stylesheet" href="/assets/site.css?v=20261013"><body>'+header('')+'<main class="wrap section"><p class="eyebrow">404 / PAGE NOT FOUND</p><h1>Let’s find your route.</h1><p class="lead">This page is unavailable. Explore the equipment or start with your application.</p>'+button('Explore equipment','/equipment/')+'</main>'+footer()+'<script src="/assets/site.js?v=20261013"></script></body></html>'
 (DIST/'404.html').write_text(notfound,encoding='utf-8')
 (DIST/'page-manifest.json').write_text(json.dumps(PAGES,indent=2),encoding='utf-8')
 (DIST/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /thank-you/\n'+('Sitemap: '+ORIGIN+'/sitemap.xml\n' if ORIGIN else ''),encoding='utf-8')

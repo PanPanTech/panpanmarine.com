@@ -1,6 +1,12 @@
 'use strict';
 (() => {
   const inquiryEndpoint = 'https://inquiry.panpantechnology.com/api/inquiries';
+  const header = document.querySelector('header.header');
+  if (header) {
+    const mark = () => header.classList.toggle('scrolled', window.scrollY > 8);
+    mark();
+    window.addEventListener('scroll', mark, {passive:true});
+  }
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.getElementById('navigation');
   if (toggle && nav) {
