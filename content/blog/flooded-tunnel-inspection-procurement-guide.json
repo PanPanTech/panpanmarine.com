@@ -30,7 +30,7 @@
     {
       "id": "range-evidence",
       "title": "3. Separate nominal range from an achievable inspection mission",
-      "html": "<p>The <a href=\"https://www.boyagongdao.com/index/shows?catid=32&amp;id=23\">official AD-400 product page</a> states a maximum operation distance of <strong>5 km</strong>. The supplied manufacturer brochure lists <strong>5.5 km</strong>, including a long-tunnel project reference. These figures are different statements from different materials. Neither is a guarantee of suitability for any tunnel.</p><p>Do not silently choose the larger figure. Request the current vehicle version, tether and power configuration, basis of the stated range, relevant test record and conditions attached to the proposed mission. Intended route length, tether length and inspected coverage should be identified separately.</p><p>A route with bends, constrictions or deposited material requires its own assessment. Procurement should ask what evidence supports the offered configuration under comparable conditions and where its scope ends. Consult the <a href=\"/equipment/ad-400-tunnel-inspection-rov/\">AD-400 equipment page</a> for the published starting specifications, then resolve the deliverable range in the written proposal.</p>"
+      "html": "<p>The manufacturer's current <a href=\"/equipment/ad-400-tunnel-inspection-rov/\">AD-400</a> product information states a maximum operation distance of <strong>5 km</strong>. The supplied manufacturer brochure lists <strong>5.5 km</strong>, including a long-tunnel project reference. These figures are different statements from different materials. Neither is a guarantee of suitability for any tunnel.</p><p>Do not silently choose the larger figure. Request the current vehicle version, tether and power configuration, basis of the stated range, relevant test record and conditions attached to the proposed mission. Intended route length, tether length and inspected coverage should be identified separately.</p><p>A route with bends, constrictions or deposited material requires its own assessment. Procurement should ask what evidence supports the offered configuration under comparable conditions and where its scope ends. Consult the <a href=\"/equipment/ad-400-tunnel-inspection-rov/\">AD-400 equipment page</a> for the published starting specifications, then resolve the deliverable range in the written proposal.</p>"
     },
     {
       "id": "complete-system",
@@ -60,7 +60,7 @@
     {
       "id": "manufacturer-reference",
       "title": "9. Use the manufacturer tunnel reference as evidence to investigate",
-      "html": "<p>The supplied brochure attributes a 5.5 km hydropower diversion-tunnel development project to the manufacturer and China Southern Power Grid. The manufacturer's <a href=\"https://www.boyagongdao.com/index/shows?catid=26&amp;id=18\">official project report</a> describes acceptance work, long-distance umbilical engineering and motion, sensing and return-related development. It is a manufacturer reference in China, not an overseas delivery by PanPan Marine.</p><p>Use that reference to request the original configuration, relevant records and conditions. Identify which development features are present in the system currently offered and which need additional work. A reference can show that a technical approach has been investigated; it does not transfer every reported result to a different tunnel.</p><p>The <a href=\"/case-studies/long-distance-water-tunnel-inspection/\">manufacturer tunnel case page</a> separates the reported project context from questions a buyer should resolve for a comparable application.</p>"
+      "html": "<p>The supplied brochure attributes a 5.5 km hydropower diversion-tunnel development project to the manufacturer and China Southern Power Grid. The manufacturer's project report, summarised in our <a href=\"/case-studies/long-distance-water-tunnel-inspection/\">tunnel case study</a>, describes acceptance work, long-distance umbilical engineering and motion, sensing and return-related development. It is a manufacturer reference in China, not an overseas delivery by PanPan Marine.</p><p>Use that reference to request the original configuration, relevant records and conditions. Identify which development features are present in the system currently offered and which need additional work. A reference can show that a technical approach has been investigated; it does not transfer every reported result to a different tunnel.</p><p>The <a href=\"/case-studies/long-distance-water-tunnel-inspection/\">manufacturer tunnel case page</a> separates the reported project context from questions a buyer should resolve for a comparable application.</p>"
     },
     {
       "id": "prepare-the-request",
@@ -92,12 +92,12 @@
   ],
   "sources": [
     {
-      "title": "Boya Gongdao: official AD-400 product information",
-      "url": "https://www.boyagongdao.com/index/shows?catid=32&id=23"
+      "title": "Manufacturer product information: AD-400",
+      "url": ""
     },
     {
-      "title": "Boya Gongdao: long-tunnel underwater robot development project acceptance report",
-      "url": "https://www.boyagongdao.com/index/shows?catid=26&id=18"
+      "title": "Manufacturer document: long-tunnel underwater robot development project acceptance report",
+      "url": ""
     }
   ],
   "related_paths": [

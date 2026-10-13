@@ -36,6 +36,7 @@ for r in routes:
  if not p.meta.get('description'):errors.append(f'{path}: missing description')
  for im in p.images:
   if not im.get('alt'):errors.append(f'{path}: missing image alt')
+ if re.search(r'boyagongdao|roboocean\.com|robosea',html,re.I):errors.append(f'{path}: links or refers to the manufacturer website')
  for ref in p.refs:
   u=urlparse(ref)
   if u.scheme or u.netloc:continue

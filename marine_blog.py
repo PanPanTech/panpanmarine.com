@@ -14,6 +14,10 @@ CATEGORIES = {
 }
 
 
+# Never send visitors to the manufacturer's own websites.
+BLOCKED_LINK_DOMAINS = ('boyagongdao.com', 'roboocean.com', 'robosea')
+
+
 def article_path(post):
     return '/blog/' + post['slug'] + '/'
 
@@ -123,7 +127,7 @@ def render_blog(root, posts, write, intro, cta, origin, company, brand):
             html = s['html'] if 'class="table-scroll"' in s['html'] else re.sub(r'(<table\b.*?</table>)', r'<div class="table-scroll">\1</div>', s['html'], flags=re.S | re.I)
             body += f'<section id="{s["id"]}"><h2>{escape(s["title"])}</h2>{html}</section>'
         body += '<section id="faq"><h2>Frequently asked questions</h2><div class="faq">' + ''.join(f'<details><summary>{escape(f["question"])}</summary><p>{escape(f["answer"])}</p></details>' for f in p['faq']) + '</div></section>'
-        sources = ''.join('<li>' + (f'<a href="{escape(s["url"], quote=True)}" rel="noopener">{escape(s["title"])}</a>' if s.get('url') else escape(s['title'])) + (f' — {escape(s["note"])}' if s.get('note') else '') + '</li>' for s in p['sources'])
+        sources = ''.join('<li>' + (f'<a href="{escape(s["url"], quote=True)}" rel="noopener">{escape(s["title"])}</a>' if s.get('url') and not any(d in s['url'] for d in BLOCKED_LINK_DOMAINS) else escape(s['title'])) + (f' — {escape(s["note"])}' if s.get('note') else '') + '</li>' for s in p['sources'])
         body += '<section class="blog-source-note" id="sources"><h2>Sources &amp; scope</h2><ul>' + sources + '</ul><p>This guide offers procurement-planning guidance. Manufacturer specifications, site feasibility and contractual responsibilities are confirmed for the proposed system; this page is not an operating procedure.</p></section></div></article>'
         other = [a for a in posts if a['slug'] != p['slug']][:2]
         body += '<section class="section band"><div class="wrap"><p class="eyebrow">CONTINUE YOUR RESEARCH</p><h2>Related buying guides.</h2>' + cards(other) + '</div></section>' + cta()

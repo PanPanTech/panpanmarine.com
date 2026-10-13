@@ -40,7 +40,7 @@
     {
       "id": "r30-r45-comparison",
       "title": "5. Compare R-30 and R-45 as starting platforms",
-      "html": "<p>The supplied Boya Gongdao brochure offers a useful initial comparison. The <a href=\"https://www.boyagongdao.com/index/shows?catid=30&amp;id=5\">official R-30 page</a> emphasizes a compact, modular observation platform, while the <a href=\"https://www.boyagongdao.com/index/shows?catid=30&amp;id=4\">R-45 page</a> emphasizes carrying additional equipment. Confirm the current supplied version before treating brochure figures as contractual specifications.</p><div class=\"table-scroll\"><table><caption>Manufacturer brochure figures for initial screening</caption><thead><tr><th scope=\"col\">Consideration</th><th scope=\"col\">R-30</th><th scope=\"col\">R-45</th></tr></thead><tbody><tr><th scope=\"row\">Vehicle weight</th><td>21 kg</td><td>42 kg</td></tr><tr><th scope=\"row\">Dimensions</th><td>500 × 398 × 356 mm</td><td>675 × 500 × 445 mm</td></tr><tr><th scope=\"row\">Depth rating</th><td>300 m</td><td>350 m</td></tr><tr><th scope=\"row\">Listed payload</th><td>3 kg</td><td>8 kg</td></tr><tr><th scope=\"row\">Power approach</th><td>External tethered supply</td><td>External tethered supply</td></tr></tbody></table></div><p>A smaller vehicle may suit tighter access and simpler handling; more payload allowance may support a larger sensing package. Neither conclusion replaces an integration check. Include mounts, connectors, buoyancy, power demand and software compatibility in the payload review. Ask for a drawing of the delivered arrangement and its tested limits. Review the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> and <a href=\"/equipment/r-45-inspection-rov/\">R-45 equipment pages</a> alongside your site brief.</p>"
+      "html": "<p>The supplied Boya Gongdao brochure offers a useful initial comparison. The manufacturer's <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> information emphasizes a compact, modular observation platform, while the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> information emphasizes carrying additional equipment. Confirm the current supplied version before treating brochure figures as contractual specifications.</p><div class=\"table-scroll\"><table><caption>Manufacturer brochure figures for initial screening</caption><thead><tr><th scope=\"col\">Consideration</th><th scope=\"col\">R-30</th><th scope=\"col\">R-45</th></tr></thead><tbody><tr><th scope=\"row\">Vehicle weight</th><td>21 kg</td><td>42 kg</td></tr><tr><th scope=\"row\">Dimensions</th><td>500 × 398 × 356 mm</td><td>675 × 500 × 445 mm</td></tr><tr><th scope=\"row\">Depth rating</th><td>300 m</td><td>350 m</td></tr><tr><th scope=\"row\">Listed payload</th><td>3 kg</td><td>8 kg</td></tr><tr><th scope=\"row\">Power approach</th><td>External tethered supply</td><td>External tethered supply</td></tr></tbody></table></div><p>A smaller vehicle may suit tighter access and simpler handling; more payload allowance may support a larger sensing package. Neither conclusion replaces an integration check. Include mounts, connectors, buoyancy, power demand and software compatibility in the payload review. Ask for a drawing of the delivered arrangement and its tested limits. Review the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> and <a href=\"/equipment/r-45-inspection-rov/\">R-45 equipment pages</a> alongside your site brief.</p>"
     },
     {
       "id": "field-system",
@@ -97,12 +97,12 @@
   ],
   "sources": [
     {
-      "title": "Boya Gongdao official R-30 product page",
-      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=5"
+      "title": "Manufacturer product information: R-30",
+      "url": ""
     },
     {
-      "title": "Boya Gongdao official R-45 product page",
-      "url": "https://www.boyagongdao.com/index/shows?catid=30&id=4"
+      "title": "Manufacturer product information: R-45",
+      "url": ""
     },
     {
       "title": "NOAA National Ocean Service: What is sonar?",
