@@ -1,0 +1,127 @@
+{
+  "status": "published",
+  "slug": "tunnel-inspection-without-dewatering",
+  "title": "Penstock and Headrace Tunnel Inspection Without Dewatering: A Planning Guide",
+  "description": "When can a flooded penstock or headrace tunnel be inspected without draining it? Compare wet and dry inspection, then plan flow, access, tether, positioning, recovery and deliverables.",
+  "category_slug": "tunnel-inspection",
+  "primary_keyword": "tunnel inspection without dewatering",
+  "related_keywords": [
+    "penstock inspection ROV",
+    "headrace tunnel inspection",
+    "flooded tunnel ROV inspection",
+    "hydropower tunnel inspection",
+    "water tunnel inspection without draining"
+  ],
+  "published_at": "2026-10-21",
+  "updated_at": "2026-10-21",
+  "image": "ad-400.jpg",
+  "alt": "Manufacturer rendering of the AD-400 long-distance tunnel inspection ROV",
+  "answer": "A flooded tunnel can often be inspected without draining it, but rarely without changing how it operates. Most wet inspections still need flow stopped or reduced, a safe access point, a planned tether route, a way to locate findings and an agreed recovery plan. Wet inspection is well suited to screening condition and finding defects; some measurements and repairs still need a dry tunnel. Decide what the inspection must prove before choosing the method.",
+  "sections": [
+    {
+      "id": "why-wet",
+      "title": "1. Why owners look for alternatives to dewatering",
+      "html": "\n<p>Draining a headrace tunnel or penstock takes the plant out of service, often for days or weeks, and refilling has to be controlled carefully. For some structures the dewatering itself changes the loads on the lining. Owners therefore ask whether an underwater inspection can screen condition first, so that a full outage is only planned when it is justified.</p>\n<p>Remotely operated vehicles make this possible for many tunnels. The question is not whether an ROV can enter the tunnel, but whether the inspection it delivers is good enough for the decision the owner has to make.</p>\n<p>Wet inspection also changes the rhythm of maintenance. Instead of one large inspection during a rare outage, owners can screen condition more frequently and track changes between surveys. That only works if each survey is repeatable, which is why positioning, defect coding and data storage deserve as much attention as the vehicle.</p>"
+    },
+    {
+      "id": "wet-vs-dry",
+      "title": "2. What wet inspection can and cannot show",
+      "html": "\n<table><thead><tr><th>Question</th><th>Wet inspection (ROV)</th><th>Dry inspection</th></tr></thead><tbody>\n<tr><td>Where are the visible defects?</td><td>Yes, where visibility and standoff allow; sonar helps in turbid water</td><td>Yes, with direct access</td></tr>\n<tr><td>How large is a crack or spall?</td><td>Possible with scaled imagery or measuring tools; accuracy must be agreed</td><td>Direct measurement</td></tr>\n<tr><td>Is there debris or sediment?</td><td>Yes, including approximate volume with sonar</td><td>Yes</td></tr>\n<tr><td>Is the lining hollow or delaminated behind the surface?</td><td>Limited; needs specific methods agreed in advance</td><td>Sounding and NDT methods available</td></tr>\n<tr><td>Can repairs be made?</td><td>Limited underwater repairs only</td><td>Full repair options</td></tr>\n</tbody></table>\n<p>A common strategy is to use wet inspection to map condition and decide where, when and whether a dry outage is needed.</p>"
+    },
+    {
+      "id": "penstock-vs-headrace",
+      "title": "3. Penstocks and headrace tunnels are different problems",
+      "html": "\n<p>A headrace tunnel is often long, large in section and lined with concrete or rock. Its challenges are distance, bends, debris and positioning over kilometres. A penstock is usually a steel or concrete pressure conduit, steeper, sometimes smaller in diameter, with bends, bifurcations and valves. Its challenges are access, gradient and the consequences of a stuck vehicle.</p>\n<p>Treat every penstock as a separate engineering review. Capability demonstrated in a long, gently sloping tunnel does not automatically transfer to a steep pressure conduit, and the reverse is also true.</p>"
+    },
+    {
+      "id": "existing-records",
+      "title": "4. Start with the records you already have",
+      "html": "\n<p>Collect drawings, previous inspection reports, repair records and operating history before planning the inspection. Previous dry inspections show where defects were found and repaired; operating records may show changes in head loss, leakage or vibration that point to particular sections. Survey drawings give the route length, cross-sections, bends and gradients that determine the tether and vehicle requirements.</p>\n<p>If records are incomplete, plan a reconnaissance run first. A short run with a compact vehicle can confirm access, visibility and debris before the full inspection is mobilised.</p>"
+    },
+    {
+      "id": "flow-and-isolation",
+      "title": "5. Flow: the decision that comes first",
+      "html": "\n<p>“Without dewatering” usually means “without draining”, not “while the plant is running”. An ROV inspecting a tunnel normally needs the flow stopped or reduced to a level agreed in the method statement. Turbines must be isolated and gates secured, and the owner’s procedures for working in water passages apply.</p>\n<p>Agree in writing the maximum flow during the inspection, how it will be measured, who controls the gates and how the inspection team will be told if conditions change. These are site safety questions as much as equipment questions.</p>"
+    },
+    {
+      "id": "access-and-launch",
+      "title": "6. Access and launch",
+      "html": "\n<p>Identify every possible entry point: intake, gate shaft, surge tank, adit or draft tube. For each one, record the opening size, the height above water, crane or lifting options and the space for the control station and tether reel. The fully equipped vehicle must pass through the opening with clearance, and the team must be able to recover it the same way.</p>\n<p>Long tunnels may need launching from one end and recovery planning at another. Make sure the plan includes the worst case: a vehicle that cannot return under its own power.</p>\n<p>Plan the surface area as carefully as the entry point. The control station, tether reel, power supply and lifting equipment need a secure, level space with weather protection, and the team needs a clear line of communication with the plant control room. Record the walking route between the launch point and the control station; long cable runs on the surface are a common source of delay.</p>"
+    },
+    {
+      "id": "debris-and-sediment",
+      "title": "7. Debris, sediment and visibility",
+      "html": "\n<p>Flooded tunnels often contain sediment on the invert, fallen lining material, timber or other debris. Debris can block the route or snag the tether, and disturbed sediment can reduce visibility to near zero. Ask the owner for any history of debris, rock falls or sediment build-up, and plan for poor visibility from the start.</p>\n<p>Sonar is the usual answer where cameras cannot see. Imaging sonar helps the pilot navigate and recognise features; profiling or multibeam sonar can map the tunnel cross-section and estimate sediment volumes. Agree which outputs are needed, because each sensor adds weight, cost and processing time.</p>"
+    },
+    {
+      "id": "distance-and-tether",
+      "title": "8. Distance, tether and power",
+      "html": "\n<p>For long tunnels, the tether is the system. It must carry power and data over the full distance, be stored and paid out without damage, and survive contact with the tunnel wall at bends. Drag increases with length, so the vehicle needs enough thrust to pull its tether through the route.</p>\n<p>The <a href=\"/equipment/ad-400-tunnel-inspection-rov/\">AD-400</a> is designed for this task. The manufacturer’s current product information lists a maximum operating distance of 5 km, while its brochure describes a 5.5 km project. Treat neither figure as a guarantee for an arbitrary tunnel; confirm the supplied version, the route and the acceptance test.</p>"
+    },
+    {
+      "id": "positioning",
+      "title": "9. Locating what you find",
+      "html": "\n<p>A defect is only useful if the owner can find it again. Agree how chainage along the tunnel will be referenced: tether pay-out, inertial navigation, acoustic positioning, visual markers or a combination. Each method has an uncertainty that grows with distance. State the accuracy you need and ask the supplier how it will be demonstrated.</p>\n<p>Agree a defect coding scheme before the inspection, so that every finding is recorded with its position, type, size estimate and image or sonar reference.</p>\n<p>Plan how video, sonar and position data will be synchronised. If each system records on its own clock, matching a sonar feature to the video frame and the chainage can take days of post-processing. A common time reference set at the start of each run avoids that problem and makes the defect register far more reliable.</p>"
+    },
+    {
+      "id": "recovery",
+      "title": "10. Plan the recovery before the inspection",
+      "html": "\n<p>The most serious risk in tunnel work is a vehicle that cannot return: a snagged tether, a loss of power or communication, a fall of debris. The method statement should describe the response to each, the retrieval equipment available and who is responsible for each step.</p>\n<p>Ask the supplier what the vehicle does on loss of communication, how the tether can be used for recovery, and whether a second vehicle or diver intervention is part of the plan. The manufacturer describes emergency return and tether-release functions in its long-tunnel development work; confirm what is included in the configuration you are quoted.</p>"
+    },
+    {
+      "id": "team-and-schedule",
+      "title": "11. Team, schedule and outage window",
+      "html": "\n<p>A wet inspection still needs a planned window. Typical steps are mobilisation and set-up, a function test at the entry point, the inspection runs themselves, recovery, and demobilisation. Long tunnels may need several runs, with time for data checks between them. Build in contingency for weather, access delays and repeat runs where visibility was poor.</p>\n<p>Agree who is on site and their roles: pilot, tether tender, data recorder, the owner’s representative and the person authorised to change plant conditions. If the inspection team is new to the system, include training and a trial run at an easier site before the critical inspection.</p>"
+    },
+    {
+      "id": "deliverables",
+      "title": "12. Deliverables and acceptance",
+      "html": "\n<p>Agree the deliverables in the contract, not after the inspection:</p>\n<ul>\n<li>Continuous recorded video with time and position references.</li>\n<li>Sonar data where visibility is poor, with the processing method stated.</li>\n<li>A defect register with positions, types, estimated dimensions and images.</li>\n<li>A coverage statement: what was inspected, what was not and why.</li>\n<li>Raw data in agreed formats, stored locally under the owner’s control.</li>\n</ul>\n<p>Our downloadable <a href=\"/resources/tunnel-inspection-project-checklist/\">tunnel inspection project checklist</a> covers these items in more detail.</p>\n<p>Agree in advance how the owner will review the results: a preliminary summary at the end of each day, a draft defect register within an agreed period and a final report. Early feedback lets the team repeat a section while still mobilised if something important was missed.</p>"
+    },
+    {
+      "id": "references",
+      "title": "13. What manufacturer references show",
+      "html": "\n<p>The manufacturer reports an AD-400 development project for China Southern Power Grid’s energy-storage business, delivered in August 2023, covering a 5.5 km headrace tunnel and reporting a 40% shorter single-inspection cycle. It also reports R-30 inspection of a water-conveyance tunnel in Beijing without stopping the water supply. See our <a href=\"/case-studies/long-distance-water-tunnel-inspection/\">tunnel case study</a> for what these references do and do not establish.</p>\n<p>These are manufacturer references, not projects delivered by PanPan Marine. Use them to ask better questions: request the route, the conditions, the data and the recovery arrangements behind each claim.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a penstock be inspected while the turbine is running?",
+      "answer": "Generally no. Inspection is planned with the unit isolated and flow stopped or reduced to an agreed level, under the owner’s safety procedures. Draining is often avoided, but operation usually is not."
+    },
+    {
+      "question": "How long a tunnel can an ROV inspect?",
+      "answer": "It depends on the vehicle, the tether system, the route geometry and the flow. Specialist long-tunnel systems such as the AD-400 are listed for several kilometres; confirm the figure for your route and the supplied version."
+    },
+    {
+      "question": "Can an underwater inspection replace a dry inspection?",
+      "answer": "Often it can screen condition and decide whether a dry outage is needed. Some measurements, hidden defects and most repairs still require a dry tunnel."
+    },
+    {
+      "question": "How are defects located in a long tunnel?",
+      "answer": "By combining references such as tether pay-out, inertial navigation, acoustic positioning and visual markers. Agree the required accuracy and how it will be demonstrated before the inspection."
+    },
+    {
+      "question": "What happens if the ROV gets stuck?",
+      "answer": "The method statement should define the response to snagging, power loss and communication loss, including tether-assisted recovery and backup retrieval options. Confirm what the quoted system includes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: AD-400 and R-30",
+      "url": "",
+      "note": "Operating distance and project references as reported by the manufacturer; the product information and brochure give different distances (5 km and 5.5 km)."
+    },
+    {
+      "title": "Manufacturer project report: long-tunnel underwater robot development",
+      "url": "",
+      "note": "Reported by the manufacturer; not a project delivered by PanPan Marine."
+    }
+  ],
+  "related_paths": [
+    "/equipment/ad-400-tunnel-inspection-rov/",
+    "/solutions/underwater-tunnel-inspection/",
+    "/case-studies/long-distance-water-tunnel-inspection/",
+    "/resources/tunnel-inspection-project-checklist/"
+  ]
+}

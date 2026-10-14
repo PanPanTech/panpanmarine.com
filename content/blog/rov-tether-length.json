@@ -1,0 +1,72 @@
+{
+  "status": "published",
+  "slug": "rov-tether-length",
+  "title": "How Long Should an ROV Tether Be?",
+  "description": "Estimate ROV tether length from depth, horizontal distance, route and slack, and understand the trade-offs: drag, power, handling and buoyancy.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "ROV tether length",
+  "related_keywords": [
+    "ROV umbilical length",
+    "ROV tether drag",
+    "neutrally buoyant tether",
+    "ROV tether management"
+  ],
+  "published_at": "2026-10-22",
+  "updated_at": "2026-10-22",
+  "image": "r-150.png",
+  "alt": "Manufacturer rendering of the R-150 light work-class ROV",
+  "answer": "Add the vertical depth, the horizontal distance from the launch point to the furthest target and the extra length needed for the route, then add slack so the vehicle is never pulling against a tight tether. Do not simply order the longest tether available: more length means more drag, more voltage drop and heavier handling equipment. Ask the supplier to confirm the length against your route and current.",
+  "sections": [
+    {
+      "id": "estimate",
+      "title": "A simple way to estimate length",
+      "html": "\n<p>Start with three numbers: the maximum depth, the horizontal distance from the launch point to the furthest point you need to inspect, and any extra route length caused by obstacles, bends or the need to approach from a particular side. Add a slack allowance so the tether can lie in a loose curve rather than a straight line.</p>\n<p>Treat the slack allowance as a planning assumption to be confirmed with the supplier. In open water with current, a tether bows downstream and uses more length than the straight-line distance. In a tunnel, every bend adds length and contact points.</p>\n<p>If you work from a vessel rather than a fixed quay, include the vessel’s movement: drift, the distance between the launch point and the work area, and the extra length needed if the vessel has to hold off a structure.</p>"
+    },
+    {
+      "id": "worked-example",
+      "title": "A worked example",
+      "html": "\n<p>Suppose you need to inspect an intake structure 40 m deep, 120 m from the quay where the control station will sit, with a moderate current across the route. The straight-line distance is about 126 m. Allow extra length for the tether to bow in the current and to reach both sides of the structure, plus slack at the vehicle. With these planning assumptions the working length could reasonably be in the range of 180–200 m, before adding the length needed on the quay between reel and water.</p>\n<p>The numbers are illustrative only. The point is to write down each component, so the supplier can check the assumption against the tether type, the current and the vehicle’s thrust.</p>"
+    },
+    {
+      "id": "trade-offs",
+      "title": "Why longer is not always better",
+      "html": "\n<ul>\n<li><strong>Drag.</strong> Every metre of tether in the water adds drag, especially in current. The vehicle must have enough thrust to pull it.</li>\n<li><strong>Power.</strong> Voltage drops over distance. Long tethers may need higher transmission voltage or a different power design.</li>\n<li><strong>Data.</strong> Long runs may need fibre optics rather than copper for video and sonar data.</li>\n<li><strong>Handling.</strong> A longer tether means a larger, heavier reel and more deck or quayside space.</li>\n</ul>"
+    },
+    {
+      "id": "buoyancy",
+      "title": "Neutral or negative buoyancy?",
+      "html": "\n<p>A neutrally buoyant tether floats in mid-water and is less likely to snag on the bottom, which suits most inspection work. A negatively buoyant tether sinks, which can help in some current conditions or when the tether must stay clear of the surface. Ask the supplier which type is proposed and why.</p>\n<p>In tunnels and around structures, consider how the tether will lie against walls and edges. Abrasion-resistant jackets and protective sleeves at known contact points reduce wear, and the tender should know where the tether is likely to rub.</p>"
+    },
+    {
+      "id": "management",
+      "title": "Tether management",
+      "html": "\n<p>For observation-class vehicles, a powered reel and a trained tender are usually enough. For heavier systems and deeper work, a tether management system (TMS) lets a heavy main umbilical take the load while the vehicle works on a shorter, lighter excursion tether. The <a href=\"/equipment/r-2000-heavy-work-class-rov/\">R-2000</a> is supplied with a TMS. For long tunnels, tether storage and pay-out are part of the core design; see the <a href=\"/solutions/underwater-tunnel-inspection/\">tunnel inspection guide</a>.</p>\n<p>For payload and thrust considerations, see our <a href=\"/blog/inspection-rov-payload-capacity/\">guide to ROV payload capacity</a>.</p>\n<p>Whatever the length, inspect the tether before every job. Look for cuts, kinks, crushed sections and damaged connectors, and keep a record of the tether’s condition and length after any repair. Many in-water faults start at the tether.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I add tether length later?",
+      "answer": "Sometimes, but power, data and reel capacity set limits. It is better to specify the longest route you expect to work on at the start and confirm the system supports it."
+    },
+    {
+      "question": "Does tether length affect video quality?",
+      "answer": "It can if the data link is not designed for the distance. Long runs may need fibre-optic data transmission. Ask how the quoted system handles the full length."
+    },
+    {
+      "question": "Who handles the tether on site?",
+      "answer": "Usually a tender who pays out and recovers the tether to keep it clear of obstacles. Heavier systems use powered reels or a tether management system."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-150, R-2000 and AD-400",
+      "url": "",
+      "note": "System composition as described by the manufacturer."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-150-light-work-class-rov/",
+    "/equipment/r-2000-heavy-work-class-rov/",
+    "/solutions/underwater-tunnel-inspection/"
+  ]
+}

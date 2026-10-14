@@ -1,0 +1,137 @@
+{
+  "status": "published",
+  "slug": "dam-inspection-rov-vs-crawler",
+  "title": "Dam Inspection: When to Use a Swimming ROV and When to Use a Crawler",
+  "description": "Compare free-swimming ROVs and crawler robots for dam, intake and gate inspection: flow, surface condition, coverage, data and deployment. Includes a decision table.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "dam inspection robot",
+  "related_keywords": [
+    "dam inspection ROV",
+    "crawler ROV",
+    "underwater crawler robot",
+    "hydropower dam underwater inspection",
+    "intake inspection robot"
+  ],
+  "published_at": "2026-10-23",
+  "updated_at": "2026-10-23",
+  "image": "a-400.jpg",
+  "alt": "Manufacturer rendering of the A-400 crawler inspection robot with tracks and thrusters",
+  "answer": "Use a free-swimming ROV when you need to cover many structures quickly in calm water and a stable standoff view is enough. Use a crawler, or a robot that both swims and crawls, when you must hold position on a surface in flow or turbulence, inspect large areas systematically, or bring a camera or tool very close to the surface. The surface itself — concrete, steel, fouling, geometry — decides whether crawling is practical.",
+  "sections": [
+    {
+      "id": "what-owners-need",
+      "title": "1. What a dam owner needs from an underwater inspection",
+      "html": "\n<p>Underwater inspections of dams usually cover the upstream face, intakes and trash racks, gates and gate slots, joints and seals, and scour downstream of spillways and outlets. The owner typically needs to know where defects are, how large they are, whether they are changing over time, and whether any need urgent action.</p>\n<p>The answer to “which robot?” starts with that list. A rapid visual survey of several intakes has different needs from a systematic map of a large concrete face.</p>\n<p>Record what is already known: previous inspection reports, construction drawings, known defects, repairs and any changes in seepage or instrumentation readings. Previous findings tell the team where to look first and allow the new inspection to show whether conditions are changing.</p>"
+    },
+    {
+      "id": "swimming-rov",
+      "title": "2. How a free-swimming ROV inspects",
+      "html": "\n<p>A free-swimming ROV such as the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> flies through the water using its thrusters, holding a chosen distance from the surface. It is quick to deploy, can move between structures easily and can look at surfaces from any angle.</p>\n<p>Its limitation is station-keeping. In flow or turbulence near intakes and outlets, the vehicle has to work continuously to hold position, and the camera view may drift. Very close inspection is harder because thrust wash can stir up sediment and reduce visibility.</p>\n<p>Free-swimming vehicles are also the natural choice for exploratory work: confirming what is there, finding the worst areas and recording general condition. Compact vehicles such as the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> can be deployed by one person and moved quickly between intakes, gates and outlets.</p>"
+    },
+    {
+      "id": "crawler",
+      "title": "3. How a crawler works",
+      "html": "\n<p>A crawler holds onto the surface and moves along it on tracks. Because it is in contact with the structure, it can keep a steady position and a constant camera distance, which helps systematic coverage and close-up imagery. It can also provide a stable base for tools.</p>\n<p>Crawling is slower and depends on the surface. Adhesion may come from thrust pressing the vehicle against the wall, from suction or from other methods; the method affects which surfaces and flow conditions are practical. Ask the supplier how the crawler holds on and what it has been tested on.</p>\n<p>Because a crawler moves in a controlled path on the surface, it can cover an area in overlapping lanes, much like a lawn mower. That makes it easier to demonstrate coverage and to repeat the same lanes in later surveys.</p>"
+    },
+    {
+      "id": "dual-mode",
+      "title": "4. Robots that do both",
+      "html": "\n<p>Some vehicles combine both modes: they swim to the structure and then crawl on it. The <a href=\"/equipment/a-400-crawler-inspection-robot/\">A-400</a> is a 400 kg dual-mode robot rated to 300 m that switches between free swimming and tracked crawling. For confined spaces and pool or tank walls, the <a href=\"/equipment/a-30-crawler-inspection-robot/\">A-30</a> is a 35 kg crawler that can roll onto a wall and crawl along it. The <a href=\"/equipment/a-80-cleaning-robot/\">A-80</a> uses the same principle for cleaning.</p>"
+    },
+    {
+      "id": "decision-table",
+      "title": "5. A decision table",
+      "html": "\n<table><thead><tr><th>Situation</th><th>Free-swimming ROV</th><th>Crawler / dual-mode</th></tr></thead><tbody>\n<tr><td>Quick survey of several structures</td><td>Good fit</td><td>Slower</td></tr>\n<tr><td>Holding position in flow near intakes</td><td>Difficult</td><td>Better, subject to adhesion and tested limits</td></tr>\n<tr><td>Systematic coverage of a large face</td><td>Possible with careful piloting</td><td>Good fit</td></tr>\n<tr><td>Very close imagery or contact tools</td><td>Limited</td><td>Good fit</td></tr>\n<tr><td>Heavily fouled or irregular surfaces</td><td>Unaffected</td><td>May be limited; test first</td></tr>\n<tr><td>Small access openings</td><td>Compact ROVs fit</td><td>Depends on crawler size</td></tr>\n<tr><td>Deployment effort</td><td>Low for small ROVs</td><td>Higher for large crawlers</td></tr>\n</tbody></table>"
+    },
+    {
+      "id": "intakes-and-racks",
+      "title": "6. Intakes and trash racks",
+      "html": "\n<p>Intakes combine several of the hardest conditions at once: flow towards the opening, debris on the racks, poor visibility and steel structures with complex geometry. A free-swimming ROV can survey the approach and the rack face if flow is reduced, but it must stay well clear of the opening. Agree with the owner how the intake will be isolated and what minimum distance the vehicle must keep.</p>\n<p>Where the task is cleaning rather than inspection, the choice moves to contact cleaning robots such as the <a href=\"/equipment/a-80-cleaning-robot/\">A-80</a>. Our <a href=\"/solutions/underwater-trash-rack-cleaning/\">trash-rack cleaning guide</a> covers rack spacing, deposits and acceptance tests.</p>"
+    },
+    {
+      "id": "gates-and-slots",
+      "title": "7. Gates, gate slots and seals",
+      "html": "\n<p>Gates and their slots are among the most demanding parts of a dam to inspect underwater. Leakage paths, damaged seals, debris in slots and wear on guides are often small features in confined geometry. A compact ROV can reach many of these areas; a crawler that can hold onto steel surfaces can give steadier close-up views. The manufacturer’s A-80 animation also shows crawler-based leak detection and sealing at gates as a concept; treat that as a topic to discuss with the supplier, with its own tools, procedure and site review.</p>"
+    },
+    {
+      "id": "downstream-scour",
+      "title": "8. Downstream scour",
+      "html": "\n<p>Below spillways and outlets, the question is usually scour: how much material has been removed and whether foundations are exposed. Sonar is often more useful than video here, because turbulence and sediment reduce visibility. A free-swimming ROV with profiling or multibeam sonar can map the area; crawling is rarely practical on loose or uneven beds. Survey vessels can cover larger areas from the surface where water depth allows.</p>"
+    },
+    {
+      "id": "flow",
+      "title": "9. Flow and turbulence",
+      "html": "\n<p>Flow is often the deciding factor. Near intakes, outlets and spillways, even modest velocities make a swimming vehicle work hard to stay in place. A crawler in contact with the surface may cope better, but its limit depends on adhesion, the surface and the direction of flow.</p>\n<p>Agree the flow conditions for the inspection with the owner, and ask the supplier for the tested limits of the configuration being quoted. Operating windows with reduced flow are often the practical answer.</p>"
+    },
+    {
+      "id": "surface",
+      "title": "10. Surface condition matters",
+      "html": "\n<p>Smooth concrete, rough concrete, steel plates, joints and heavy biological growth behave very differently under tracks. Steps, openings and protruding fittings can stop a crawler or require it to detach and swim around. Provide drawings and recent photographs of the surfaces, and expect a crawler supplier to ask detailed questions about them. If growth hides the surface, cleaning may be needed before inspection.</p>\n<p>Concrete age and condition also matter. Older structures may have soft or eroded surfaces, exposed aggregate or reinforcement, and repaired patches with different textures. Tracks that grip well on sound concrete may slip on eroded areas or damage weak surfaces. If the owner is concerned about surface damage, agree a trial on a representative area before full coverage, and record the condition of the trial area before and after.</p>"
+    },
+    {
+      "id": "data",
+      "title": "11. Data, positioning and repeat surveys",
+      "html": "\n<p>The value of an underwater inspection grows when it can be repeated and compared. Agree how positions will be referenced on the structure, how defects will be coded and how data will be stored. The manufacturer describes logged inspection records on the A-400 intended for comparing surveys over time; request sample data before relying on this for asset reporting.</p>\n<p>For repeat surveys, keep the same vehicle settings where possible: camera standoff, lighting, lane spacing and speed. Changes in these settings can make a defect look different between surveys even when it has not changed. Record the settings with the data so that the next team can reproduce them.</p>"
+    },
+    {
+      "id": "combined-campaign",
+      "title": "12. Combining methods in one campaign",
+      "html": "\n<p>Many owners use more than one platform. A compact ROV performs a quick survey to find areas of concern; a crawler then inspects those areas systematically or with tools; sonar maps scour and sediment. Planning the campaign this way keeps the slower, heavier system focused where it adds most value.</p>\n<p>Make sure the outputs from each platform share the same position reference and defect coding, so that the owner receives one consistent record rather than separate reports. Agree the data formats and the structure of the final report before the campaign starts.</p>"
+    },
+    {
+      "id": "deployment",
+      "title": "13. Deployment and logistics",
+      "html": "\n<p>A compact ROV can often be carried to the dam crest or a gate platform by two people and lowered by hand. A 400 kg dual-mode robot needs a crane or hoist, a secure lifting point, a tether reel with enough capacity and a larger crew. Before choosing a crawler, confirm that the dam has a suitable lifting point near each work area and that the vehicle can be recovered quickly if conditions change.</p>\n<p>Plan power supply, weather protection for the control station and communication with the dam operator. On large dams, moving between work areas can take longer than the inspection itself, so sequence the work to minimise relocations.</p>"
+    },
+    {
+      "id": "reference",
+      "title": "14. A manufacturer reference",
+      "html": "\n<p>The manufacturer reports developing a dual-mode inspection robot for China Yangtze Power to inspect submerged hydropower structures, with a purchase contract in September 2021, delivery in June 2022 and in-water testing with operator training in July 2022. Our <a href=\"/case-studies/hydropower-dam-crawler-inspection/\">crawler inspection case study</a> explains what this reference establishes. It is a manufacturer reference, not a project delivered by PanPan Marine.</p>"
+    },
+    {
+      "id": "questions",
+      "title": "15. Questions to ask suppliers",
+      "html": "\n<ul>\n<li>How does the crawler hold onto the surface, and what surfaces has it been tested on?</li>\n<li>What flow conditions has the quoted configuration been tested in?</li>\n<li>What is the coverage rate for the camera standoff we need?</li>\n<li>How are positions and defects recorded, and in what formats?</li>\n<li>What lifting, access and crew are needed to deploy and recover it?</li>\n<li>What happens if the vehicle detaches or loses power?</li>\n</ul>\n<p>Send the answers you already know with your <a href=\"/request-a-proposal/\">project brief</a>; they shorten the configuration review.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a crawler always better for dam inspection?",
+      "answer": "No. A swimming ROV is quicker for surveys of several structures in calm water. A crawler is better when holding position on a surface, systematic coverage or close contact matters."
+    },
+    {
+      "question": "Can a crawler climb a vertical dam face?",
+      "answer": "Crawlers designed for wall work can move on vertical surfaces, depending on how they adhere and on the surface condition. Ask for tested surfaces and limits for the quoted configuration."
+    },
+    {
+      "question": "Can crawlers work in flowing water?",
+      "answer": "Often better than swimming vehicles, but within limits set by adhesion, surface and flow direction. Agree inspection flow conditions with the owner and confirm tested limits with the supplier."
+    },
+    {
+      "question": "What does a dual-mode robot add?",
+      "answer": "It can swim to the structure and then crawl on it, combining access with stable close inspection. It is usually larger and needs more deployment equipment than a small ROV."
+    },
+    {
+      "question": "Do I need sonar for dam inspection?",
+      "answer": "Where visibility is poor, sonar helps navigation and feature recognition. It does not replace close visual inspection where fine detail is needed. Choose sensors around the result you must deliver."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: A-400, A-30, A-80 and R-45",
+      "url": "",
+      "note": "Specifications and motion modes from the manufacturer’s 2026 product introduction."
+    },
+    {
+      "title": "Manufacturer project reference: dual-mode hydropower inspection robot",
+      "url": "",
+      "note": "Reported by the manufacturer; not a project delivered by PanPan Marine."
+    }
+  ],
+  "related_paths": [
+    "/equipment/a-400-crawler-inspection-robot/",
+    "/equipment/a-30-crawler-inspection-robot/",
+    "/equipment/r-45-inspection-rov/",
+    "/case-studies/hydropower-dam-crawler-inspection/"
+  ]
+}

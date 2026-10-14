@@ -5,17 +5,32 @@ from html import escape, unescape
 from math import ceil
 from pathlib import Path
 import json
+import os
 import re
 
 CATEGORIES = {
     'equipment-selection': ('Equipment selection', 'Compare inspection tasks, sensing, payloads and the complete field system before requesting a quotation.'),
     'tunnel-inspection': ('Tunnel inspection', 'Plan flooded-tunnel procurement around route geometry, usable inspection evidence and a reviewed recovery approach.'),
     'cleaning-dredging': ('Cleaning & dredging', 'Identify whether your task involves surface deposits or loose sediment, then specify the tools and supporting system.'),
+    'offshore-subsea': ('Offshore & subsea', 'Plan offshore wind, cable and subsea structure work around the deliverable, the ROV class and the launch and recovery arrangement.'),
+    'surface-water': ('Surface vessels & survey', 'Specify unmanned surface vessels for floating-debris collection and bathymetric survey, including shore facilities and local approvals.'),
 }
+
+
+def active_categories(posts):
+    """Only categories with at least one published post get a topic page and a navigation tab."""
+    used = {p['category_slug'] for p in posts}
+    return {slug: value for slug, value in CATEGORIES.items() if slug in used}
 
 
 # Never send visitors to the manufacturer's own websites.
 BLOCKED_LINK_DOMAINS = ('boyagongdao.com', 'roboocean.com', 'robosea')
+
+
+def build_date():
+    """Publication cut-off. BLOG_BUILD_DATE=YYYY-MM-DD previews scheduled posts locally."""
+    override = os.environ.get('BLOG_BUILD_DATE')
+    return date.fromisoformat(override) if override else date.today()
 
 
 def article_path(post):
@@ -34,6 +49,8 @@ def load_posts(root):
         post = json.loads(filename.read_text(encoding='utf-8-sig'))
         if post.get('status', 'draft') != 'published':
             continue
+        if date.fromisoformat(post['published_at']) > build_date():
+            continue  # scheduled: published by the daily rebuild on that date
         required = ('slug', 'title', 'description', 'category_slug', 'answer', 'image', 'alt', 'sections', 'faq', 'sources', 'published_at', 'updated_at')
         for key in required:
             if not post.get(key):
@@ -88,8 +105,8 @@ def related_guide(posts, category):
     return f'<section class="wrap section blog-related-note"><p class="eyebrow">DEEPER PROCUREMENT GUIDANCE</p><h2>{escape(p["title"])}</h2><p>{escape(p["description"])}</p><a class="text-link" href="{article_path(p)}">Read the buying guide</a></section>'
 
 
-def topic_nav(active=''):
-    links = [('','All guides')] + [(slug, name) for slug, (name, _) in CATEGORIES.items()]
+def topic_nav(active='', categories=None):
+    links = [('','All guides')] + [(slug, name) for slug, (name, _) in (categories or CATEGORIES).items()]
     return '<nav class="blog-topics" aria-label="Blog topics">' + ''.join(f'<a href="/blog/{"topics/" + slug + "/" if slug else ""}" {"aria-current=\"page\"" if active == slug else ""}>{escape(name)}</a>' for slug, name in links) + '</nav>'
 
 
@@ -98,16 +115,17 @@ def breadcrumbs(origin, parts):
 
 
 def render_blog(root, posts, write, intro, cta, origin, company, brand):
+    cats = active_categories(posts)
     body = intro('BLOG / BUYING GUIDES', 'Better briefs.<br>Better equipment decisions.', 'Practical guidance for teams buying underwater inspection, cleaning and dredging equipment.')
-    body += '<section class="wrap section"><div class="blog-index-heading"><p>Start with your task, then review the configuration, evidence and responsibilities behind the quotation.</p><a class="text-link" href="/blog/feed.xml">Follow the RSS feed</a></div>' + topic_nav() + cards(posts) + '</section>'
+    body += '<section class="wrap section"><div class="blog-index-heading"><p>Start with your task, then review the configuration, evidence and responsibilities behind the quotation.</p><a class="text-link" href="/blog/feed.xml">Follow the RSS feed</a></div>' + topic_nav('', cats) + cards(posts) + '</section>'
     body += '<section class="wrap section two-col"><div><p class="eyebrow">TECHNICAL RESOURCES</p><h2>Keep the working documents close.</h2><p>Use the sensing guide and downloadable project checklist alongside these buying guides.</p><a class="text-link" href="/resources/">Open technical resources</a></div><div><p class="eyebrow">OUR EDITORIAL APPROACH</p><h2>Source, scope and configuration.</h2><p>Guides distinguish manufacturer information from project-planning recommendations. Figures and product suitability are checked against the supplied version and proposed application.</p><a class="text-link" href="/about/">About PanPan Marine</a></div></section>' + cta()
     collection = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'PanPan Marine Blog', 'url': origin + '/blog/', 'mainEntity': {'@type': 'ItemList', 'itemListElement': [dict({'@type': 'ListItem'}, position=i, url=origin + article_path(p), name=p['title']) for i, p in enumerate(posts, 1)]}}
     lastmod = max((p['updated_at'] for p in posts), default=None)
     write('/blog/', 'Underwater Robotics Blog & Buying Guides', 'Buying guides for industrial inspection ROVs, flooded tunnel inspection, underwater cleaning and dredging systems.', body, schema_extra=[collection, breadcrumbs(origin, [('Home','/'), ('Blog','/blog/')])], lastmod=lastmod)
-    for slug, (name, description) in CATEGORIES.items():
+    for slug, (name, description) in cats.items():
         selected = [p for p in posts if p['category_slug'] == slug]
         body = intro('BLOG / ' + name.upper(), name + ' guides', description)
-        body += '<section class="wrap section">' + topic_nav(slug) + cards(selected) + '</section>' + cta()
+        body += '<section class="wrap section">' + topic_nav(slug, cats) + cards(selected) + '</section>' + cta()
         # A useful navigation page; index once the topic has a substantial collection.
         write('/blog/topics/' + slug + '/', name + ' Buying Guides', description, body, noindex=len(selected) < 3, lastmod=max((p['updated_at'] for p in selected), default=None))
     for p in posts:

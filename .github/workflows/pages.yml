@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Daily rebuild publishes blog posts scheduled for that date (00:05 UTC = 08:05 Beijing).
+    - cron: "5 0 * * *"
 
 permissions:
   contents: read

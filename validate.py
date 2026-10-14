@@ -5,13 +5,13 @@ from urllib.request import urlopen
 import json
 import re
 import xml.etree.ElementTree as ET
-from marine_blog import load_posts, CATEGORIES, article_path
+from marine_blog import load_posts, active_categories, article_path
 
 ROOT=Path(__file__).resolve().parent
 DIST=ROOT/'dist'
 routes=json.loads((DIST/'page-manifest.json').read_text(encoding='utf-8'))
 posts=load_posts(ROOT)
-expected=43+1+len(CATEGORIES)+len(posts)
+expected=43+1+len(active_categories(posts))+len(posts)
 assert len(routes)==expected, f'Expected {expected} routes, got {len(routes)}'
 assert len({p['title'] for p in routes})==len(routes), 'Duplicate page titles'
 errors=[]

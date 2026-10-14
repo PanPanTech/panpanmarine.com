@@ -1,0 +1,77 @@
+{
+  "status": "published",
+  "slug": "rov-depth-rating-explained",
+  "title": "What an ROV Depth Rating Does — and Doesn’t — Tell You",
+  "description": "An ROV depth rating describes the vehicle’s pressure housings, not the whole system. Learn what else limits working depth and how to specify depth correctly.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "ROV depth rating",
+  "related_keywords": [
+    "ROV working depth",
+    "ROV maximum depth",
+    "inspection ROV depth",
+    "ROV for shallow water"
+  ],
+  "published_at": "2026-10-20",
+  "updated_at": "2026-10-20",
+  "image": "r-30.png",
+  "alt": "Manufacturer rendering of the R-30 inspection ROV, rated to 300 m",
+  "answer": "A depth rating tells you the depth the vehicle’s housings are designed for. It does not tell you whether every sensor and tool is rated to the same depth, whether the tether is long enough, or whether the vehicle can work in the current and visibility at your site. Specify the working depth with a margin, then check every component and the site conditions against it.",
+  "sections": [
+    {
+      "id": "what-it-covers",
+      "title": "What a depth rating covers",
+      "html": "\n<p>The depth rating on an ROV datasheet describes the pressure the vehicle’s sealed housings, connectors and buoyancy material are designed to withstand. The <a href=\"/equipment/r-20-portable-inspection-rov/\">R-20</a> is rated to 150 m, the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> to 300 m and the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> to 350 m. These figures tell you where the vehicle itself can safely go.</p>\n<p>Ask whether the rating is the maximum design depth or a recommended working depth, and whether it has been tested. Manufacturers use different conventions, and the safe working depth may be lower than the figure on the cover page.</p>"
+    },
+    {
+      "id": "what-it-does-not",
+      "title": "What it does not tell you",
+      "html": "\n<ul>\n<li><strong>Sensor and tool ratings.</strong> A sonar, camera or manipulator added to the vehicle may have a lower rating than the vehicle. The system is only as deep as its shallowest component.</li>\n<li><strong>Tether length.</strong> Reaching 300 m depth from a quay or vessel needs more than 300 m of tether, plus horizontal distance and slack.</li>\n<li><strong>Current and visibility.</strong> A site 20 m deep with strong current and turbid water can be harder than a calm site at 200 m.</li>\n<li><strong>Positioning.</strong> Deeper work usually needs better positioning to make the results usable.</li>\n</ul>\n<p>The same applies to the surface equipment. A deep-rated vehicle on a short tether, or with a positioning system designed for shallow water, cannot deliver deep work in practice.</p>"
+    },
+    {
+      "id": "other-depth-effects",
+      "title": "Depth changes more than pressure",
+      "html": "\n<p>As depth increases, light falls away quickly, water temperature drops and positioning becomes harder. Below the reach of daylight, the vehicle’s own lights set what the camera can see, so lighting power and placement matter as much as the camera. Cold water can affect battery performance on battery-powered vehicles and the flexibility of tethers. If you plan to work deep, include lighting, temperature and positioning in the conversation with your supplier, not only the housing rating.</p>"
+    },
+    {
+      "id": "margin-and-testing",
+      "title": "Margin and testing",
+      "html": "\n<p>A sensible approach is to choose a system whose working depth comfortably exceeds your deepest planned task, and to ask how the rating was verified. Pressure testing of housings and connectors, and the date of the last test or service, are reasonable questions for any supplier. Seals and connectors are maintenance items; a depth rating assumes they are in good condition.</p>"
+    },
+    {
+      "id": "shallow-but-hard",
+      "title": "Shallow sites can be the hardest",
+      "html": "\n<p>Many infrastructure inspections take place in less than 50 m of water: intakes, piers, harbour walls, reservoirs and tunnels. Depth rating is rarely the limiting factor there. Flow near intakes, debris, poor visibility and limited access usually decide which vehicle can do the job. In these cases thrust, size, payload and tether handling deserve more attention than the maximum depth.</p>"
+    },
+    {
+      "id": "how-to-specify",
+      "title": "How to specify depth correctly",
+      "html": "\n<p>In your brief, state the maximum working depth, the expected current, the visibility and the distance from the launch point. Ask the supplier to confirm the rating of every proposed component and to propose a tether length that covers the route with margin. If you expect to work deeper in future, say so; it is cheaper to plan for it than to replace components later.</p>\n<p>For the wider picture, see our <a href=\"/blog/inspection-rov-payload-capacity/\">guide to ROV payload capacity</a> and our <a href=\"/blog/industrial-inspection-rov-selection-guide/\">industrial inspection ROV selection guide</a>.</p>\n<p>A short written statement of depth, current, visibility, distance and access makes quotations from different suppliers comparable and avoids paying for depth capability you will never use.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I use a 300 m ROV at 300 m?",
+      "answer": "Only if the rating is a working depth and every sensor, connector and tool is rated at least as deep, and the tether and positioning support that depth. Ask the supplier to confirm the margin for your configuration."
+    },
+    {
+      "question": "Do I need a deep-rated ROV for shallow work?",
+      "answer": "Usually not. For shallow infrastructure work, thrust, size, payload, visibility and tether handling usually matter more than depth rating."
+    },
+    {
+      "question": "Does depth rating affect price?",
+      "answer": "Deeper ratings generally require stronger housings, connectors and buoyancy material, which affects cost and weight. Specify the depth you need with a sensible margin rather than the deepest rating available."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-20, R-30 and R-45",
+      "url": "",
+      "note": "Depth ratings from the manufacturer’s 2026 product introduction."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-20-portable-inspection-rov/",
+    "/equipment/r-30-inspection-rov/",
+    "/equipment/r-45-inspection-rov/"
+  ]
+}

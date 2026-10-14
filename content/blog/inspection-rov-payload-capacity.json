@@ -1,0 +1,117 @@
+{
+  "status": "published",
+  "slug": "inspection-rov-payload-capacity",
+  "title": "How Much Payload Does an Inspection ROV Really Need?",
+  "description": "Work out the payload an inspection ROV must carry: in-water weight, trim, tether drag and the sensors your inspection result needs. Includes a worksheet and R-30/R-45 example.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "ROV payload capacity",
+  "related_keywords": [
+    "inspection ROV payload",
+    "ROV sensor integration",
+    "ROV in-water weight",
+    "R-30 vs R-45 payload",
+    "how to add sonar to an ROV"
+  ],
+  "published_at": "2026-10-19",
+  "updated_at": "2026-10-19",
+  "image": "r-45.png",
+  "alt": "Manufacturer rendering of the R-45 inspection ROV, which has an 8 kg brochure payload",
+  "answer": "Size payload from the result you need, not from the largest number on a datasheet. List every sensor, tool and mounting part, convert each to its in-water weight, add margin for trim and buoyancy changes, then check that the vehicle can still hold position against current and tether drag. A brochure payload is a starting point; the supplier should confirm the integrated configuration, its trim and its power and data connections before you order.",
+  "sections": [
+    {
+      "id": "what-payload-means",
+      "title": "1. What “payload” means on an ROV specification",
+      "html": "\n<p>On an ROV datasheet, payload usually describes how much additional equipment the vehicle can carry while remaining controllable. Manufacturers do not always define it the same way. Some quote the extra weight in water that the buoyancy and thrusters can support; others quote a mounting allowance measured in air. Before comparing two vehicles, ask how the figure is defined and whether it assumes a particular configuration.</p>\n<p>The distinction matters because equipment that is heavy in air may be light in water, and the reverse can be true for compact, dense items. A sonar head, a manipulator or a battery pack each displaces a different volume of water. The figure that affects the vehicle is the in-water weight after buoyancy is taken into account, together with where that weight sits relative to the vehicle’s centre of buoyancy.</p>\n<p>For example, the manufacturer brochures list a 3 kg payload for the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> and 8 kg for the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a>. Those figures help you shortlist, but they are not a promise that any particular sensor will integrate. They should be read alongside the delivered configuration, the mounting points and the power and data interfaces.</p>"
+    },
+    {
+      "id": "start-from-result",
+      "title": "2. Start from the inspection result, not the sensor list",
+      "html": "\n<p>Payload questions often begin with a shopping list: a sonar, a gripper, a positioning system, extra lights. A better starting point is the evidence the inspection must deliver. Write down the structure, the condition you need to find, the coverage required and the format of the report your client or asset owner will accept.</p>\n<p>Once the result is defined, each item on the list has to justify its place. An imaging sonar may be essential in turbid water but unnecessary in clear reservoirs. A positioning system is only worth carrying if the report must locate defects against a reference. A cleaning brush is useful if marine growth hides the surface you need to see. Removing items you do not need is the quickest way to recover payload margin.</p>\n<p>This approach also makes quotations easier to compare. Two suppliers can only quote like for like if both are configuring a system to the same result. Our <a href=\"/blog/industrial-inspection-rov-selection-guide/\">guide to choosing an industrial inspection ROV</a> covers the wider selection process.</p>"
+    },
+    {
+      "id": "typical-items",
+      "title": "3. Typical payload items and what to confirm for each",
+      "html": "\n<p>The table below lists equipment commonly added to inspection ROVs. Weights vary widely between models, so the useful question for each item is what the supplier must confirm, not a generic number.</p>\n<table><thead><tr><th>Item</th><th>Why it is carried</th><th>What to confirm</th></tr></thead><tbody>\n<tr><td>Imaging or scanning sonar</td><td>Navigation and feature recognition in poor visibility</td><td>In-water weight, mounting position, power draw, data channel in the tether</td></tr>\n<tr><td>Multibeam sonar</td><td>Bathymetry and profiles around structures</td><td>Weight, motion reference and positioning needed for usable data</td></tr>\n<tr><td>Positioning (USBL or similar)</td><td>Locating the vehicle and defects against a reference</td><td>Vehicle transponder weight, surface equipment, achievable accuracy on site</td></tr>\n<tr><td>Gripper or manipulator</td><td>Recovering small objects, holding position, simple tasks</td><td>Weight, reach, reaction forces and effect on trim</td></tr>\n<tr><td>Extra lighting or cameras</td><td>Coverage and image quality at distance</td><td>Power budget, heat, mounting and recording</td></tr>\n<tr><td>Measurement tools (laser scale, thickness gauge)</td><td>Quantifying defect size or material condition</td><td>Calibration, standoff distance, data output</td></tr>\n<tr><td>Cleaning brush or water jet</td><td>Removing growth before inspection</td><td>Reaction forces, power or hydraulic supply</td></tr>\n</tbody></table>\n<p>Our <a href=\"/equipment/rov-tools-accessories/\">ROV tools and accessories</a> page lists the manipulator arms, sensors and measuring devices available in the manufacturer’s range. Compatibility with each vehicle is confirmed per enquiry.</p>"
+    },
+    {
+      "id": "in-water-weight",
+      "title": "4. Why in-water weight and trim matter more than air weight",
+      "html": "\n<p>An inspection ROV is usually trimmed to be close to neutrally buoyant, often slightly positive so that it rises if power is lost. Adding equipment changes both the total buoyancy and the balance. If a heavy sonar is mounted at the front, the vehicle may pitch nose-down and need constant thrust to stay level, which reduces the thrust available for manoeuvring.</p>\n<p>Suppliers correct this with buoyancy blocks, ballast or relocation of equipment. Each correction has limits. Extra buoyancy foam increases size and drag; extra ballast reduces the margin for further equipment. Ask the supplier to describe how the proposed configuration will be trimmed and whether the vehicle will still have spare capacity after trimming.</p>\n<p>Water density also matters. A vehicle trimmed in a freshwater reservoir will be more buoyant in seawater. If you work in both, confirm how the vehicle is re-trimmed between sites.</p>"
+    },
+    {
+      "id": "hidden-loads",
+      "title": "5. Current, tether drag and the payload you do not see",
+      "html": "\n<p>The datasheet payload assumes calm conditions. On a real site the vehicle also has to overcome water current and the drag of its tether. A long tether in a current can pull harder on the vehicle than the equipment it carries. A vehicle loaded close to its payload limit may have little thrust left to hold station against that pull.</p>\n<p>This is why payload, thrust and tether length should be reviewed together. A larger vehicle with more thrust may be the better choice for a site with current, even if the sensor package is modest. If your work includes long tunnels, the <a href=\"/solutions/underwater-tunnel-inspection/\">tunnel inspection guide</a> explains why tether management is planned as part of the system.</p>"
+    },
+    {
+      "id": "power-and-data",
+      "title": "6. Power and data: the other half of payload",
+      "html": "\n<p>Weight is only one constraint. Every sensor and tool also needs power and a way to send its data to the surface. Small inspection ROVs have a limited number of spare power outputs and data channels, and the tether has a fixed capacity. A sonar, a positioning transponder and an extra camera may each fit within the weight allowance but together exceed the spare electrical or data capacity.</p>\n<p>Ask the supplier for the vehicle’s spare power outputs, voltages and current limits, the number and type of spare data channels (serial, Ethernet or video), and the bandwidth available over the tether at the length you need. High-bandwidth sensors such as multibeam sonar may need Ethernet or fibre rather than a simple serial link.</p>\n<p>Software matters too. A sensor that works electrically still needs a driver or interface in the control software to display, record and synchronise its data with video. Confirm whether the sensor is already supported, whether its data is time-stamped against the video, and in which formats it can be exported for your report.</p>"
+    },
+    {
+      "id": "r30-r45-example",
+      "title": "7. Worked example: R-30 or R-45?",
+      "html": "\n<p>The R-30 and R-45 show how payload shapes a shortlist. Both are tethered observation-class vehicles with 1080p cameras, 4× optical zoom and ±90° tilt. The difference is size and allowance.</p>\n<table><thead><tr><th></th><th>R-30</th><th>R-45</th></tr></thead><tbody>\n<tr><td>Vehicle weight</td><td>21 kg</td><td>42 kg</td></tr>\n<tr><td>Depth rating</td><td>300 m</td><td>350 m</td></tr>\n<tr><td>Brochure payload</td><td>3 kg</td><td>8 kg</td></tr>\n<tr><td>Dimensions</td><td>500 × 398 × 356 mm</td><td>675 × 500 × 445 mm</td></tr>\n<tr><td>Deployment (manufacturer)</td><td>One person</td><td>Two people</td></tr>\n</tbody></table>\n<p>As a planning starting point, the R-30 suits camera-led inspections with a compact sonar or a light measuring tool, especially where access is tight and one-person handling matters. The R-45 suits tasks that combine several sensors, such as sonar with positioning, or a gripper with extra lighting. In both cases the supplier should confirm the integrated weight, trim and interfaces for the exact equipment proposed.</p>\n<p>The manufacturer reports R-45 work at an offshore wind farm with multibeam sonar, a sub-bottom profiler and a magnetometer, and R-30 work in a water-conveyance tunnel with an HD camera, multibeam sonar, pipe sonar and a laser scale. These are manufacturer references, not projects delivered by PanPan Marine.</p>"
+    },
+    {
+      "id": "step-up",
+      "title": "8. When to step up to a light work-class ROV",
+      "html": "\n<p>If the worksheet in the next sections shows that your equipment, margin and site conditions exceed an observation-class allowance, the next step is a light work-class vehicle. The <a href=\"/equipment/r-150-light-work-class-rov/\">R-150</a> is listed with a 20 kg payload and the <a href=\"/equipment/r-400-work-class-rov/\">R-400</a> with 50 kg, with more thrusters to handle current and tooling.</p>\n<p>Stepping up has consequences beyond the vehicle. Heavier ROVs need mechanical launch and recovery, more deck or quayside space, larger power supplies and a bigger crew. Compare the complete deployment requirements, not only the payload figure.</p>"
+    },
+    {
+      "id": "common-mistakes",
+      "title": "9. Common payload mistakes",
+      "html": "\n<ul>\n<li><strong>Adding air weights.</strong> Summing catalogue weights in air overstates some items and understates others. Use in-water figures.</li>\n<li><strong>Forgetting mounting hardware.</strong> Brackets, cables, connectors and protective frames all add weight and drag.</li>\n<li><strong>Ignoring future additions.</strong> If you expect to add a sensor next year, reserve the margin now.</li>\n<li><strong>Testing in a tank, working in current.</strong> A configuration that trims well in still water may struggle on site. Ask for a test that represents your conditions.</li>\n<li><strong>Assuming integration is included.</strong> Mechanical fit, power, data and software integration may be priced separately or excluded.</li>\n</ul>"
+    },
+    {
+      "id": "supplier-confirmation",
+      "title": "10. How to get a payload confirmation from the supplier",
+      "html": "\n<p>Ask the supplier to confirm, in writing, the following for the configuration being quoted:</p>\n<ul>\n<li>How the payload figure is defined (in water or in air, and for which configuration).</li>\n<li>The in-water weight of each proposed item and the total.</li>\n<li>Where each item will be mounted and how the vehicle will be trimmed.</li>\n<li>Power and data channels used by each item, and any spare capacity.</li>\n<li>The expected effect on speed and station-keeping, and any test performed with the complete package.</li>\n<li>Which items are standard, optional or custom, and how they appear in the quotation.</li>\n</ul>\n<p>If a sensor is supplied by a third party, agree who is responsible for integration, software and data recording. Integration responsibility is one of the most common gaps between quotations.</p>"
+    },
+    {
+      "id": "payload-worksheet",
+      "title": "11. A simple payload worksheet",
+      "html": "\n<p>Use this structure to prepare a brief. It does not replace the supplier’s calculation, but it makes sure nothing is forgotten.</p>\n<table><thead><tr><th>Line</th><th>What to enter</th></tr></thead><tbody>\n<tr><td>A. Required result</td><td>Structure, defect or condition, coverage, report format</td></tr>\n<tr><td>B. Equipment list</td><td>Each sensor or tool needed to deliver A</td></tr>\n<tr><td>C. In-water weight</td><td>Supplier figure for each item in B, and the total</td></tr>\n<tr><td>D. Margin</td><td>Allowance for trim, density changes and later additions</td></tr>\n<tr><td>E. Site conditions</td><td>Current, depth, tether length, access</td></tr>\n<tr><td>F. Shortlist</td><td>Vehicles whose confirmed allowance exceeds C + D for the conditions in E</td></tr>\n</tbody></table>\n<p>When the worksheet is ready, send it with your <a href=\"/request-a-proposal/\">project brief</a>. It gives the configuration review a clear starting point.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is ROV payload measured in air or in water?",
+      "answer": "It depends on the manufacturer. The figure that affects the vehicle is the in-water weight of the added equipment and where it sits. Ask how the published payload is defined and for which configuration."
+    },
+    {
+      "question": "Can I add a sonar to a small inspection ROV?",
+      "answer": "Often yes, if the sonar’s in-water weight, mounting, power and data requirements fit the vehicle. The supplier should confirm the integrated configuration and how the vehicle will be trimmed with the sonar installed."
+    },
+    {
+      "question": "What happens if an ROV is overloaded?",
+      "answer": "It may become hard to trim, use most of its thrust just to stay level, and struggle to hold position in current. Performance and safety margins fall, so the configuration should be redesigned or a larger vehicle chosen."
+    },
+    {
+      "question": "How much payload margin should I keep?",
+      "answer": "Keep enough margin for trim adjustments, water density changes and any equipment you expect to add later. The right margin depends on the site and the vehicle, so ask the supplier to state the spare capacity after integration."
+    },
+    {
+      "question": "Does a larger payload always mean a better ROV?",
+      "answer": "No. A larger vehicle carries more but needs more handling, power and space, and may not fit tight access points. Choose the smallest vehicle that delivers the required result with a confirmed margin."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-30, R-45, R-150 and R-400",
+      "url": "",
+      "note": "Payload, weight and depth figures from the manufacturer’s 2026 product introduction."
+    },
+    {
+      "title": "Manufacturer project references for the R-30 and R-45",
+      "url": "",
+      "note": "Reported by the manufacturer; not projects delivered by PanPan Marine."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-30-inspection-rov/",
+    "/equipment/r-45-inspection-rov/",
+    "/equipment/rov-tools-accessories/",
+    "/request-a-proposal/"
+  ]
+}

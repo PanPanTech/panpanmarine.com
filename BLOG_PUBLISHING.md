@@ -13,6 +13,12 @@
 
 生成器会更新全站 Blog 导航、首页最近三篇文章、应用页相关文章、博客列表、主题页、RSS 和 sitemap。每篇文章有独立 URL、canonical、日期、作者、目录、BlogPosting、FAQPage 和面包屑结构化数据。主题页不足三篇时保留浏览入口但设置 noindex。没有可视化后台或自动定时发布功能；这些内容文件是现阶段的编辑入口。
 
+## 定时发布
+
+文章 JSON 的 `status` 设为 `published`、`published_at` 设为未来日期即可提前入库：构建只收录 `published_at` 不晚于当天的文章，GitHub Actions 每天 00:05 UTC（北京时间 08:05）自动重建一次，文章在当天自动上线并进入 sitemap 和 RSS。本地预览未来文章用 `BLOG_BUILD_DATE=YYYY-MM-DD python build.py`，预览后删除 dist/blog 下的未来文章目录再提交，以免提前公开。正文里只能链接发布日期不晚于本文的文章，后发文章上线后再回头补链。
+
+分类：equipment-selection、tunnel-inspection、cleaning-dredging、offshore-subsea、surface-water。只有已有文章的分类才生成分类页和导航。
+
 ## 外链红线
 
 全站（产品页、博客、案例、来源列表）**禁止链接到制造商网站**（boyagongdao.com、roboocean.com 等），也不写厂家网址或联系方式，避免客户绕过 PanPan Marine 直接联系厂家。引用厂家资料时只写文字来源（例如 "Manufacturer product information: A-80"，`url` 留空），需要链接时指向站内对应的产品页或案例页。`validate.py` 会检查，出现厂家域名即校验失败。
