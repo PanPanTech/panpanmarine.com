@@ -1,0 +1,124 @@
+{
+  "status": "published",
+  "slug": "sump-dredging-robot-system-sizing",
+  "title": "Sump and Pit Dredging Robots: Sizing the Pump, Pipe and Separation System",
+  "description": "Size a robotic sump-dredging system: sediment properties, lift and distance, pump and pipe, mud-water separation, clogging and acceptance, with a hydropower sump example.",
+  "category_slug": "cleaning-dredging",
+  "primary_keyword": "sump dredging robot",
+  "related_keywords": [
+    "underwater dredging robot",
+    "sump cleaning robot",
+    "dredging pump selection",
+    "mud water separation",
+    "hydropower sump cleaning"
+  ],
+  "published_at": "2026-11-09",
+  "updated_at": "2026-11-09",
+  "image": "ad-100.jpg",
+  "alt": "Manufacturer illustration of the AD-100 underwater dredging robot",
+  "answer": "A sump-dredging robot is only one part of a system that lifts sediment, moves it through a pipeline and separates it from the water. Size that system from the sediment itself — particle size, solids content, debris and volume — and from the lift height and pipe length to the discharge point. Then choose the pump, pipe and separation equipment together, plan for clogging and agree how removed sediment will be measured.",
+  "sections": [
+    {
+      "id": "the-task",
+      "title": "1. Why sumps and pits silt up",
+      "html": "\n<p>Collection sumps in hydropower plants, pumping stations and industrial facilities gather seepage and drainage water, along with sand, silt and debris. Over time sediment builds up, reduces sump volume and is drawn into drainage pumps, causing wear and blockages. Cleaning sumps traditionally means pumping them dry and sending people into confined spaces, or bringing in divers — both slow, costly and hazardous.</p>\n<p>A remotely operated dredging robot works underwater inside the sump, loosening and drawing in sediment while the water stays in place. The robot is the visible part; the pump, pipeline and separation system decide how much sediment is actually removed.</p>\n<p>Sediment in sumps also hides problems. Damaged linings, blocked inlets or failing pump supports may only be found once the sediment is removed. Planning the dredging with an inspection afterwards gives the plant a full picture of the sump’s condition.</p>"
+    },
+    {
+      "id": "sediment",
+      "title": "2. Start with the sediment",
+      "html": "\n<table><thead><tr><th>Property</th><th>Why it matters</th><th>How to find out</th></tr></thead><tbody>\n<tr><td>Particle size</td><td>Coarse sand settles fast and wears pumps; fine silt stays suspended</td><td>Sample and sieve analysis</td></tr>\n<tr><td>Solids content</td><td>Sets the pumping concentration and separation load</td><td>Sample analysis, depth soundings</td></tr>\n<tr><td>Cohesion and compaction</td><td>Compacted or cohesive layers need loosening tools</td><td>Probe or core samples</td></tr>\n<tr><td>Debris</td><td>Stones, wood, metal and rags block intakes and pipes</td><td>Visual inspection, history</td></tr>\n<tr><td>Volume and distribution</td><td>Sets the duration and the robot’s route</td><td>Sonar or sounding survey</td></tr>\n</tbody></table>\n<p>A short inspection with a compact ROV such as the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a>, plus samples, is often the best first step. Without these inputs, any quotation for capacity is a guess.</p>\n<p>Sediment is rarely uniform. Coarse material tends to settle near inlets, fine silt further away, and debris collects in corners and around pump suctions. Sampling at several points, and at more than one depth where layers are thick, gives a more realistic basis for sizing than a single sample.</p>"
+    },
+    {
+      "id": "lift-and-distance",
+      "title": "3. Lift height and pipeline distance",
+      "html": "\n<p>Sumps are often deep inside a plant, below the powerhouse or dam, and the sediment has to travel up and along a pipeline to the separation unit or disposal point. Record the vertical lift, the pipe length, the number of bends and the route through galleries and shafts. These set the pump head required and the risk of settling in long horizontal runs.</p>\n<p>Agree where the separation equipment will stand. Placing it close to the sump shortens the pipeline but may be limited by space and access in galleries.</p>\n<p>Note also any restrictions on the discharge: whether separated water can return to the drainage system, whether it must be treated, and how solids will leave the plant. Environmental permits may set limits on suspended solids in returned water, which affects the separation equipment required.</p>"
+    },
+    {
+      "id": "pump-and-pipe",
+      "title": "4. Pump and pipe selection",
+      "html": "\n<p>The pump must deliver enough flow to keep solids moving at the planned concentration and enough head for the lift and pipe losses. Too little velocity and sediment settles in the pipe; too much and wear and energy use rise. The pipe diameter, material and wear resistance follow from the same calculation. Ask the supplier for the pump curve, the design flow and concentration, and the minimum velocity used to avoid settling.</p>\n<p>The robot’s own intake and loosening tools must match the pump: an auger or cutter that feeds material faster than the pump can move it will simply clog.</p><p>Wear is part of the sizing. Abrasive sand wears pump impellers, pipe bends and valves. Ask which parts wear, how quickly in sandy service and what spares to keep on site. Pipe bends with replaceable wear liners, or a spare pump, can keep a campaign running.</p>"
+    },
+    {
+      "id": "separation",
+      "title": "5. Mud-water separation",
+      "html": "\n<p>The water-sediment mixture usually goes to a separation unit — hydrocyclones, screens, settling tanks or a combination — where solids are removed and the water returned or discharged. The separation capacity and the solids handling (bags, skips, filter press) must match the dredging rate, otherwise the system runs at the speed of its slowest part.</p>\n<p>For the <a href=\"/equipment/ad-100-dredging-robot/\">AD-100</a>, the manufacturer lists a separation capacity of 5 m³/h. That figure describes the supporting mud-water separation unit, not a verified net sediment-removal rate. Confirm the effective removal rate with your sediment and the full pump-and-pipe system.</p>"
+    },
+    {
+      "id": "loosening",
+      "title": "6. Loosening compacted sediment",
+      "html": "\n<p>Sediment that has sat for years may be compacted or cohesive and will not flow into a suction intake on its own. Robots use augers, cutters or water jets to loosen it before suction. The choice depends on the sediment: augers move bulk material towards the intake, water jets break up cohesive layers, and cutters deal with hard or mixed deposits. Ask how the proposed tool performs on sediment like yours, and whether a trial on a sample is possible.</p>\n<p>Loosening also releases fines into suspension, reducing visibility. Plan for sonar-assisted navigation or for work in low visibility, and agree how the robot’s position in the sump will be tracked.</p>"
+    },
+    {
+      "id": "robot",
+      "title": "7. The robot itself",
+      "html": "\n<p>Sump-dredging robots need to move over soft, uneven sediment in confined spaces with poor visibility. Tracked chassis suit this; thrusters help manoeuvring and lifting off the bottom. The AD-100 is a 100 kg tracked robot measuring 815 × 620 × 690 mm, with six thrusters, front and rear 1080p cameras and lighting on several sides. Check that the robot fits through the sump access with its tools and hoses attached, and how it will be lowered and recovered.</p>"
+    },
+    {
+      "id": "clogging",
+      "title": "8. Planning for clogging",
+      "html": "\n<p>Clogging is the most common reason dredging rates fall short. Stones, wood and rags block the intake, pump or pipe. Agree how debris will be screened at the intake, how blockages are detected (pressure and flow readings), how they are cleared and how often. A system that stops twice an hour for clearing delivers far less than its nominal rate.</p><p>Record every stoppage with its cause and duration. After a few days the log shows whether the intake screen, the pump or the pipeline is the weak point, and where an adjustment will pay back fastest.</p>"
+    },
+    {
+      "id": "access-transport",
+      "title": "9. Access and transport inside the plant",
+      "html": "\n<p>Many sumps are reached through galleries, stairs and narrow doors. Every component — robot, reel, pump, separation unit, pipes — must be moved to the site and assembled there. The manufacturer describes the sump-dredging system for the Wudongde hydropower station as sized for small-truck transport and quick installation in access galleries. Survey the route from the plant entrance to the sump and list the largest and heaviest items.</p>"
+    },
+    {
+      "id": "operation",
+      "title": "10. Operation and safety",
+      "html": "\n<p>Even though people stay out of the water, the work happens in confined plant areas with pumps, electrical equipment and lifting. Agree isolation of drainage pumps, ventilation, electrical safety, communication and emergency procedures with the plant. Define who controls each part of the system and how the dredging team and the plant control room communicate.</p>\n<p>Plan shift patterns and breaks. Dredging often runs for days, and fatigue affects both pilots and the people handling solids at the separation unit. Clear handover notes between shifts — progress, blockages, equipment issues — keep the work consistent.</p>"
+    },
+    {
+      "id": "acceptance",
+      "title": "11. Measuring results and acceptance",
+      "html": "\n<ul>\n<li>Sediment levels before and after, measured by sounding or sonar at agreed points.</li>\n<li>Volume or weight of solids removed from the separation unit.</li>\n<li>Coverage of the sump floor, ideally mapped.</li>\n<li>Operating time, stoppages and their causes.</li>\n<li>Condition of the sump and drainage pumps after cleaning.</li>\n</ul>\n<p>The manufacturer reports dredging coverage above 98% for its Wudongde project, where nine collection sumps sit below the dam and powerhouse. This is a manufacturer-reported figure for one project, not a result delivered by PanPan Marine.</p>\n<p>Agree the target condition before work starts: a maximum sediment depth, a percentage of floor cleared or a volume removed. Map the sump before and after with the same method, so that the comparison is fair.</p>"
+    },
+    {
+      "id": "cleaning-or-dredging",
+      "title": "12. Dredging or cleaning?",
+      "html": "\n<p>If the problem is deposits attached to surfaces rather than loose sediment, the task is cleaning, not dredging. Our guide to <a href=\"/blog/underwater-cleaning-vs-dredging/\">underwater cleaning versus dredging</a> explains the difference, and the <a href=\"/solutions/underwater-sump-cleaning/\">sump cleaning guide</a> covers the application.</p>"
+    },
+    {
+      "id": "next-step",
+      "title": "13. Next step",
+      "html": "\n<p>Send sump drawings, access route, sediment samples or observations, lift height and pipe route with your <a href=\"/request-a-proposal/\">project brief</a>. Those inputs let the pump, pipe and separation equipment be sized together.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a sump be dredged without pumping it dry?",
+      "answer": "Yes. A dredging robot works underwater inside the sump while drainage is managed, avoiding confined-space entry. Plant isolation and procedures still apply."
+    },
+    {
+      "question": "What is the dredging rate of a sump robot?",
+      "answer": "It depends on the sediment, pump, pipeline, separation and clogging. Ask for an estimate based on your sediment and verify it in a trial; nominal figures are not net removal rates."
+    },
+    {
+      "question": "What does the 5 m³/h figure for the AD-100 mean?",
+      "answer": "It is the manufacturer’s figure for the supporting mud-water separation unit, not a verified net sediment-removal rate."
+    },
+    {
+      "question": "How is removed sediment measured?",
+      "answer": "By sediment levels before and after, the volume or weight of solids from the separation unit, and coverage of the sump floor."
+    },
+    {
+      "question": "What causes dredging systems to underperform?",
+      "answer": "Most often clogging by debris, undersized separation or pumps, and settling in long pipelines. Plan screening, monitoring and clearing procedures."
+    },
+    {
+      "question": "How long does a sump-dredging campaign take?",
+      "answer": "It depends on sediment volume and properties, access, pump and separation capacity, and clogging. Estimate it from your survey data and confirm with a trial run."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: AD-100 (2026 product introduction)",
+      "url": "",
+      "note": "Specifications, separation capacity and the Wudongde reference as reported by the manufacturer."
+    }
+  ],
+  "related_paths": [
+    "/equipment/ad-100-dredging-robot/",
+    "/solutions/underwater-sump-cleaning/"
+  ]
+}

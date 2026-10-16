@@ -1,0 +1,72 @@
+{
+  "status": "published",
+  "slug": "rov-launch-and-recovery",
+  "title": "Launch and Recovery for a 200–500 kg ROV: Crane, A-Frame or Davit?",
+  "description": "Compare cranes, A-frames and davits for launching and recovering light work-class and work-class ROVs, and plan deck space, crew, sea state and when a TMS is needed.",
+  "category_slug": "offshore-subsea",
+  "primary_keyword": "ROV launch and recovery system",
+  "related_keywords": [
+    "ROV LARS",
+    "ROV A-frame",
+    "ROV davit",
+    "ROV deployment from vessel"
+  ],
+  "published_at": "2026-10-29",
+  "updated_at": "2026-10-29",
+  "image": "r-4000.jpg",
+  "alt": "Manufacturer illustration of a heavy work-class ROV on the seabed",
+  "answer": "For vehicles of roughly 200–500 kg, a davit or a vessel crane can work in calm conditions, while an A-frame or dedicated launch and recovery system (LARS) gives better control through the splash zone and in higher sea states. The choice depends on the vessel, the sea state you need to work in, deck space and crew experience. Plan the launch and recovery system as part of the ROV purchase, not as an afterthought.",
+  "sections": [
+    {
+      "id": "why-it-matters",
+      "title": "Why launch and recovery decide the working window",
+      "html": "\n<p>Most ROV damage and many injuries happen at the surface, not underwater. As the vehicle passes through the splash zone it can swing, snatch on the lifting line or strike the hull. The heavier the vehicle, the more the launch method decides in what sea state you can work. A capable ROV with a poor launch arrangement may spend more time on deck than in the water.</p>\n<p>The splash zone is where wave action is strongest. A vehicle hanging from a lifting line can be lifted and dropped by passing waves, putting shock loads on the line and on the vehicle’s lifting point. Systems designed for offshore use reduce this by controlling the vehicle tightly until it is below the wave zone.</p>"
+    },
+    {
+      "id": "options",
+      "title": "Three common options",
+      "html": "\n<table><thead><tr><th>Method</th><th>Suits</th><th>Limitations</th></tr></thead><tbody>\n<tr><td>Davit</td><td>Lighter vehicles, small vessels, calm water</td><td>Limited reach and control in swell</td></tr>\n<tr><td>Vessel crane</td><td>Vessels of opportunity, occasional use</td><td>Swinging load; needs tag lines and a skilled operator</td></tr>\n<tr><td>A-frame / LARS</td><td>Regular offshore work, heavier vehicles</td><td>Deck space, cost, installation on the vessel</td></tr>\n</tbody></table>\n<p>A <a href=\"/equipment/r-150-light-work-class-rov/\">R-150</a> at 195 kg can often be handled with a davit or crane in good conditions; a <a href=\"/equipment/r-400-work-class-rov/\">R-400</a> at 520 kg usually benefits from an A-frame or LARS.</p>\n<p>Whatever the method, the lifting point on the vehicle, the lifting line and any shackles must be rated and certified for the load, including dynamic loads in the splash zone. Ask the supplier for the vehicle’s lifting point rating and recommended lifting arrangement.</p>"
+    },
+    {
+      "id": "deck",
+      "title": "Deck space and power",
+      "html": "\n<p>Allow space for the vehicle and its cradle, the tether reel, the control station or container, the power supply and safe walkways. Check deck load ratings and how equipment will be secured. Confirm the electrical supply on the vessel, or plan a generator.</p>\n<p>Think about the recovery sequence as well as the launch. The vehicle comes back wet, sometimes with marine growth or debris, and must be secured quickly before the next wave. A clear, non-slip area and a cradle that guides the vehicle into position make recovery safer.</p>"
+    },
+    {
+      "id": "tms",
+      "title": "When a tether management system helps",
+      "html": "\n<p>A tether management system (TMS) lowers the vehicle in a cage or on a top-hat to working depth on a strong main umbilical, then lets it fly on a lighter excursion tether. It protects the vehicle through the splash zone and reduces drag at depth. TMS is standard on heavy systems such as the <a href=\"/equipment/r-2000-heavy-work-class-rov/\">R-2000</a>; for 200–500 kg vehicles it is usually only worth it for deep work or strong currents. See also <a href=\"/blog/rov-tether-length/\">how long an ROV tether should be</a>.</p><p>Where a TMS is used, include its own maintenance and inspection in the system plan.</p>"
+    },
+    {
+      "id": "crew",
+      "title": "Crew and procedures",
+      "html": "\n<p>Agree who operates the crane or A-frame, who handles tag lines, who controls the tether and who gives the signals. Write a launch and recovery procedure, rehearse it in calm conditions and set the sea-state limit at which operations stop. For context on vehicle classes, see <a href=\"/blog/observation-class-vs-work-class-rov/\">observation-class versus work-class ROVs</a>.</p>\n<p>Record every launch and recovery: conditions, any incidents and lessons learned. Over a campaign this record shows where the procedure works and where the sea-state limit should be adjusted.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a 500 kg ROV be launched with a vessel crane?",
+      "answer": "Sometimes, in calm conditions with tag lines and an experienced crane operator. For regular offshore work, an A-frame or LARS gives better control."
+    },
+    {
+      "question": "What sea state can an ROV be launched in?",
+      "answer": "It depends on the vessel, the launch system and the vehicle. Set a limit in the procedure and stop operations when it is exceeded."
+    },
+    {
+      "question": "Does the ROV supplier provide the launch system?",
+      "answer": "Sometimes as an option. Make the scope explicit in the quotation: vehicle, tether, reel, launch system, power and installation on the vessel."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-150, R-400 and R-2000",
+      "url": "",
+      "note": "Vehicle weights and system composition from the manufacturer’s 2026 product introduction."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-150-light-work-class-rov/",
+    "/equipment/r-400-work-class-rov/",
+    "/equipment/r-2000-heavy-work-class-rov/"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "status": "published",
+  "slug": "offshore-wind-monopile-scour-inspection",
+  "title": "Offshore Wind Monopile and Scour Inspection with ROVs: What to Specify",
+  "description": "Plan ROV inspection of offshore wind monopiles and scour protection: the deliverables owners expect, the sensors each needs, ROV class, weather windows and data.",
+  "category_slug": "offshore-subsea",
+  "primary_keyword": "offshore wind ROV inspection",
+  "related_keywords": [
+    "monopile inspection ROV",
+    "scour survey offshore wind",
+    "wind turbine foundation inspection",
+    "cathodic protection survey ROV",
+    "offshore wind subsea inspection"
+  ],
+  "published_at": "2026-10-26",
+  "updated_at": "2026-10-26",
+  "image": "r-400.jpg",
+  "alt": "Manufacturer illustration of the R-400 work-class ROV used for subsea inspection",
+  "answer": "Start from the deliverable the asset owner needs — general visual condition, scour depth and extent, cathodic-protection readings, marine-growth thickness or cable-entry condition — because each needs different sensors and a different level of ROV. An observation-class ROV can cover visual checks in good conditions; scour mapping, CP measurements and work around cable protection usually call for more payload, more thrust and better positioning. Plan the weather window, vessel and data format with the same care as the vehicle.",
+  "sections": [
+    {
+      "id": "what-owners-inspect",
+      "title": "1. What owners inspect below the waterline",
+      "html": "\n<p>Offshore wind foundations are inspected to confirm that the structure, its corrosion protection and the seabed around it remain within design assumptions. Typical subsea scopes include the condition of the monopile or jacket surface, marine growth, anode condition and cathodic-protection potential, scour around the base and the state of scour protection, and the cable entry points, J-tubes or cable protection systems where export and array cables leave the seabed.</p>\n<p>Not every inspection covers every item. Campaigns are usually planned around a risk-based schedule: some turbines receive full surveys, others targeted checks. Ask the owner or its inspection engineer for the scope, the acceptance criteria and the reporting template before choosing equipment.</p>\n<p>Foundation type changes the scope. Monopiles present a single large cylinder with a transition piece, boat landing and cable entries; jackets present many members, nodes and welds; gravity-based foundations add large concrete surfaces. Jackets in particular increase the number of close-quarters manoeuvres and the risk of tether contact, which favours vehicles with good thrust and station-keeping.</p>"
+    },
+    {
+      "id": "deliverables",
+      "title": "2. Match each deliverable to the right sensor",
+      "html": "\n<table><thead><tr><th>Deliverable</th><th>Typical sensor or method</th><th>What to confirm</th></tr></thead><tbody>\n<tr><td>General visual condition</td><td>HD camera and lighting</td><td>Standoff, visibility, recording and position overlay</td></tr>\n<tr><td>Scour depth and extent</td><td>Multibeam or profiling sonar</td><td>Positioning, motion reference, processing and comparison with previous surveys</td></tr>\n<tr><td>Cathodic-protection potential</td><td>CP probe (contact or proximity)</td><td>Probe type, calibration, contact method and data logging</td></tr>\n<tr><td>Marine-growth thickness</td><td>Camera with scale, measuring tools</td><td>Measurement method and accuracy required</td></tr>\n<tr><td>Cable entry and protection</td><td>Camera, sonar, sometimes cable tracker</td><td>Access near the structure, current, tether clearance</td></tr>\n</tbody></table>\n<p>The table shows why “we need an ROV” is not a specification. A camera-only vehicle may satisfy a visual scope but cannot deliver a scour map or CP readings. Write the deliverables into the request for quotation.</p>"
+    },
+    {
+      "id": "rov-class",
+      "title": "3. Observation-class or work-class?",
+      "html": "\n<p>Observation-class vehicles such as the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> are quick to deploy and suit visual surveys and light sensor packages in moderate current. The manufacturer reports R-45 work at an offshore wind farm in Jiangsu, China, carrying multibeam sonar, a sub-bottom profiler and a magnetometer to record seabed conditions around piles and cable position and depth.</p>\n<p>When the scope includes heavier sensor packages, contact measurements in current or work close to cable protection, a light work-class or work-class vehicle gives more margin. The <a href=\"/equipment/r-150-light-work-class-rov/\">R-150</a> carries a 20 kg payload and the <a href=\"/equipment/r-400-work-class-rov/\">R-400</a> 50 kg with 12 thrusters. The manufacturer reports R-400 work for an offshore wind farm operator in Guangdong, China, inspecting booster-station pile foundations and checking grouting results. Our note on <a href=\"/blog/observation-class-vs-work-class-rov/\">observation-class versus work-class ROVs</a> sets out the practical differences.</p>\n<p>Consider the full campaign rather than one turbine. A wind farm may have dozens of foundations to visit in a season. A vehicle that deploys quickly and needs a small crew can cover more foundations in each weather window, while a heavier vehicle may be reserved for the subset that needs detailed work. Some contractors use both on the same vessel.</p>"
+    },
+    {
+      "id": "scour-protection",
+      "title": "4. Scour and scour protection",
+      "html": "\n<p>Scour is the removal of seabed sediment around a foundation by currents and waves. Many foundations sit on a rock or mattress scour protection layer; others rely on design allowances for expected scour. Inspection checks whether protection has moved, settled or been undermined at its edges, and how deep and wide any scour hole has become.</p>\n<p>Scour is normally mapped with sonar rather than video, because turbidity near the seabed is common and the shape of the seabed matters more than its appearance. The resulting depth model is compared with the design and with previous surveys. Agree in advance the grid resolution, the area to be covered around each foundation and the format of the comparison.</p>\n<p>Where scour protection is rock, look also at the edge of the protection, where secondary scour often starts. Where cables cross the protection, inspect the cable protection system and its interface with the rock.</p>"
+    },
+    {
+      "id": "current-and-tide",
+      "title": "5. Current, tide and the working window",
+      "html": "\n<p>Tidal currents at many wind farm sites limit ROV work to slack-water periods. The vehicle’s thrust, its tether drag and the depth decide how much current it can work in, and the window may be only a few hours per tide. Plan the inspection sequence around those windows and include standby time in the schedule.</p>\n<p>Ask the supplier how the proposed vehicle performs in current with the full sensor package installed, and what happens when the current rises during a dive. A vehicle that can only work at slack water may still be the right choice, but the schedule must reflect it.</p>"
+    },
+    {
+      "id": "vessel-and-launch",
+      "title": "6. Vessel, launch and recovery",
+      "html": "\n<p>Small observation-class ROVs can be launched by hand or with a small davit from a crew transfer vessel. Heavier vehicles need a crane or A-frame, a stable deck and a crew trained in launch and recovery. The choice affects which vessels can be used, how much they cost per day and in what sea states the work can continue. See our note on <a href=\"/blog/rov-launch-and-recovery/\">launch and recovery for 200–500 kg ROVs</a>.</p>\n<p>Agree who provides the vessel, the deck equipment, the power supply and the positioning reference. Many quotations assume these are supplied by the client; make the split explicit.</p>"
+    },
+    {
+      "id": "positioning",
+      "title": "7. Positioning and repeat surveys",
+      "html": "\n<p>Scour and marine growth are monitored over time, so each survey must be positioned well enough to compare with the last one. Acoustic positioning referenced to the vessel’s GNSS, combined with fixed reference points on the structure, is common. Agree the coordinate system, the reference points and the accuracy needed.</p>\n<p>Keep survey parameters consistent between campaigns: line spacing, sonar settings and processing methods. Differences in method can look like changes in the seabed.</p>\n<p>On the vessel side, record the positioning set-up for each campaign: transceiver position, calibration results and the offsets used. If a different vessel or system is used next time, these records make it possible to explain differences rather than mistake them for change.</p>"
+    },
+    {
+      "id": "marine-growth",
+      "title": "8. Marine growth and cleaning",
+      "html": "\n<p>Marine growth can hide the surface, increase loads on the structure and interfere with CP measurements. Some scopes include cleaning small areas before close inspection or measurement. Cleaning tools add reaction forces and power needs, which again points towards heavier vehicles. Agree in advance where cleaning is required and how the cleaned area will be recorded.</p>\n<p>Growth thickness is often reported in bands at different depths, because it varies with light and water temperature. Agree the depths at which measurements are taken and how thickness is measured — scaled imagery, a graduated probe or a measuring tool — so that results can be compared between turbines and years.</p>"
+    },
+    {
+      "id": "cable-areas",
+      "title": "9. Working near cables and cable protection",
+      "html": "\n<p>Areas where cables enter the structure deserve particular care. Cable protection systems, bend restrictors and J-tube seals can be damaged by contact, and tethers can snag on them. Agree an exclusion distance, a dive plan for these areas and the response to a snagged tether. If the scope includes cable burial or free spans along the route, see our guide to <a href=\"/blog/subsea-cable-route-burial-survey/\">subsea cable route and burial-depth surveys</a>.</p>"
+    },
+    {
+      "id": "data-and-reporting",
+      "title": "10. Data, reporting and evidence",
+      "html": "\n<p>Asset owners in Europe expect evidence they can audit. Agree in the contract:</p>\n<ul>\n<li>Video with time, position and heading overlay, plus raw recordings.</li>\n<li>Processed sonar products (scour maps, profiles) and the raw data behind them.</li>\n<li>CP readings with probe calibration records.</li>\n<li>An anomaly list using the owner’s coding scheme.</li>\n<li>Data stored locally and delivered in agreed formats.</li>\n</ul>\n<p>Ask the supplier for a sample report and sample data from a comparable structure before contract award.</p>\n<p>Consider who will review the data. A short daily report during the campaign — dives completed, anomalies found, data quality issues — lets the owner’s engineer ask for a repeat dive while the vessel is still on site, which is far cheaper than remobilising.</p>"
+    },
+    {
+      "id": "supplier-questions",
+      "title": "11. Questions to ask an equipment supplier",
+      "html": "\n<ul>\n<li>Which deliverables can the proposed configuration produce, and with which sensors?</li>\n<li>What is the confirmed payload after integration, and how is the vehicle trimmed?</li>\n<li>What current can the configuration work in, and how was that tested?</li>\n<li>What launch and recovery equipment, deck space and crew are required?</li>\n<li>Which positioning system is included, and what accuracy can be expected?</li>\n<li>What training, spares and support are included for offshore campaigns?</li>\n</ul>\n<p>Send your scope with your <a href=\"/request-a-proposal/\">project brief</a>; we will review it against the available configurations.</p>"
+    },
+    {
+      "id": "local-partners",
+      "title": "12. Working with local service partners",
+      "html": "\n<p>For many European owners, the practical route is to buy inspection results from a specialist contractor rather than equipment directly. If you are a contractor building that capability, factor in operator training, spares held locally and a support route for offshore campaigns. A capable vehicle without local support can leave a vessel idle while a part is shipped.</p><p>Ask the equipment supplier how spares are held and shipped, and whether a second vehicle or critical spares should travel with the campaign.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a small ROV inspect an offshore wind monopile?",
+      "answer": "Yes, for visual inspection and light sensor packages in suitable current and sea state. Scour mapping, CP measurements and work near cable protection often need more payload, thrust and positioning."
+    },
+    {
+      "question": "What sensors are needed for scour surveys?",
+      "answer": "Usually multibeam or profiling sonar with good positioning and motion reference, plus processing that allows comparison with previous surveys."
+    },
+    {
+      "question": "How is cathodic protection measured underwater?",
+      "answer": "With a CP probe that measures the potential of the structure, by contact or proximity. Probe type, calibration and data logging should be agreed with the inspection engineer."
+    },
+    {
+      "question": "How much current can an inspection ROV work in?",
+      "answer": "It depends on the vehicle’s thrust, payload, tether length and depth. Ask for the tested limit of the configuration being quoted, and plan dives around slack water where needed."
+    },
+    {
+      "question": "Who provides the vessel and positioning?",
+      "answer": "It varies. Many equipment quotations assume the client provides the vessel, deck equipment and positioning reference. Make the split of responsibilities explicit in the contract."
+    },
+    {
+      "question": "Do I need to clean marine growth before inspection?",
+      "answer": "Only where growth hides the surface or affects measurements such as CP readings. Agree the areas to clean in advance, because cleaning tools add weight, power needs and time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-45, R-150 and R-400",
+      "url": "",
+      "note": "Specifications and project references reported by the manufacturer; the R-400 offshore wind client is not named."
+    },
+    {
+      "title": "Manufacturer project reference: offshore wind pile inspection in Jiangsu, China (R-45)",
+      "url": "",
+      "note": "Reported by the manufacturer; not a project delivered by PanPan Marine."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-45-inspection-rov/",
+    "/equipment/r-150-light-work-class-rov/",
+    "/equipment/r-400-work-class-rov/"
+  ]
+}

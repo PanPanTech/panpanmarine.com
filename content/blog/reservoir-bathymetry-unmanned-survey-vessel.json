@@ -1,0 +1,130 @@
+{
+  "status": "published",
+  "slug": "reservoir-bathymetry-unmanned-survey-vessel",
+  "title": "Reservoir and River Bathymetry with Unmanned Survey Vessels",
+  "description": "Plan reservoir and river bathymetric surveys with unmanned survey vessels: sensors, minimum depth, positioning, coverage, data handling and when to add an ROV.",
+  "category_slug": "surface-water",
+  "primary_keyword": "unmanned survey vessel bathymetry",
+  "related_keywords": [
+    "reservoir bathymetric survey",
+    "USV hydrographic survey",
+    "river survey boat unmanned",
+    "sedimentation survey reservoir",
+    "autonomous survey boat"
+  ],
+  "published_at": "2026-11-06",
+  "updated_at": "2026-11-06",
+  "image": "usug-skaters.png",
+  "alt": "Manufacturer rendering of the USUG-Skaters unmanned survey catamaran",
+  "answer": "An unmanned survey vessel can map reservoir and river beds efficiently by carrying a single-beam or multibeam echosounder, an ADCP for currents and GNSS positioning along planned lines. Choose the sensor by the detail and coverage you need, confirm the vessel’s draught and minimum operating depth against your shallowest areas, plan positioning and data processing, and check local rules for unmanned operation. Add an ROV where you must see structures below the waterline.",
+  "sections": [
+    {
+      "id": "why-survey",
+      "title": "1. Why reservoirs and rivers are surveyed",
+      "html": "\n<p>Reservoirs lose capacity as sediment accumulates, and owners need to know how much storage remains, where sediment is settling and whether intakes or outlets are at risk. Rivers and channels change with floods; navigation authorities, flood managers and engineers need current depth data. Bathymetric surveys answer these questions and, repeated over time, show trends.</p>\n<p>Traditional surveys use crewed boats. Unmanned survey vessels can run repeat lines with consistent quality, reach areas that are unsafe or awkward for crewed boats, and reduce the people needed on the water.</p>\n<p class=\"note\">Export of unmanned surface vessels is subject to approval for each project. Availability for your country is confirmed on enquiry.</p>\n<p>Surveys also support specific decisions: whether to dredge near an intake, how a flood has changed a river reach, or whether a bridge foundation is being scoured. Each decision sets the survey area, the resolution needed and the timing.</p>"
+    },
+    {
+      "id": "sensors",
+      "title": "2. Choosing the sensors",
+      "html": "\n<table><thead><tr><th>Sensor</th><th>What it measures</th><th>When to use it</th></tr></thead><tbody>\n<tr><td>Single-beam echosounder</td><td>Depth directly below the vessel</td><td>Capacity surveys on regular line spacing, lower cost</td></tr>\n<tr><td>Multibeam echosounder</td><td>A swath of depths across the track</td><td>Full-coverage mapping, structures, detailed sediment studies</td></tr>\n<tr><td>ADCP</td><td>Water velocity profile and discharge</td><td>River flow, intake approach conditions</td></tr>\n<tr><td>Side-scan sonar</td><td>Acoustic image of the bed</td><td>Finding objects, debris and bed features</td></tr>\n<tr><td>Water-quality sensors</td><td>Temperature, turbidity, oxygen and more</td><td>Environmental monitoring alongside the survey</td></tr>\n</tbody></table>\n<p>Combine sensors only where the deliverable needs them. Each additional sensor adds integration, calibration and processing effort. For a capacity survey, a well-calibrated echosounder with good positioning often delivers more value than a vessel loaded with sensors that are rarely used.</p><p>Ask the supplier which sensors have already been integrated on the vessel, with which software, and what calibration procedures are provided.</p>"
+    },
+    {
+      "id": "vessel-choice",
+      "title": "3. Matching the vessel to the water",
+      "html": "\n<p>The <a href=\"/equipment/usug-skaters-unmanned-survey-vessel/\">USUG-Skaters</a> is a 4.5 m catamaran weighing about 1.1 t, with a draught of about 50 cm, a minimum operating depth of 1 m, two payload bays with a combined 155 + 100 kg allocated by task, and an endurance of about 20.5 hours or 136 km per charge. It suits reservoirs, rivers and channels. The <a href=\"/equipment/usol10-ocean-observation-vessel/\">USOL10</a> is an 11 m observation vessel for coastal and offshore monitoring, with an optional two-person crewed mode.</p>\n<p>The vessel’s draught and minimum depth decide how close to the shore it can survey. Shallow margins may need a smaller boat, a different method or survey at higher water levels.</p>\n<p>Transport and launch matter for inland work. A 4.5 m catamaran usually travels on a trailer and launches from a slipway or by crane. Check access roads, slipways and lifting points at each reservoir before planning a campaign. For remote reservoirs, the time to reach and launch can be a large share of the survey cost.</p>"
+    },
+    {
+      "id": "positioning",
+      "title": "4. Positioning and vertical reference",
+      "html": "\n<p>Bathymetry needs accurate horizontal position and an accurate vertical reference. GNSS with real-time or post-processed corrections provides both, with the water level or the vessel’s height related to the project datum. Agree the datum, the corrections method and the accuracy required before the survey. For multibeam surveys, a motion reference and heading sensor are also needed to correct for vessel roll, pitch and heave.</p>\n<p>Sound speed in water changes with temperature and salinity and affects depth measurements, especially for multibeam. Plan sound-velocity measurements at the start of the survey and when conditions change, such as in stratified reservoirs or where rivers meet seawater.</p>"
+    },
+    {
+      "id": "lines-and-coverage",
+      "title": "5. Survey lines and coverage",
+      "html": "\n<p>Capacity surveys often run lines at a fixed spacing across the reservoir, with cross-lines to check consistency. Full-coverage multibeam surveys overlap swaths so that the whole bed is mapped. Line spacing, vessel speed and sensor settings decide the resolution and the survey duration. Plan these with the processing in mind: the deliverable is a surface model, a capacity curve or a set of profiles, and each needs a suitable data density.</p>\n<p>Near intakes, outlets and dam faces, extra lines or full-coverage mapping are often justified because these areas carry the most operational risk. In the open reservoir, wider spacing may be enough for capacity. A survey plan that varies density by area makes best use of the vessel’s time.</p>"
+    },
+    {
+      "id": "obstacles",
+      "title": "6. Obstacles, vegetation and traffic",
+      "html": "\n<p>Reservoirs and rivers hold hazards that are easy to forget on a chart: submerged trees, weed beds, mooring buoys, fishing gear, floating booms and recreational boats. The vessel’s obstacle avoidance helps, but the route plan should exclude known hazards and the operator should check the area before the first autonomous run. In rivers, plan for current, which affects line keeping and speed over ground in both directions.</p>"
+    },
+    {
+      "id": "autonomy",
+      "title": "7. Autonomy, docking and supervision",
+      "html": "\n<p>The USUG-Skaters is designed for routine unattended duty with an optional docking station that provides automatic charging and return, and the manufacturer describes 5G remote control. Remote links must suit local networks and radio rules, and unattended operation must comply with local waterway regulations. Agree who supervises, how alerts are handled and what the vessel does if communication is lost.</p>"
+    },
+    {
+      "id": "rov-combo",
+      "title": "8. Adding an ROV for structures",
+      "html": "\n<p>A survey vessel maps the bed; it does not see under the waterline. Where the survey must also check dam faces, intakes, bridge piers or outlet structures, an ROV is needed. The USUG system can be paired with the USUG-R-45, based on the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> inspection ROV, so one platform can map the bed and deploy a vehicle for close inspection. Confirm the integrated configuration and deployment method.</p>\n<p>Plan the combined operation carefully: launching an ROV from a survey vessel changes its stability, power use and supervision needs. Decide whether the ROV will be deployed from the same vessel or from shore, and how the two data sets will share a common position reference.</p>"
+    },
+    {
+      "id": "data",
+      "title": "9. Data handling",
+      "html": "\n<p>Survey data must be processed into products: cleaned depth points, surface models, contours, capacity curves and difference maps between surveys. Agree who processes the data, with which software, and in which formats it is delivered. Keep raw data and processing records with the products. Data should be stored locally under the owner’s control; automatic upload to external servers should be a choice, not a default.</p>\n<p>Agree a delivery timetable: preliminary results shortly after the survey so problems can be fixed while the vessel is still mobilised, and final products after full processing. Ask for a short survey report describing equipment, calibrations, conditions and any data gaps, so that future surveys can be compared reliably.</p>"
+    },
+    {
+      "id": "reference",
+      "title": "10. A manufacturer reference",
+      "html": "\n<p>The manufacturer reports a river-inspection project with Zhongyuan University of Technology in Henan, China, using unmanned vessels for underwater obstacle checks, hydrological monitoring and remote coordination. It reports that the inspection cycle for key river sections fell from 15 days to 3, and that 12 silted sections and 4 illegal sand-mining sites were located. These are manufacturer-reported results, not a project delivered by PanPan Marine.</p><p>Use references like this to ask for the underlying data: survey lines, sensor settings, processing methods and how findings were verified on the ground.</p>"
+    },
+    {
+      "id": "approvals",
+      "title": "11. Approvals and shipping",
+      "html": "\n<p>Before purchase, confirm with the waterway or reservoir authority whether unmanned survey vessels may operate and under what supervision. Radio links need local certification, and lithium batteries need dangerous-goods arrangements for shipping. Export approval for the vessel is confirmed for each project.</p>\n<p>Reservoir owners often have their own access and safety rules as well as public regulations. Include them in the plan early: permits for access, notification of other water users and any restrictions near dams, spillways and intakes.</p>"
+    },
+    {
+      "id": "repeat-surveys",
+      "title": "12. Planning repeat surveys",
+      "html": "\n<p>The real value of bathymetry is in comparison. Repeat surveys on the same lines, datum and processing methods show how sediment moves and how capacity changes. Schedule surveys at similar water levels where possible, and keep a survey log with equipment, settings and conditions so that each comparison is defensible.</p>\n<p>A routine schedule — for example after the wet season each year — builds a record that supports maintenance planning and sediment management. Unmanned vessels make frequent repeat surveys more practical because they reduce the crew needed for each campaign.</p>"
+    },
+    {
+      "id": "next-step",
+      "title": "13. Next step",
+      "html": "\n<p>Share the water body, depth range, required deliverables, datum and any local rules with your <a href=\"/request-a-proposal/\">project brief</a>. We will propose a vessel and sensor configuration and confirm export approval for your project.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Single-beam or multibeam for reservoir surveys?",
+      "answer": "Single-beam on regular lines is often enough for capacity estimates. Multibeam gives full coverage for detailed sediment studies and structures, at higher cost and processing effort."
+    },
+    {
+      "question": "How shallow can an unmanned survey vessel work?",
+      "answer": "It depends on its draught and minimum operating depth. The USUG-Skaters needs about 1 m of water. Shallow margins may need another method."
+    },
+    {
+      "question": "Can the vessel survey unattended?",
+      "answer": "It is designed for routine unattended duty, but unattended operation must comply with local rules and needs a supervision and fail-safe plan."
+    },
+    {
+      "question": "Do I still need an ROV?",
+      "answer": "Only if you must inspect structures below the waterline. A survey vessel maps the bed; an ROV inspects dam faces, intakes and piers."
+    },
+    {
+      "question": "Who processes the survey data?",
+      "answer": "Agree it in the contract: the operator, a survey contractor or the owner. Specify software, products, formats and delivery times."
+    },
+    {
+      "question": "How accurate is an unmanned bathymetric survey?",
+      "answer": "Accuracy depends on the sensor, positioning corrections, sound-velocity control and processing, not on whether the vessel is crewed. Agree the accuracy required and how it will be demonstrated."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: USUG-Skaters and USOL10 (2026 product introduction)",
+      "url": "",
+      "note": "Specifications as reported by the manufacturer; USOL10 endurance is to be confirmed."
+    },
+    {
+      "title": "Manufacturer project reference: river inspection with unmanned vessels, Henan",
+      "url": "",
+      "note": "Reported by the manufacturer; not a project delivered by PanPan Marine."
+    }
+  ],
+  "related_paths": [
+    "/equipment/usug-skaters-unmanned-survey-vessel/",
+    "/equipment/usol10-ocean-observation-vessel/",
+    "/equipment/r-45-inspection-rov/"
+  ]
+}

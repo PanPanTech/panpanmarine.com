@@ -1,0 +1,132 @@
+{
+  "status": "published",
+  "slug": "autonomous-surface-cleaning-vessel-guide",
+  "title": "Autonomous Surface Cleaning Vessels for Harbours and Reservoirs: A Buyer’s Guide",
+  "description": "How to choose an autonomous trash-skimming vessel: debris volume, water area, vessel size, docking and charging, local approvals and how to verify cleaning results.",
+  "category_slug": "surface-water",
+  "primary_keyword": "autonomous trash skimmer boat",
+  "related_keywords": [
+    "autonomous surface cleaning vessel",
+    "floating debris removal boat",
+    "harbour cleaning robot",
+    "reservoir trash collection",
+    "unmanned trash skimmer"
+  ],
+  "published_at": "2026-11-02",
+  "updated_at": "2026-11-02",
+  "image": "s-cleaner.png",
+  "alt": "Manufacturer rendering of the S-Cleaner autonomous surface cleaning vessel with collection arms",
+  "answer": "Start with how much floating debris arrives, what it is and how often the water must be cleared. Then choose the vessel size for the water area, plan where it will dock, charge and unload, and confirm that local rules allow unmanned operation and that its radio links can be certified. Judge the result by measured area, collected weight and operating hours over a trial period, not by the rated coverage alone.",
+  "sections": [
+    {
+      "id": "what-they-do",
+      "title": "1. What an autonomous cleaning vessel does",
+      "html": "\n<p>An autonomous surface cleaning vessel is a small, usually electric boat that patrols a water area, recognises floating debris and collects it in an on-board basket. Typical systems use cameras and lidar to detect debris and obstacles, satellite positioning to follow planned routes, and collection arms or a conveyor at the bow to guide debris into the basket. When the basket is full or the battery is low, the vessel returns to a dock or a collection point.</p>\n<p>The appeal is continuity. Instead of a crewed boat cleaning once a day or once a week, an autonomous vessel can keep working through the day with little supervision. That suits harbours, marinas, fishing ports, reservoir inlets, scenic lakes and urban waterways where debris arrives continuously.</p>\n<p class=\"note\">Export of unmanned surface vessels is subject to approval for each project. Availability for your country is confirmed on enquiry.</p>"
+    },
+    {
+      "id": "debris-first",
+      "title": "2. Start with the debris, not the vessel",
+      "html": "\n<p>Before comparing vessels, find out what you are dealing with. Record the types of debris — plastic bottles, packaging, foam, leaves and branches, algae, occasionally oil sheens — and estimate the daily or weekly volume. Note where debris accumulates: wind-driven corners, behind breakwaters, at intakes, along booms. These observations decide the basket size, the collection method and the route plan.</p>\n<p>Seasonality matters. Leaf fall, storm runoff, algal blooms and tourist seasons can multiply volumes for weeks at a time. Size the system for the busy periods, or plan how the shortfall will be handled. Our note on <a href=\"/blog/floating-debris-collection-capacity/\">how much debris a cleaning vessel can collect in a day</a> shows how to turn these observations into a capacity estimate.</p>"
+    },
+    {
+      "id": "vessel-size",
+      "title": "3. Match vessel size to the water area",
+      "html": "\n<table><thead><tr><th></th><th><a href=\"/equipment/s-cleaner-surface-cleaning-vessel/\">S-Cleaner</a></th><th><a href=\"/equipment/m-cleaner-surface-cleaning-vessel/\">M-Cleaner</a></th></tr></thead><tbody>\n<tr><td>Size</td><td>2 × 1.4 × 1.4 m, 270 kg</td><td>≤ 5 m long, ≤ 2.5 m wide</td></tr>\n<tr><td>Debris capacity</td><td>≥ 50 kg</td><td>≥ 500 kg</td></tr>\n<tr><td>Rated coverage</td><td>≥ 10,000 m²/h</td><td>≥ 26,700 m²/h</td></tr>\n<tr><td>Endurance</td><td>≈ 10.5 h at 0.65 m/s</td><td>≥ 8 h per run</td></tr>\n<tr><td>Draught</td><td>50 ± 10 cm</td><td>≤ 80 cm</td></tr>\n<tr><td>Suits</td><td>Marinas, scenic lakes, inlets, sheltered harbours</td><td>Open harbours, coastal water within about 2 km, large reservoirs</td></tr>\n</tbody></table>\n<p>Figures are from the manufacturer’s 2026 product introduction. Both vessels need at least 1 m of water to operate. The smaller vessel is easier to launch, transport and dock; the larger one carries ten times more and handles more open water, but needs larger shore facilities.</p>"
+    },
+    {
+      "id": "detection",
+      "title": "4. How detection and navigation work",
+      "html": "\n<p>Detection systems combine cameras, which recognise debris by appearance, with lidar or radar, which measure distance to objects and help avoid collisions. Satellite positioning guides the vessel along planned routes; in the S-Cleaner the manufacturer describes centimetre-level positioning and automatic route optimisation.</p>\n<p>Ask how the system behaves in difficult conditions: glare on the water, rain, fog, night, and small or transparent debris. Ask how it treats moored boats, swimmers, kayaks and floating structures, and what happens when it meets an obstacle it cannot classify. A good answer includes both the automatic behaviour and how an operator can take control.</p>\n<p>Route planning deserves attention too. Some operators prefer fixed patrol routes that cover the whole area on a schedule; others prefer the vessel to go where debris is detected. Fixed routes are predictable and easy to supervise; detection-led routes collect more per hour where debris clusters. Many systems support both, and a mix often works best.</p>"
+    },
+    {
+      "id": "shore-facilities",
+      "title": "5. Docking, charging and unloading",
+      "html": "\n<p>Autonomy ends at the shore. Every vessel needs a place to dock, a power supply for charging and a way to empty its basket. Optional docking stations — the S-Wharf for the S-Cleaner — let the vessel berth and charge automatically; the manufacturer’s video shows automatic charging at the dock. The M-Cleaner supports automatic and manual charging, with a charging time of up to six hours.</p>\n<p>Unloading is often the limiting step. Plan where the full basket is emptied, how the debris is moved to a waste bin, and who does it. If unloading needs a person every hour, the system is only as autonomous as that person’s availability.</p>\n<p>Check the shoreline where the dock will sit: water depth at the berth, protection from waves and wash, access for maintenance staff and a secure power connection. A dock in an exposed corner may be easy to install but hard to use in poor weather, exactly when debris volumes are highest.</p>"
+    },
+    {
+      "id": "approvals",
+      "title": "6. Local approvals and radio certification",
+      "html": "\n<p>Unmanned vessels are regulated differently from country to country and even between ports. Before buying, ask the harbour master or waterway authority whether unmanned operation is allowed in the target area, under what conditions, and whether a person must supervise. International rules for autonomous ships mainly address large commercial vessels and do not by themselves authorise small unmanned boats.</p>\n<p>The vessel’s radio links — remote control, telemetry, video — must also comply with local radio rules, such as CE RED in Europe or FCC in the United States. Ask which radios are fitted and whether they can be certified or replaced for your market. Lithium batteries need dangerous-goods arrangements for shipping. These items are confirmed per project; see the operating-conditions section on each vessel page.</p>"
+    },
+    {
+      "id": "supervision",
+      "title": "7. Supervision and safety",
+      "html": "\n<p>Even an autonomous vessel needs a responsible person. Agree who monitors it, how alerts reach them, and how quickly they can take manual control or recover the vessel. Define no-go zones such as navigation channels and swimming areas, and set behaviour for loss of communication — usually stopping and holding position or returning to the dock.</p>\n<p>Insurance is worth checking early. Some insurers treat unmanned vessels as a new risk category and ask for operating procedures, supervision arrangements and incident records.</p>"
+    },
+    {
+      "id": "environment",
+      "title": "8. Wind, waves and water conditions",
+      "html": "\n<p>The manufacturer rates both vessels for wind force 4 and wave grade 3. Treat these as manufacturer figures and ask for the test conditions. In practice, debris collection is most effective in calm to moderate conditions; strong wind pushes debris and the vessel alike, and waves make collection less efficient. Plan the operating window and where the vessel shelters when conditions exceed its limits.</p>\n<p>Shallow edges, weed beds, mooring lines and floating booms can trap a small vessel. Survey the water area and mark hazards in the route plan before the first autonomous run.</p>"
+    },
+    {
+      "id": "extra-sensors",
+      "title": "9. Water quality and other modules",
+      "html": "\n<p>Some vessels can carry extra sensors. The S-Cleaner has interfaces for water-quality sensors, side-scan sonar, multibeam bathymetry and ADCP, and the M-Cleaner can carry modules for water-quality and hydrological measurement, bathymetry, security patrol and water rescue. These add value where the operator also needs monitoring data, but each module needs integration, calibration and data management. Confirm which modules are available for the supplied version.</p>\n<p>The M-Cleaner is described as able to collect algae and oil films. Oil-spill response equipment is regulated in many places; collecting a light sheen is not the same as being approved spill-response equipment. Confirm local requirements separately.</p>"
+    },
+    {
+      "id": "verify",
+      "title": "10. How to verify results",
+      "html": "\n<p>Agree a trial with measurements before committing to a fleet. Useful measures are the area covered, the weight or volume of debris collected, operating hours, the number of manual interventions and the number of unloading trips. Record them daily for a few weeks, including busy periods.</p>\n<p>The manufacturer reports that an S-Cleaner working routinely at the Yazhou central fishing port in Sanya, China, had operated for more than 91 days by November 2025, covering about 200,000 m² and collecting 3,829 kg of floating debris. Our <a href=\"/case-studies/fishing-port-surface-cleaning/\">fishing-port case study</a> explains what those figures do and do not show. They are manufacturer-reported figures, not results delivered by PanPan Marine.</p>\n<p>Compare the trial results with your current cleaning method: hours of crewed boat time, staff involved and debris collected. That comparison is the basis for a business case.</p>"
+    },
+    {
+      "id": "video",
+      "title": "11. See it working",
+      "html": "\n<p>The manufacturer’s video on the <a href=\"/equipment/s-cleaner-surface-cleaning-vessel/\">S-Cleaner page</a> shows the vessel at a working fishing port, including obstacle avoidance, debris collection, docking and automatic charging. It is a useful way to judge the scale of the equipment and the shore facilities it needs.</p>"
+    },
+    {
+      "id": "maintenance",
+      "title": "12. Maintenance and running costs",
+      "html": "\n<p>Plan routine maintenance from the start: cleaning sensors and camera windows, checking collection arms and baskets, inspecting propulsion for entangled debris, and battery care. Ask the supplier for the maintenance schedule, the spare parts to keep on site and the expected battery life before replacement. Without prices, you can still compare suppliers on maintenance effort, parts availability and support response times.</p>"
+    },
+    {
+      "id": "total-picture",
+      "title": "13. The complete system",
+      "html": "\n<ul>\n<li>Vessel, collection arms and basket.</li>\n<li>Control terminal, software and remote links (the S-RTU terminal is standard on the S-Cleaner; a remote control centre is optional).</li>\n<li>Docking station, charging and power supply.</li>\n<li>Unloading arrangements and waste handling.</li>\n<li>Optional sensors and data platform.</li>\n<li>Training, spares, maintenance and support.</li>\n</ul>\n<p>Ask for each item to be listed as standard, optional or custom in the quotation. See the <a href=\"/solutions/water-surface-cleaning/\">water-surface cleaning guide</a> for the wider application.</p>"
+    },
+    {
+      "id": "next-step",
+      "title": "14. Next step",
+      "html": "\n<p>Send a map of the water area, debris observations, shore facilities and any local rules you already know with your <a href=\"/request-a-proposal/\">project brief</a>. We will review whether a cleaning vessel fits and confirm export approval for your project before quoting.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can an autonomous boat replace manual cleaning?",
+      "answer": "It can take over routine collection of light floating debris in suitable conditions. Heavy debris, storms, busy channels and occasional large items may still need crewed boats."
+    },
+    {
+      "question": "How often does the basket need emptying?",
+      "answer": "It depends on debris volume, basket size and route. In busy periods a small vessel may return frequently; plan unloading facilities and staff accordingly."
+    },
+    {
+      "question": "Do autonomous cleaning boats need a licence?",
+      "answer": "Rules vary by country and port. Ask the harbour master or waterway authority before purchase, and confirm radio certification for the vessel’s links."
+    },
+    {
+      "question": "Can the vessel work at night?",
+      "answer": "Detection and navigation depend on sensors and lighting. Ask the supplier how the system performs at night and in poor visibility, and what local rules allow."
+    },
+    {
+      "question": "What happens if communication is lost?",
+      "answer": "The vessel should follow a defined fail-safe behaviour, such as stopping or returning to the dock. Confirm the behaviour and test it during commissioning."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: S-Cleaner and M-Cleaner (2026 product introduction)",
+      "url": "",
+      "note": "Specifications, ratings and modules as reported by the manufacturer."
+    },
+    {
+      "title": "Manufacturer project reference: Yazhou central fishing port, Sanya",
+      "url": "",
+      "note": "Reported by the manufacturer; not a project delivered by PanPan Marine."
+    }
+  ],
+  "related_paths": [
+    "/equipment/s-cleaner-surface-cleaning-vessel/",
+    "/equipment/m-cleaner-surface-cleaning-vessel/",
+    "/solutions/water-surface-cleaning/",
+    "/case-studies/fishing-port-surface-cleaning/"
+  ]
+}

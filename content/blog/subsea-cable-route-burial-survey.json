@@ -1,0 +1,125 @@
+{
+  "status": "published",
+  "slug": "subsea-cable-route-burial-survey",
+  "title": "Subsea Cable Route and Burial-Depth Surveys: Sensors, ROV Class and Deliverables",
+  "description": "Plan subsea cable inspection: visual surveys, seabed mapping, burial-depth measurement and free-span checks, with the sensors, ROV class, positioning and reports each needs.",
+  "category_slug": "offshore-subsea",
+  "primary_keyword": "subsea cable inspection ROV",
+  "related_keywords": [
+    "cable burial depth survey",
+    "subsea cable route survey",
+    "cable free span inspection",
+    "offshore cable inspection",
+    "cable tracking ROV"
+  ],
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "image": "r-400.jpg",
+  "alt": "Manufacturer illustration of the R-400 work-class ROV",
+  "answer": "Decide which question the survey must answer: is the cable visible and intact, has the seabed changed along the route, is it still buried to the required depth, or are there free spans? Visual checks need a camera; seabed change needs sonar mapping; burial depth needs a cable-tracking or magnetic method; free spans need both. Each step adds sensors, positioning requirements and often a larger ROV. Write the questions and acceptance criteria into the survey specification.",
+  "sections": [
+    {
+      "id": "why-survey",
+      "title": "1. Why cable routes are surveyed",
+      "html": "\n<p>Export and array cables are among the most valuable and most vulnerable parts of an offshore wind farm or interconnector. Seabed mobility can uncover buried cables or leave sections unsupported; anchors and fishing gear can damage them. Owners therefore survey routes after installation and periodically during operation, and after events such as storms or reported anchor drags.</p>\n<p>Surveys also support decisions after a fault. If a cable fails, the owner needs to know where, why and whether neighbouring sections are at risk. Recent survey data along the route shortens the investigation and helps plan the repair. Without it, the repair campaign often starts with a survey anyway.</p>"
+    },
+    {
+      "id": "four-questions",
+      "title": "2. Four different survey questions",
+      "html": "\n<table><thead><tr><th>Question</th><th>Method</th><th>Typical sensors</th></tr></thead><tbody>\n<tr><td>Is the exposed cable intact?</td><td>Visual inspection</td><td>HD camera, lighting</td></tr>\n<tr><td>Has the seabed changed?</td><td>Bathymetric or profile mapping</td><td>Multibeam or profiling sonar, motion reference</td></tr>\n<tr><td>Is it buried deep enough?</td><td>Burial-depth measurement</td><td>Cable tracker or magnetometer, altimeter</td></tr>\n<tr><td>Are there free spans?</td><td>Mapping plus visual confirmation</td><td>Sonar and camera</td></tr>\n</tbody></table>\n<p>Many surveys combine several questions, but naming them separately makes the sensor list and the report structure clear.</p>\n<p>Each question also has its own acceptance criteria. Visual surveys need coverage and image quality standards; mapping needs resolution and accuracy; burial depth needs a detection rate and accuracy at depth; free-span checks need detection thresholds. Agreeing these up front prevents disputes when the report is delivered.</p>"
+    },
+    {
+      "id": "burial-depth",
+      "title": "3. Measuring burial depth",
+      "html": "\n<p>Burial depth is measured as the distance from the seabed surface to the top of the cable. The ROV carries a sensor that detects the cable below the seabed and an altimeter that measures height above the seabed; combining them gives depth of burial. Detection methods depend on the cable: some trackers use a signal injected into the cable, others detect the cable’s own magnetic signature or metallic armour.</p>\n<p>Ask the supplier which method is proposed, what accuracy is achievable at the expected burial depth, and how the sensor is integrated and calibrated. The manufacturer reports R-45 surveys at an offshore wind farm recording cable position and depth with a magnetometer and sub-bottom profiler, and a research-institute sea trial in which an <a href=\"/equipment/r-150-light-work-class-rov/\">R-150</a> collected acoustic, optical and magnetic data along a cable route.</p>\n<p>Burial depth accuracy depends on how far the sensor is from the cable. As burial depth increases, the signal weakens and the uncertainty grows. A method that works well at shallow burial may not resolve deeper sections. Ask the supplier for the expected accuracy at the burial depth range in your specification, and how results are flagged where the cable could not be detected.</p>"
+    },
+    {
+      "id": "landfalls",
+      "title": "4. Landfalls, crossings and shallow sections",
+      "html": "\n<p>The ends of a cable route are often the hardest to survey. Landfalls cross the surf zone and shallow water where ROVs and vessels struggle; crossings with other cables or pipelines need careful positioning; nearshore sections may be in busy navigation areas. Plan these sections separately, with the equipment that suits each — sometimes a small ROV from a shallow-draught boat, sometimes a surface survey vessel, sometimes diver support.</p>\n<p>Crossings deserve particular attention. The mattresses or rock berms placed over crossings should be inspected for displacement, and both assets should be identified clearly in the data.</p>"
+    },
+    {
+      "id": "rov-class",
+      "title": "5. Choosing the ROV class",
+      "html": "\n<p>Cable surveys usually mean long, continuous runs along the route close to the seabed, carrying sonar, positioning and a tracking sensor at the same time. That combination often exceeds what a small observation-class vehicle can carry with margin, especially in current. Light work-class and work-class vehicles such as the <a href=\"/equipment/r-400-work-class-rov/\">R-400</a> are commonly used. The manufacturer reports R-400 work for an offshore wind farm operator in Guangdong measuring seabed anomalies and burial depth along an export cable and producing a cable health assessment.</p>\n<p>For shallow nearshore sections and landfalls, smaller vehicles or surface survey vessels may cover parts of the route more efficiently. See <a href=\"/blog/observation-class-vs-work-class-rov/\">observation-class versus work-class ROVs</a>.</p>"
+    },
+    {
+      "id": "positioning",
+      "title": "6. Positioning along the route",
+      "html": "\n<p>Every finding must be tied to a position on the route, usually expressed as kilometre point (KP) and offset. That requires acoustic positioning referenced to the vessel’s GNSS, a heading and motion reference on the ROV, and a consistent route reference line. Agree the coordinate system, the route line, the KP convention and the accuracy needed for each deliverable.</p>\n<p>Long survey lines expose positioning drift. Plan regular checks against fixed features — a known structure, a crossing, a previous survey target — and record them. These checks give the client confidence that positions at the far end of a line are as reliable as those near the start.</p>\n<p>Agree also how the cable’s as-laid position will be used. If the as-laid data is old or inaccurate, the first task of the survey may be to find the cable and re-establish its true route before burial depth can be measured along it.</p>"
+    },
+    {
+      "id": "vessel-ops",
+      "title": "7. Vessel and survey operations",
+      "html": "\n<p>Route surveys are often run with the ROV flying a steady line while the vessel follows. The vessel must hold position or track smoothly, which favours dynamic positioning on longer routes. Plan crew changes, survey speed and the number of passes. Weather and current limits apply as for any ROV work; long routes make standby time a significant part of the schedule. See our note on <a href=\"/blog/rov-launch-and-recovery/\">launch and recovery</a> for the deck side.</p>\n<p>Survey speed is a trade-off between coverage and data quality. Sonar density and tracker performance fall as speed rises, while slower surveys cost more vessel time. Agree a target speed with the supplier and confirm that the data at that speed meets the resolution in the specification.</p>"
+    },
+    {
+      "id": "free-spans",
+      "title": "8. Free spans and exposure",
+      "html": "\n<p>A free span is a section of cable lying unsupported above the seabed, usually after scour. Spans can be found in sonar data and confirmed visually, with their length and height measured. Agree the span criteria that the owner uses to trigger action, and make sure the survey resolution can detect spans at that size.</p>\n<p>Spans can change quickly in mobile seabeds. A span found in one survey may grow, shrink or disappear by the next. Where spans exceed the owner’s threshold, agree whether the survey team should report immediately so that remedial work — rock placement or mattresses — can be planned while conditions are known.</p>"
+    },
+    {
+      "id": "data-processing",
+      "title": "9. Data processing and quality control",
+      "html": "\n<p>Cable surveys generate large data sets: video, sonar, positioning, tracker and altimeter data, all of which have to be synchronised and processed. Agree who processes the data, with which software, and what quality checks are applied. Typical checks include positioning quality flags, coverage gaps, sensor calibration records and cross-checks between passes.</p>\n<p>Plan the time and skills for processing. A survey that collects good data but delivers the report months later loses much of its value. Agree a delivery schedule for preliminary and final results.</p>"
+    },
+    {
+      "id": "deliverables",
+      "title": "10. Deliverables",
+      "html": "\n<ul>\n<li>Route charts with cable position, burial depth and seabed profile along KP.</li>\n<li>An event list: exposures, free spans, debris, damage, with KP and images.</li>\n<li>Processed bathymetry and comparison with previous surveys.</li>\n<li>Raw sensor data, positioning logs and calibration records.</li>\n<li>A summary assessment against the owner’s criteria.</li>\n</ul>\n<p>Agree the report structure with the owner’s engineer at the kick-off meeting, including the templates for charts and event lists. When the structure is fixed early, the survey team can record data in the right form from the first dive.</p>"
+    },
+    {
+      "id": "comparing-surveys",
+      "title": "11. Comparing with previous surveys",
+      "html": "\n<p>The value of a cable survey grows over time. Use the same route line, KP convention, coordinate system and processing methods as previous campaigns, or document the differences. Without this, apparent changes in burial depth may simply reflect a change in method.</p>\n<p>Store the processed data in a form that the owner can reuse: gridded bathymetry, KP-referenced burial depth tables and an event database rather than only PDF charts. That makes the next comparison faster and less dependent on the original contractor.</p>"
+    },
+    {
+      "id": "questions",
+      "title": "12. Questions to ask",
+      "html": "\n<ul>\n<li>Which of the four survey questions can the configuration answer?</li>\n<li>Which burial-depth method is proposed, and with what accuracy?</li>\n<li>What payload margin remains with all sensors installed?</li>\n<li>Which positioning and motion reference systems are included?</li>\n<li>What vessel, deck equipment and crew are assumed?</li>\n<li>What sample data and reports can be provided?</li>\n</ul>\n<p>Share your route and scope with your <a href=\"/request-a-proposal/\">project brief</a>.</p>"
+    },
+    {
+      "id": "equipment-or-service",
+      "title": "13. Buying equipment or buying a survey",
+      "html": "\n<p>Owners often buy cable surveys as a service. Contractors who build an in-house capability should plan for sensor integration, data processing skills and support, not only the vehicle. Ask which parts of the workflow — vehicle, sensors, software, processing — are covered by the equipment supplier and which you must source elsewhere.</p>\n<p>A practical first step for many contractors is to start with nearshore and shallow sections using a smaller vehicle and build experience before taking on full export-cable campaigns in deeper water.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How is cable burial depth measured?",
+      "answer": "By detecting the cable below the seabed with a tracking or magnetic sensor and combining it with the ROV’s height above the seabed. The method depends on the cable and the required accuracy."
+    },
+    {
+      "question": "What ROV is needed for cable surveys?",
+      "answer": "Usually a vehicle that can carry sonar, positioning and a cable-tracking sensor together with margin, often light work-class or larger. Shallow sections may suit smaller vehicles."
+    },
+    {
+      "question": "What is a cable free span?",
+      "answer": "A section of cable lying unsupported above the seabed, often after scour. It is detected in sonar data and confirmed visually."
+    },
+    {
+      "question": "How often should cable routes be surveyed?",
+      "answer": "It depends on seabed mobility, risk and the owner’s maintenance strategy, and after events such as storms or anchor incidents. The owner’s engineers set the frequency."
+    },
+    {
+      "question": "Can surveys be compared year to year?",
+      "answer": "Yes, if the route line, KP convention, coordinate system and processing methods are kept consistent or the differences are documented."
+    },
+    {
+      "question": "Can a surface vessel replace an ROV for cable surveys?",
+      "answer": "For seabed mapping in suitable depths, surface vessels with multibeam sonar can cover large areas efficiently. Burial depth and close visual checks usually still need an ROV near the seabed."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-45, R-150 and R-400",
+      "url": "",
+      "note": "Project references reported by the manufacturer; clients are not named."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-400-work-class-rov/",
+    "/equipment/r-150-light-work-class-rov/",
+    "/equipment/rov-tools-accessories/"
+  ]
+}

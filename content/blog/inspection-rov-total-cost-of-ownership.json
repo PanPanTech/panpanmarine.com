@@ -1,0 +1,125 @@
+{
+  "status": "published",
+  "slug": "inspection-rov-total-cost-of-ownership",
+  "title": "The Total Cost of Owning an Inspection ROV (Beyond the Purchase Price)",
+  "description": "The purchase price is only part of what an inspection ROV costs. Review options, spares, training, maintenance, downtime, logistics and support so you compare quotations properly.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "ROV total cost of ownership",
+  "related_keywords": [
+    "ROV ownership cost",
+    "ROV maintenance cost",
+    "compare ROV quotations",
+    "ROV spare parts",
+    "ROV training cost"
+  ],
+  "published_at": "2026-11-11",
+  "updated_at": "2026-11-11",
+  "image": "r-45.png",
+  "alt": "Manufacturer rendering of the R-45 inspection ROV",
+  "answer": "The cost of owning an inspection ROV includes the vehicle and control system, the options and sensors needed for your work, spares, training, routine maintenance and repairs, transport and import, and the cost of downtime when the system is out of service. Two quotations with similar vehicle prices can differ widely once these are included. Compare complete systems over the years you expect to use them, and ask each supplier for the same breakdown.",
+  "sections": [
+    {
+      "id": "why-tco",
+      "title": "1. Why the purchase price misleads",
+      "html": "\n<p>ROV quotations often lead with the vehicle. But a vehicle cannot work without its tether, control station, power supply and the sensors your jobs need, and it will not keep working without spares, maintenance and trained pilots. Some suppliers include much of this in the base system; others list it as options. Comparing headline prices therefore compares different things.</p>\n<p>This guide sets out the cost categories to ask about. It does not give prices, which depend on configuration, market and support arrangements; it gives a structure so that every quotation can be compared on the same basis.</p>\n<p>Ownership cost is also shaped by how you use the system. A contractor deploying several times a week will spend more on spares and maintenance than a utility that inspects twice a year, but will also spread the purchase over many more jobs. Start by estimating your expected usage: days per year, environments and typical tasks.</p>"
+    },
+    {
+      "id": "system-scope",
+      "title": "2. The complete system",
+      "html": "\n<table><thead><tr><th>Item</th><th>Questions to ask</th></tr></thead><tbody>\n<tr><td>Vehicle</td><td>Which configuration, cameras, lights and thrusters are included?</td></tr>\n<tr><td>Tether and reel</td><td>What length, type and reel are included? Is a spare tether needed?</td></tr>\n<tr><td>Control station and software</td><td>What is included; are software updates and licences extra?</td></tr>\n<tr><td>Power supply</td><td>Included, and suitable for your mains or generators?</td></tr>\n<tr><td>Sensors and tools</td><td>Which are standard, optional or custom? Who integrates them?</td></tr>\n<tr><td>Transport cases</td><td>Included, and suitable for your logistics?</td></tr>\n</tbody></table>\n<p>Ask the supplier to mark each line as included, optional or not offered. A blank line in one quotation and an included line in another is often the biggest single difference between two offers.</p>"
+    },
+    {
+      "id": "options",
+      "title": "3. Options you will actually need",
+      "html": "\n<p>List the jobs you expect to do in the first few years and the equipment each needs: sonar for poor visibility, a gripper for recovery, positioning for located findings, a laser scale for measurement. Price the system with those options, not the base system. Our <a href=\"/blog/inspection-rov-payload-capacity/\">payload guide</a> helps confirm that the options fit together on the vehicle.</p>\n<p>Consider what you will rent rather than buy. Some sensors are needed only occasionally and can be hired for specific jobs. Others are used on most jobs and are cheaper to own. Making that split early prevents both overspending on rarely used options and repeated hire costs for core equipment.</p><p>Check upgrade paths as well: whether a sensor bought later can be added without returning the vehicle to the factory, and whether the software already supports it.</p>"
+    },
+    {
+      "id": "spares",
+      "title": "4. Spares and consumables",
+      "html": "\n<p>Thrusters, propellers, connectors, seals, tether terminations, lights and cameras wear or get damaged. Ask for a recommended spares kit for your usage, the parts most often replaced, lead times for parts not held locally and whether parts are standard or proprietary. A spares kit on the shelf can turn a week of downtime into an hour’s repair.</p>\n<p>Remote and offshore work raises the stakes. On a vessel or at a remote dam, a missing part can stop the whole job. Many contractors carry a critical-spares case with every system: thrusters, a spare camera or light, connectors, seals and a short tether section.</p><p>Ask also how long the supplier commits to supplying spare parts after the model is replaced. A system that cannot be repaired after a few years becomes expensive very quickly, whatever its purchase price.</p>"
+    },
+    {
+      "id": "training",
+      "title": "5. Training",
+      "html": "\n<p>Pilots need training on the vehicle, the software, the sensors and routine maintenance. Ask what training is included, where and for how many people, whether refresher or advanced training is available, and whether training materials can be used to train new staff later. Untrained pilots damage equipment and deliver poor data, which is a hidden cost.</p>\n<p>Plan for staff turnover. If trained pilots leave, the knowledge goes with them. Written procedures, recorded training and a simple internal certification for new pilots protect your investment.</p><p>Include the time your staff spend in training, not only the course itself. Days away from paid work are part of the cost, and a well-structured course that shortens the learning curve can save more than it costs.</p>"
+    },
+    {
+      "id": "maintenance",
+      "title": "6. Maintenance and repairs",
+      "html": "\n<p>Ask for the routine maintenance schedule — daily checks, periodic servicing, pressure testing — and which tasks your team can do and which need the supplier. For repairs, ask where they are carried out, typical turnaround times, who pays for shipping and how warranty claims work. For equipment supplied from overseas, the repair route deserves particular attention.</p><p>Keep a maintenance log from day one: hours in the water, faults, parts replaced and service dates. It shows which components wear fastest, supports warranty claims and gives a realistic basis for budgeting spares in later years.</p>"
+    },
+    {
+      "id": "insurance",
+      "title": "7. Insurance and risk",
+      "html": "\n<p>Underwater equipment can be lost or damaged: a snagged tether in a tunnel, a collision with a structure, a drop during launch. Ask your insurer about cover for equipment in use, in transit and on vessels, and what procedures they expect. The cost of insurance, and of the procedures needed to obtain it, belongs in the ownership estimate.</p>"
+    },
+    {
+      "id": "downtime",
+      "title": "8. The cost of downtime",
+      "html": "\n<p>When the ROV is out of service, jobs are delayed or lost, and vessel or crew time may be wasted. Estimate what a week of downtime costs your business. That figure shows how much it is worth spending on spares, a second vehicle or a faster support arrangement. For many contractors, downtime is the largest cost in the whole picture.</p>\n<p>Ask suppliers about their support response: how quickly they answer technical questions, whether remote diagnosis is possible, and whether loan equipment is available during repairs. These arrangements reduce downtime more than any single specification.</p>"
+    },
+    {
+      "id": "logistics",
+      "title": "9. Transport, import and paperwork",
+      "html": "\n<p>Include shipping, insurance, import duties and taxes, customs brokerage and any certification needed to use the equipment in your country, such as radio approvals or battery documentation. These vary by market; our guide to <a href=\"/blog/importing-underwater-rov-compliance/\">importing an underwater ROV</a> lists the main items.</p>\n<p>Think about the logistics of every job too: transport cases, vehicles, flights with batteries, and the time to mobilise. A compact system that fits in a car may cost less per job than a larger one needing a truck and crane, even if both can do the work.</p>"
+    },
+    {
+      "id": "software-data",
+      "title": "10. Software, data and updates",
+      "html": "\n<p>Ask whether software updates are included and for how long, whether any features need annual licences, and how data is stored and exported. If your reports depend on particular formats or third-party software, include those costs too. Avoid systems that lock your data into formats only one supplier can read.</p><p>Consider reporting effort too. Software that produces client-ready reports from inspection data saves office hours on every job; software that only records video leaves the reporting to staff. Over many jobs, reporting time can rival field time.</p>"
+    },
+    {
+      "id": "lifetime",
+      "title": "11. Expected life and resale",
+      "html": "\n<p>Estimate how many years you will use the system and how heavily. Ask about the expected life of major components, the support period for spare parts and software, and whether upgrades are offered. A system that can be upgraded with new sensors may stay useful longer.</p>\n<p>Technology moves on. Cameras, sonars and software improve every few years. Systems with open interfaces and modular electronics are easier to upgrade than closed designs, which affects how long the system remains competitive for your work.</p>"
+    },
+    {
+      "id": "compare",
+      "title": "12. Comparing quotations side by side",
+      "html": "\n<p>Ask every supplier to fill in the same table: system scope, options, spares kit, training, maintenance, warranty, repair route, logistics and software. Then compare the totals over your expected period of use, adding your estimate of downtime risk for each. The cheapest vehicle is rarely the cheapest system to own.</p>\n<p>Our <a href=\"/support/\">training, spares and support</a> page explains how support responsibilities are set out in our quotations.</p><p>Revisit the comparison after the first year of use. Actual spares use, downtime and training needs will refine the estimates and help plan the next purchase.</p>"
+    },
+    {
+      "id": "next-step",
+      "title": "13. Next step",
+      "html": "\n<p>Send your expected job mix and support needs with your <a href=\"/request-a-proposal/\">project brief</a>. We will quote a complete system with options, spares, training and support listed separately so it can be compared line by line.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is included in the total cost of an ROV?",
+      "answer": "The complete system, options, spares, training, maintenance and repairs, transport and import, software, and the cost of downtime over the period of use."
+    },
+    {
+      "question": "Why do ROV quotations differ so much?",
+      "answer": "Because suppliers include different items in the base system and list others as options. Compare a complete system with the same scope."
+    },
+    {
+      "question": "How can downtime be reduced?",
+      "answer": "With a spares kit on site, trained pilots who can do routine repairs, a clear repair route and, for critical work, a second vehicle."
+    },
+    {
+      "question": "Do I need a maintenance contract?",
+      "answer": "It depends on your team’s skills and usage. Ask what routine maintenance your team can do and what needs the supplier."
+    },
+    {
+      "question": "Is a cheaper ROV a false economy?",
+      "answer": "Not always, but compare complete systems over their life. Missing options, slow repairs or poor training can outweigh a lower purchase price."
+    },
+    {
+      "question": "Should I rent or buy an ROV?",
+      "answer": "Renting suits occasional or one-off work; buying suits frequent use. Compare the total cost of ownership with expected rental days, and consider renting rarely used sensors even if you own the vehicle."
+    }
+  ],
+  "sources": [
+    {
+      "title": "PanPan Marine support approach",
+      "url": "",
+      "note": "Cost categories are general procurement guidance; no prices are stated."
+    }
+  ],
+  "related_paths": [
+    "/support/",
+    "/equipment/rov-tools-accessories/",
+    "/equipment/r-45-inspection-rov/"
+  ]
+}

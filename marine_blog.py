@@ -74,6 +74,13 @@ def load_posts(root):
         posts.append(post)
     if len({p['slug'] for p in posts}) != len(posts):
         raise ValueError('Duplicate article slug')
+    # Links to posts that are not published yet render as plain text until their date.
+    live = {p['slug'] for p in posts}
+    def keep_live(match):
+        return match.group(0) if match.group(1) in live else match.group(2)
+    for p in posts:
+        for section in p['sections']:
+            section['html'] = re.sub(r'<a href="/blog/([a-z0-9-]+)/">(.*?)</a>', keep_live, section['html'])
     return sorted(posts, key=lambda p: (p['published_at'], p['slug']), reverse=True)
 
 

@@ -1,0 +1,71 @@
+{
+  "status": "published",
+  "slug": "floating-debris-collection-capacity",
+  "title": "How Much Floating Debris Can a Cleaning Vessel Collect in a Day?",
+  "description": "Estimate the daily collection of an autonomous cleaning vessel from basket size, unloading trips, operating hours and debris density, and why rated coverage differs from real results.",
+  "category_slug": "surface-water",
+  "primary_keyword": "floating debris collection boat",
+  "related_keywords": [
+    "trash skimmer capacity",
+    "debris collection rate",
+    "cleaning vessel coverage",
+    "how much trash can a skimmer boat collect"
+  ],
+  "published_at": "2026-11-03",
+  "updated_at": "2026-11-03",
+  "image": "m-cleaner.jpg",
+  "alt": "Manufacturer rendering of the M-Cleaner large surface cleaning vessel on open water",
+  "answer": "Daily collection is limited by whichever runs out first: basket capacity multiplied by the number of unloading trips, operating hours between charges, or the amount of debris the vessel can actually reach. Rated coverage tells you how much water the vessel can sweep, not how much debris it will collect. Estimate each limit separately and confirm with a trial.",
+  "sections": [
+    {
+      "id": "three-limits",
+      "title": "Three limits on daily collection",
+      "html": "\n<ul>\n<li><strong>Basket and unloading.</strong> A vessel with a 50 kg basket that can be unloaded six times a day can collect at most around 300 kg, however much debris there is.</li>\n<li><strong>Operating time.</strong> Endurance and charging time set how many hours the vessel works. The S-Cleaner is listed at about 10.5 hours at 0.65 m/s; the M-Cleaner at eight hours or more, with up to six hours to charge.</li>\n<li><strong>Debris availability.</strong> If debris is scattered thinly, the vessel spends most of its time searching rather than collecting.</li>\n</ul>\n<p>Note also the difference between weight and volume. Light, bulky debris such as foam, bottles and leaves can fill a basket by volume long before reaching its weight rating. If your debris is bulky, the basket may need emptying more often than its weight capacity suggests.</p>"
+    },
+    {
+      "id": "example",
+      "title": "A worked example",
+      "html": "\n<p>Suppose a marina receives around 80 kg of mixed floating debris on a typical day, concentrated in two wind-driven corners. A vessel with a 50 kg basket needs at least two unloading trips; if the unloading point is near the corners, that is easily achievable within a working day. In storm weeks, when volumes may triple, the same vessel would need five or six trips and may fall behind. The estimate shows whether a small vessel is enough, whether a larger one such as the <a href=\"/equipment/m-cleaner-surface-cleaning-vessel/\">M-Cleaner</a> (≥ 500 kg) is justified, or whether two small vessels would cover the area better.</p>\n<p>These numbers are illustrative. Replace them with your own observations.</p>\n<p>Repeat the estimate for the quietest and the busiest periods of the year. The answer is often that one vessel handles most of the year comfortably, and that peak periods need temporary help — extra unloading trips, booms, or a crewed boat for a few weeks — rather than a permanently larger fleet.</p>"
+    },
+    {
+      "id": "coverage",
+      "title": "Why rated coverage is not collection",
+      "html": "\n<p>Coverage figures — 10,000 m²/h for the S-Cleaner, 26,700 m²/h for the M-Cleaner — describe the area swept under good conditions. Turning, unloading, charging, wind and debris density all reduce effective coverage. Use rated coverage to compare vessels, and measured collection to plan operations.</p>"
+    },
+    {
+      "id": "measure",
+      "title": "How to measure in a trial",
+      "html": "\n<p>Weigh or estimate the volume of each basket load, log operating hours and unloading trips, and record weather. Two to four weeks of records, including a busy period, give a realistic daily figure. The manufacturer’s fishing-port reference — 3,829 kg over more than 91 days of operation — shows the kind of record worth keeping; see the <a href=\"/case-studies/fishing-port-surface-cleaning/\">case study</a>.</p>\n<p>For the wider buying process, read our <a href=\"/blog/autonomous-surface-cleaning-vessel-guide/\">buyer’s guide to autonomous surface cleaning vessels</a>.</p>\n<p>Record the debris types as well as weight. A change in mix — more leaves in autumn, more plastics in summer — explains changes in collection and helps plan the next season.</p>"
+    },
+    {
+      "id": "improve",
+      "title": "Ways to increase daily collection",
+      "html": "\n<p>Locate the unloading point close to where debris gathers, use floating booms to concentrate debris, schedule runs after the times when debris arrives, and keep a charged vessel ready during peak seasons. Small operational changes often add more capacity than a bigger vessel.</p>\n<p>Finally, keep the vessel clean and maintained. Weed wrapped around propulsion, dirty camera windows or a slow charger quietly reduce daily collection.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does a bigger basket always mean more debris collected?",
+      "answer": "Only if debris is plentiful and unloading is the limit. Where debris is thin, search time dominates and a bigger basket adds little."
+    },
+    {
+      "question": "How accurate are rated coverage figures?",
+      "answer": "They describe performance under good conditions. Real coverage is lower once turning, unloading, charging and weather are included."
+    },
+    {
+      "question": "Can two small vessels replace one large one?",
+      "answer": "Sometimes. Two small vessels can cover separate areas and offer redundancy, but need more docking and supervision. Compare both options for your site."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: S-Cleaner and M-Cleaner (2026 product introduction)",
+      "url": "",
+      "note": "Capacity, coverage, endurance and charging as reported by the manufacturer."
+    }
+  ],
+  "related_paths": [
+    "/equipment/s-cleaner-surface-cleaning-vessel/",
+    "/equipment/m-cleaner-surface-cleaning-vessel/"
+  ]
+}

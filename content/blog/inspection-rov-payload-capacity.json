@@ -41,7 +41,7 @@
     {
       "id": "hidden-loads",
       "title": "5. Current, tether drag and the payload you do not see",
-      "html": "\n<p>The datasheet payload assumes calm conditions. On a real site the vehicle also has to overcome water current and the drag of its tether. A long tether in a current can pull harder on the vehicle than the equipment it carries. A vehicle loaded close to its payload limit may have little thrust left to hold station against that pull.</p>\n<p>This is why payload, thrust and tether length should be reviewed together. A larger vehicle with more thrust may be the better choice for a site with current, even if the sensor package is modest. If your work includes long tunnels, the <a href=\"/solutions/underwater-tunnel-inspection/\">tunnel inspection guide</a> explains why tether management is planned as part of the system.</p>"
+      "html": "\n<p>The datasheet payload assumes calm conditions. On a real site the vehicle also has to overcome water current and the drag of its tether. A long tether in a current can pull harder on the vehicle than the equipment it carries. A vehicle loaded close to its payload limit may have little thrust left to hold station against that pull.</p>\n<p>This is why payload, thrust and tether length should be reviewed together. A larger vehicle with more thrust may be the better choice for a site with current, even if the sensor package is modest. If your work includes long tunnels, the <a href=\"/solutions/underwater-tunnel-inspection/\">tunnel inspection guide</a> explains why tether management is planned as part of the system, and our note on <a href=\"/blog/rov-tether-length/\">how long an ROV tether should be</a> shows how to estimate length.</p>"
     },
     {
       "id": "power-and-data",
@@ -56,7 +56,7 @@
     {
       "id": "step-up",
       "title": "8. When to step up to a light work-class ROV",
-      "html": "\n<p>If the worksheet in the next sections shows that your equipment, margin and site conditions exceed an observation-class allowance, the next step is a light work-class vehicle. The <a href=\"/equipment/r-150-light-work-class-rov/\">R-150</a> is listed with a 20 kg payload and the <a href=\"/equipment/r-400-work-class-rov/\">R-400</a> with 50 kg, with more thrusters to handle current and tooling.</p>\n<p>Stepping up has consequences beyond the vehicle. Heavier ROVs need mechanical launch and recovery, more deck or quayside space, larger power supplies and a bigger crew. Compare the complete deployment requirements, not only the payload figure.</p>"
+      "html": "\n<p>If the worksheet in the next sections shows that your equipment, margin and site conditions exceed an observation-class allowance, the next step is a light work-class vehicle. The <a href=\"/equipment/r-150-light-work-class-rov/\">R-150</a> is listed with a 20 kg payload and the <a href=\"/equipment/r-400-work-class-rov/\">R-400</a> with 50 kg, with more thrusters to handle current and tooling.</p>\n<p>Stepping up has consequences beyond the vehicle. Heavier ROVs need mechanical launch and recovery, more deck or quayside space, larger power supplies and a bigger crew. Our note on <a href=\"/blog/observation-class-vs-work-class-rov/\">observation-class versus work-class ROVs</a> compares the complete deployment requirements, not only the payload figure.</p>"
     },
     {
       "id": "common-mistakes",

@@ -1,0 +1,134 @@
+{
+  "status": "published",
+  "slug": "importing-underwater-rov-compliance",
+  "title": "Importing an Underwater ROV: Certification, Batteries, Radio and Paperwork",
+  "description": "What to check before importing an ROV or unmanned vessel: product conformity, radio approvals, electrical safety, lithium battery shipping, customs classification and documents.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "import ROV compliance",
+  "related_keywords": [
+    "ROV CE marking",
+    "ROV FCC certification",
+    "lithium battery shipping ROV",
+    "import underwater drone",
+    "ROV customs documentation"
+  ],
+  "published_at": "2026-11-13",
+  "updated_at": "2026-11-13",
+  "image": "r-150.png",
+  "alt": "Manufacturer rendering of the R-150 light work-class ROV",
+  "answer": "Before importing an ROV or unmanned vessel, confirm which product rules apply in your country (for example CE marking in the EU or FCC rules for radio devices in the US), whether any radio links need local approval, how lithium batteries will be shipped, how the equipment is classified for customs and which documents must travel with it. Requirements depend on the configuration and the market, so check them per project and agree in the contract who provides each document.",
+  "sections": [
+    {
+      "id": "why-plan",
+      "title": "1. Why compliance belongs in the purchase plan",
+      "html": "\n<p>An ROV that arrives at the border without the right documents can sit in customs for weeks, and one that lacks local approvals may not be usable on site even after it clears. Compliance questions are easiest to solve before the order, when the configuration can still be adjusted — a different radio, a different battery, extra test reports. This guide lists the main items to check. It is general guidance, not legal advice; confirm current rules with the relevant authorities or a qualified adviser.</p><p>Responsibility also matters. Depending on the arrangement, the manufacturer, the exporter, the importer or the end user may carry different obligations. Clear roles prevent gaps where everyone assumes someone else has handled a requirement.</p>"
+    },
+    {
+      "id": "product-rules",
+      "title": "2. Product conformity rules",
+      "html": "\n<p>In the European Union, machinery and electrical equipment placed on the market generally need CE marking, supported by a technical file and a declaration of conformity. Depending on the product, relevant legislation can include machinery rules (the Machinery Directive, to be replaced by the Machinery Regulation from January 2027), electromagnetic compatibility, low-voltage electrical safety and restrictions on hazardous substances. The United Kingdom has its own UKCA framework alongside recognition arrangements.</p>\n<p>In North America, electrical safety is often addressed through certification by a recognised testing laboratory, which employers or site owners may require for equipment used at work. Other markets have their own schemes. Ask the supplier which conformity assessments have been carried out for the configuration you are buying and what documents can be provided.</p>\n<p>The importer or distributor often carries legal responsibilities, such as checking that the manufacturer has completed the conformity assessment, that the CE or other mark is applied correctly and that documentation is available to authorities. If you import equipment for your own use, some obligations may still apply. Clarify your role early.</p>"
+    },
+    {
+      "id": "radio",
+      "title": "3. Radio approvals",
+      "html": "\n<p>Many ROVs use only a wired tether, but surface equipment and unmanned vessels often include radios: Wi-Fi, remote-control links, telemetry, cellular modems and satellite terminals. Radio equipment needs approval in each market — for example the Radio Equipment Directive in the EU, FCC authorisation in the United States, ISED certification in Canada, ANATEL in Brazil and SUBTEL rules in Chile. Ask which radios are fitted, which approvals they hold and whether they can be replaced with locally approved modules if needed.</p>\n<p>Frequency bands matter. A remote-control link that uses a band permitted in one country may be restricted in another. Cellular modems must support the local networks and bands. Satellite terminals may have their own licensing. Listing every radio and its frequency band in the quotation makes these checks straightforward.</p>"
+    },
+    {
+      "id": "batteries",
+      "title": "4. Lithium batteries",
+      "html": "\n<p>Battery-powered ROVs, unmanned vessels, gliders and many accessories contain lithium batteries, which are dangerous goods in transport. Shippers normally need a UN38.3 test summary for each battery type, correct classification, packaging, labelling and declarations under the rules for air (IATA), sea (IMDG) or road transport. Large batteries and primary (non-rechargeable) lithium batteries face stricter limits, and some cannot travel on passenger aircraft at all.</p>\n<p>Ask the supplier for the battery test summaries and the recommended shipping method before ordering. For equipment you will carry to sites yourself, check airline and courier rules in advance. See our note on <a href=\"/blog/battery-vs-tethered-mini-rov/\">battery versus tethered power</a>.</p>\n<p>Batteries installed in equipment and batteries shipped separately are treated differently, and spare batteries often have tighter limits than installed ones. Plan how many spare batteries you need on site and how they will travel, especially for remote or offshore work.</p>"
+    },
+    {
+      "id": "customs",
+      "title": "5. Customs classification and duties",
+      "html": "\n<p>Customs duties and taxes depend on how the equipment is classified, its origin and its value. ROVs, their control systems and accessories may fall under different headings, and classification can be debated. Ask a customs broker to review the product description and, for large or repeated imports, consider a binding classification ruling from your customs authority. Include duties, taxes and brokerage in your <a href=\"/blog/inspection-rov-total-cost-of-ownership/\">total cost estimate</a>.</p>\n<p>Temporary imports for a single project — for example a system brought in for a campaign and then re-exported — may qualify for special procedures such as ATA Carnets or temporary admission, which can avoid paying full duties. Ask a broker whether these apply.</p>"
+    },
+    {
+      "id": "electrical",
+      "title": "6. Electrical supply and plugs",
+      "html": "\n<p>Check that the power supply suits local mains voltage and frequency, and generators used on site. Surface equipment designed for one region may need transformers or different power units elsewhere. Plugs, cable standards and earthing arrangements also vary. These are simple items but can delay commissioning if overlooked.</p>"
+    },
+    {
+      "id": "documents",
+      "title": "7. Documents to request",
+      "html": "\n<ul>\n<li>Commercial invoice and packing list with clear product descriptions.</li>\n<li>Certificate of origin where preferential duty or local rules require it.</li>\n<li>Declarations of conformity and test reports for the applicable product rules.</li>\n<li>Radio approval certificates for any fitted radios.</li>\n<li>Battery UN38.3 test summaries and safety data sheets.</li>\n<li>Operation and maintenance manuals in an agreed language.</li>\n</ul>\n<p>Check that descriptions match across documents. An invoice that describes an “underwater robot” while the packing list says “inspection equipment” and the declaration names a model number can trigger questions at the border. Consistent, specific descriptions speed clearance.</p>"
+    },
+    {
+      "id": "vessels",
+      "title": "8. Extra steps for unmanned vessels",
+      "html": "\n<p>Unmanned surface vessels raise questions beyond import: whether they may operate on the target waters, whether they need registration, what supervision is required and how they are insured. International work on autonomous ships has focused on large commercial vessels; it does not by itself authorise small unmanned boats. Check local maritime and waterway rules early. On this site, export of unmanned vessels is subject to approval for each project.</p><p>Radio and navigation equipment on vessels may also need marine-specific approvals, and some waters require vessels to carry identification or lights. Ask the waterway authority for a list of requirements for the area where the vessel will work.</p>"
+    },
+    {
+      "id": "contract",
+      "title": "9. Put responsibilities in the contract",
+      "html": "\n<p>Agree who provides each document, who arranges shipping and insurance, who acts as importer of record, and who is responsible if a document is missing or wrong. Agree the Incoterms rule for delivery and make the split of costs clear. Include the documentation list in the acceptance criteria, so that delivery is only complete when the paperwork is complete.</p><p>For first shipments to a new country, consider a short pre-shipment review with your customs broker using draft documents. Fixing a description or adding a missing certificate before the goods leave is far easier than after they arrive.</p>"
+    },
+    {
+      "id": "site-use",
+      "title": "10. After import: using the equipment",
+      "html": "\n<p>Clearing customs is not the end. Site owners may require electrical inspections, equipment registers, risk assessments and operator qualifications before the equipment is used. Ask your clients what they require so that the equipment can start work as soon as it arrives.</p>\n<p>Language matters as well. Some markets require manuals, safety instructions and labels in the local language. Confirm this early so that translated documents are ready with the equipment.</p>"
+    },
+    {
+      "id": "timeline",
+      "title": "11. Build compliance into the timeline",
+      "html": "\n<p>Gathering test reports, arranging radio approvals and booking dangerous-goods shipping can take weeks. Start these tasks as soon as the configuration is agreed, and include them in the delivery schedule. A missing document discovered at the port costs far more time than one requested at the order.</p><p>Keep a copy of every document with the equipment and in a shared folder. When the equipment moves to another country for a project, the same documents are usually needed again, and having them ready saves days.</p>"
+    },
+    {
+      "id": "checklist",
+      "title": "12. A short checklist",
+      "html": "\n<ul>\n<li>Which product rules apply in my country, and what documents prove conformity?</li>\n<li>Which radios are fitted, and are they approved locally?</li>\n<li>Which batteries are included, and how will they ship?</li>\n<li>How is the equipment classified for customs?</li>\n<li>Who is importer of record, and which Incoterms rule applies?</li>\n<li>What will site owners require before first use?</li>\n</ul>"
+    },
+    {
+      "id": "next-step",
+      "title": "13. Next step",
+      "html": "\n<p>Tell us the destination country and how you plan to use the equipment in your <a href=\"/request-a-proposal/\">project brief</a>. We will list the documents available for the proposed configuration and flag any items that need attention before ordering. Our <a href=\"/support/\">support page</a> explains how responsibilities are set out in our quotations.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does an ROV need CE marking?",
+      "answer": "In the EU, machinery and electrical equipment placed on the market generally need CE marking under the applicable legislation. Confirm which rules apply to the specific configuration."
+    },
+    {
+      "question": "Do tethered ROVs need radio approval?",
+      "answer": "The vehicle may not, but surface equipment with Wi-Fi, remote controls or modems usually does. Check every radio in the system."
+    },
+    {
+      "question": "Can ROV batteries be shipped by air?",
+      "answer": "Often, under dangerous-goods rules with UN38.3 test summaries, correct packaging and declarations. Some large or primary lithium batteries face strict limits."
+    },
+    {
+      "question": "Who should be the importer of record?",
+      "answer": "It depends on the commercial arrangement. Agree it in the contract along with Incoterms, documents and responsibilities."
+    },
+    {
+      "question": "Is this guide legal advice?",
+      "answer": "No. It is general guidance. Confirm current requirements with the relevant authorities, customs brokers or qualified advisers for your project."
+    },
+    {
+      "question": "What is an ATA Carnet?",
+      "answer": "An international customs document that allows temporary duty-free import of equipment for set purposes, such as professional equipment used on a project and then re-exported. Ask a customs broker whether it suits your case."
+    }
+  ],
+  "sources": [
+    {
+      "title": "European Commission: CE marking and the Radio Equipment Directive",
+      "url": "",
+      "note": "General references; check current legislation for your product."
+    },
+    {
+      "title": "US Federal Communications Commission: equipment authorization",
+      "url": "",
+      "note": "General reference for radio devices imported into the United States."
+    },
+    {
+      "title": "UN Manual of Tests and Criteria, section 38.3 (lithium batteries)",
+      "url": "",
+      "note": "Battery transport test requirements; apply through IATA, IMDG and national rules."
+    }
+  ],
+  "related_paths": [
+    "/support/",
+    "/request-a-proposal/"
+  ]
+}

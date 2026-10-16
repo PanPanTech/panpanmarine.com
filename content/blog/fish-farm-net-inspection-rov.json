@@ -1,0 +1,125 @@
+{
+  "status": "published",
+  "slug": "fish-farm-net-inspection-rov",
+  "title": "Fish Farm Net and Mooring Inspection with Small ROVs",
+  "description": "Plan net-pen and mooring inspection with small ROVs: what to inspect, how to avoid entanglement, biosecurity, cold water and how to choose between compact inspection vehicles.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "aquaculture ROV net inspection",
+  "related_keywords": [
+    "fish farm ROV",
+    "net pen inspection ROV",
+    "aquaculture mooring inspection",
+    "salmon farm ROV",
+    "small ROV for aquaculture"
+  ],
+  "published_at": "2026-11-04",
+  "updated_at": "2026-11-04",
+  "image": "r-20.png",
+  "alt": "Manufacturer rendering of the R-20 compact observation ROV",
+  "answer": "Small ROVs are well suited to routine visual inspection of nets, moorings and seabed around fish farms, provided they are matched to the site: thrust for the current, a tether set-up that will not snag the net, sensors for the visibility, a deployment method that fits the workboat, and cleaning procedures that meet biosecurity rules. Inspection is the starting point; net cleaning and mortality removal need different tools and should be evaluated separately with site trials.",
+  "sections": [
+    {
+      "id": "why-inspect",
+      "title": "1. Why farms inspect underwater",
+      "html": "\n<p>Net integrity is central to fish welfare and to preventing escapes. Holes, chafe points, seams under strain and damage from predators or debris all need to be found quickly. Moorings, anchors and grid systems hold the farm in place and are inspected for wear, marine growth and correct tension. The seabed under the pens may be checked for environmental monitoring. Many farms inspect weekly or after storms, which makes quick, repeatable inspection valuable.</p>\n<p>Divers have traditionally done much of this work. ROVs reduce diving exposure, can be deployed more often and record video that can be reviewed and compared later.</p>\n<p>Regulators in several aquaculture regions require documented net inspections and rapid response to damage. Recorded ROV video, linked to dates and pens, provides that record and can be shared with insurers and authorities when needed.</p>"
+    },
+    {
+      "id": "what-to-inspect",
+      "title": "2. What to inspect and how often",
+      "html": "\n<table><thead><tr><th>Item</th><th>What to look for</th><th>Typical approach</th></tr></thead><tbody>\n<tr><td>Net walls and bottom</td><td>Holes, tears, chafe, seam damage, heavy fouling</td><td>Systematic passes with camera at fixed standoff</td></tr>\n<tr><td>Net attachments</td><td>Loose or damaged connections, weights, sinker tubes</td><td>Close-up visual checks</td></tr>\n<tr><td>Moorings and grid</td><td>Wear, corrosion, missing components, fouling</td><td>Follow lines from surface to anchor</td></tr>\n<tr><td>Seabed</td><td>Waste accumulation, lost equipment</td><td>Camera and sonar surveys</td></tr>\n</tbody></table>\n<p>Agree the frequency and route with the farm manager, and record each inspection with date, pen and position so that changes can be tracked.</p>\n<p>After storms, prioritise the pens and moorings most exposed to the weather and any area where the surface crew saw unusual movement. A short, targeted inspection soon after the event is often more useful than a full routine survey several days later.</p>"
+    },
+    {
+      "id": "choosing-vehicle",
+      "title": "3. Choosing a vehicle size",
+      "html": "\n<p>Compact vehicles are popular in aquaculture because they launch from small workboats and are quick to move between pens. The <a href=\"/equipment/r-20-portable-inspection-rov/\">R-20 / R-20Li</a> weighs 16 kg and is rated to 150 m; the <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> weighs 21 kg with a 3 kg payload and 4× optical zoom; the <a href=\"/equipment/r-45-inspection-rov/\">R-45</a> weighs 42 kg with an 8 kg payload for sonar or extra tools. Farm depths are usually well within these ratings, so the choice turns on current, payload and handling.</p>\n<p>Exposed sites with strong currents need more thrust and payload margin. Sheltered sites may be served well by the smallest vehicle. Our <a href=\"/blog/inspection-rov-payload-capacity/\">payload guide</a> and <a href=\"/blog/battery-vs-tethered-mini-rov/\">battery-versus-tethered note</a> help narrow the choice.</p>\n<p>Handling matters on a small, moving boat. A vehicle that one person can lift over the side safely is used more often than a heavier one that needs two people and a davit. Consider the weight of the tether reel and control case too, and where they will sit on deck in wet conditions.</p>"
+    },
+    {
+      "id": "entanglement",
+      "title": "4. Avoiding entanglement",
+      "html": "\n<p>The biggest operational risk around nets is entanglement: the vehicle or its tether catching on the net, ropes or mooring lines. Plan dives so that the tether stays clear of the net, use a neutrally buoyant tether, keep thrusters guarded and avoid working inside pens unless the procedure allows it. Agree what happens if the vehicle becomes caught — who recovers it and how — before the first dive.</p>\n<p>Pilot skill matters as much as equipment. Train pilots on a quiet pen before inspecting critical structures, and keep dive logs to learn where problems occur.</p>\n<p>Thruster guards, smooth vehicle profiles and careful tether handling reduce the risk further. Some operators fit a small float or weight on the tether to keep it at a chosen depth away from the net. Test such arrangements in calm water before using them on an exposed site.</p>"
+    },
+    {
+      "id": "fish-welfare",
+      "title": "5. Fish welfare during inspection",
+      "html": "\n<p>An ROV near fish can cause stress. Keep inspections outside the net where possible, move slowly, limit lighting intensity near fish and avoid feeding times. Follow the farm’s welfare procedures and any guidance from the local regulator. Video of fish behaviour can also be useful to the farm, but the inspection plan should put welfare first.</p>\n<p>Plan the order of inspection so that pens with sensitive stock — recently transferred fish, fish under treatment or pens close to harvest — are disturbed as little as possible. Coordinate with the feeding schedule and treatment plans so that inspections do not overlap with other stressful operations.</p>"
+    },
+    {
+      "id": "current",
+      "title": "6. Working in tidal currents",
+      "html": "\n<p>Exposed farms often sit in strong tidal currents chosen for water exchange. Current pushes both the vehicle and its tether, and the net itself deforms and moves. Plan inspections around slack water where possible, approach nets from downstream, and keep enough thrust margin to back away. A vehicle that cannot hold position near a net in current is a risk to both the net and itself.</p>"
+    },
+    {
+      "id": "biosecurity",
+      "title": "7. Biosecurity",
+      "html": "\n<p>Moving equipment between pens and sites can spread pathogens and parasites. Agree cleaning and disinfection procedures for the vehicle, tether and deployment equipment, and check that the materials tolerate the disinfectants used. Some farms require separate equipment for each site or a quarantine period between sites. Include these requirements in the purchase specification, because they affect materials, seals and maintenance.</p><p>Keep a cleaning log for the equipment alongside the inspection log. If an auditor or veterinarian asks how equipment moved between sites, the record answers the question immediately.</p>"
+    },
+    {
+      "id": "cold-water",
+      "title": "8. Cold water, salt and weather",
+      "html": "\n<p>Many farms are in cold, saline water with frequent storms. Ask the supplier about operating temperature ranges, corrosion protection, connector care and battery performance in cold water if a battery vehicle is used. Plan for wet, windy conditions on small boats: robust cases, protected control stations and screens readable in daylight.</p>\n<p>Pay attention to connectors and seals. Salt crystals, sand and repeated mating in cold, wet conditions wear connectors faster than in sheltered work. Rinse equipment with fresh water after each day, dry connectors before storage and keep spare O-rings and connector caps on the boat.</p>"
+    },
+    {
+      "id": "visibility",
+      "title": "9. Visibility and sensors",
+      "html": "\n<p>Water clarity at farms varies with season, plankton and feeding. In good visibility a camera with lights and zoom is enough for net inspection. In poor visibility, a compact imaging sonar can help navigation and detect large holes or structural problems, though it does not show fine net damage. Choose sensors around the defects you need to find; see our <a href=\"/resources/rov-camera-vs-sonar/\">camera versus sonar guide</a>.</p>\n<p>Lighting needs care in clear water at night or in deep pens: strong lights attract or disturb fish and cause backscatter in turbid water. Adjustable lighting and a camera with good low-light performance make inspections more flexible.</p>"
+    },
+    {
+      "id": "what-not",
+      "title": "10. What small inspection ROVs should not be sold as",
+      "html": "\n<p>An inspection ROV is not a net-cleaning robot, and a hydropower cleaning robot is not a net cleaner either. Net cleaning, mortality removal and repairs need purpose-designed tools and procedures. If those tasks are part of your requirement, evaluate them separately with site trials. We do not claim aquaculture-specific references for the vehicles on this site; any farm application should start with a trial on your pens.</p><p>Being clear about this from the start protects both the farm and the supplier: expectations stay realistic, and the trial measures what the equipment is actually designed to do.</p>"
+    },
+    {
+      "id": "data",
+      "title": "11. Recording and reporting",
+      "html": "\n<p>Record each dive with pen number, position, time and depth. Short video clips of each finding, tagged with location, are more useful than hours of continuous footage. Some farms keep a simple defect log that is reviewed at every inspection until each item is closed. Agree how video is stored and who can access it.</p>\n<p>Consistent camera settings and standoff help when comparing net condition between inspections. A simple checklist for each pen — walls, bottom, attachments, moorings — keeps inspections complete even when different pilots carry them out.</p>"
+    },
+    {
+      "id": "trial",
+      "title": "12. Running a site trial",
+      "html": "\n<p>A practical trial covers a sheltered pen and an exposed pen, in good and poor visibility, with the farm’s own staff piloting after training. Measure the time per pen, the defects found compared with the last diver inspection, the number of entanglements or near misses, and how easily the system is cleaned and moved. Those measurements make the purchase decision straightforward.</p>\n<p>Include the farm’s maintenance staff in the trial. They will clean, charge and store the equipment, and their feedback on handling and robustness is as important as image quality.</p>"
+    },
+    {
+      "id": "next-step",
+      "title": "13. Next step",
+      "html": "\n<p>Share the site depth, current, pen size, workboat details and biosecurity requirements with your <a href=\"/request-a-proposal/\">project brief</a>. We will suggest a configuration for a trial.</p>\n<p>If you already use divers or another ROV, include their inspection records. Comparing results over the same pens is the clearest way to judge whether a new system finds the same defects in less time.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a small ROV replace divers at a fish farm?",
+      "answer": "It can take over much routine visual inspection and reduce diving, but some tasks still need divers or specialised tools. A site trial shows what can be shifted."
+    },
+    {
+      "question": "Which ROV is best for net inspection?",
+      "answer": "A compact vehicle with good thrust for the site current, a camera with zoom and lights, and a tether set-up that avoids snagging. Exposed sites need more thrust and payload."
+    },
+    {
+      "question": "Can the ROV clean nets?",
+      "answer": "Not an inspection ROV. Net cleaning needs purpose-designed equipment. Evaluate it separately with trials."
+    },
+    {
+      "question": "How is biosecurity handled?",
+      "answer": "With agreed cleaning and disinfection procedures for the vehicle, tether and deployment equipment, and materials that tolerate them. Some farms require dedicated equipment per site."
+    },
+    {
+      "question": "Is a battery ROV suitable for aquaculture?",
+      "answer": "It can be for short inspections from small boats without power. For long or frequent dives, tethered power avoids battery limits."
+    },
+    {
+      "question": "How often should nets be inspected?",
+      "answer": "Farm managers and regulators set the frequency, often weekly for routine checks and after storms or incidents. Recorded ROV video makes frequent inspection easier to document."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-20/R-20Li, R-30 and R-45",
+      "url": "",
+      "note": "Specifications from the manufacturer’s 2026 product introduction. No aquaculture-specific project references are claimed."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-20-portable-inspection-rov/",
+    "/equipment/r-30-inspection-rov/",
+    "/equipment/r-45-inspection-rov/"
+  ]
+}

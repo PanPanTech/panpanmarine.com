@@ -1,0 +1,76 @@
+{
+  "status": "published",
+  "slug": "rov-rfq-checklist",
+  "title": "What to Include in an ROV Request for Quotation",
+  "description": "A practical checklist for an ROV request for quotation: the task, site conditions, required results, system scope, delivery, training and support.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "ROV RFQ checklist",
+  "related_keywords": [
+    "ROV request for quotation",
+    "how to buy an ROV",
+    "ROV tender specification",
+    "underwater robot RFQ"
+  ],
+  "published_at": "2026-11-12",
+  "updated_at": "2026-11-12",
+  "image": "ad-400.jpg",
+  "alt": "Manufacturer rendering of the AD-400 tunnel inspection ROV",
+  "answer": "A good ROV request for quotation describes the task and the result you need, the site conditions, the system scope you expect, delivery and acceptance requirements, and the training and support you need. With those inputs, suppliers can configure a suitable system and you can compare quotations line by line.",
+  "sections": [
+    {
+      "id": "task",
+      "title": "1. The task and the result",
+      "html": "\n<ul>\n<li>What will be inspected, cleaned or surveyed?</li>\n<li>What defects or conditions must be found or measured?</li>\n<li>What report or data must be delivered, and to whom?</li>\n<li>How often will the work be done?</li>\n</ul>\n<p>Describe the result in the words your client or asset owner uses. If they require a particular reporting template or defect classification, attach it. Suppliers can then confirm that the proposed system produces data in that form.</p>"
+    },
+    {
+      "id": "site",
+      "title": "2. Site conditions",
+      "html": "\n<ul>\n<li>Maximum working depth and distance from the launch point.</li>\n<li>Current or flow, and visibility.</li>\n<li>Access openings, launch points and lifting options.</li>\n<li>Water type (fresh, salt), temperature range.</li>\n<li>Power available on site.</li>\n</ul>\n<p>See our notes on <a href=\"/blog/rov-depth-rating-explained/\">depth ratings</a> and <a href=\"/blog/rov-tether-length/\">tether length</a>.</p>\n<p>If you work at several sites, describe the most demanding one and the most common one. A system sized only for the hardest site may be oversized for daily work, while one sized only for easy sites may fail when it matters.</p>"
+    },
+    {
+      "id": "scope",
+      "title": "3. System scope",
+      "html": "\n<ul>\n<li>Required sensors and tools, and any you already own.</li>\n<li>Tether length, reel and power supply.</li>\n<li>Control station, software and data formats.</li>\n<li>Transport cases and launch and recovery equipment.</li>\n<li>Which items must be standard, optional or custom.</li>\n</ul>\n<p>If you already own equipment — a sonar, a positioning system, software — list it with model and version. Suppliers can then say whether it can be integrated, which may reduce cost.</p><p>Ask suppliers to explain any item they recommend adding or removing. Their reasoning often reveals a better configuration than the one you specified.</p>"
+    },
+    {
+      "id": "delivery",
+      "title": "4. Delivery and acceptance",
+      "html": "\n<ul>\n<li>Required delivery date and location.</li>\n<li>Factory or site acceptance tests you expect.</li>\n<li>Documentation: manuals, test reports, certificates.</li>\n<li>Import and certification requirements for your country.</li>\n</ul>\n<p>Ask suppliers to state the delivery time from order and what it depends on, such as custom integration or certification. A realistic delivery plan is worth more than an optimistic one.</p><p>If you need to witness a factory acceptance test, say so in the request and agree what the test will demonstrate: functions, depth test records, sensor integration and software. A witnessed test catches configuration errors before shipping.</p>"
+    },
+    {
+      "id": "support",
+      "title": "5. Training and support",
+      "html": "\n<ul>\n<li>Number of pilots to be trained, and where.</li>\n<li>Spares kit and maintenance support.</li>\n<li>Warranty terms and repair route.</li>\n<li>Software updates and technical support channels.</li>\n</ul>\n<p>Our guide to the <a href=\"/blog/inspection-rov-total-cost-of-ownership/\">total cost of owning an inspection ROV</a> explains why these items matter. When your list is ready, use our <a href=\"/request-a-proposal/\">project brief form</a>; it follows the same structure.</p>\n<p>State your working language and time zone for support, and whether you need support during weekends or offshore campaigns. These requirements shape the support arrangement and should be priced from the start.</p>"
+    },
+    {
+      "id": "tips",
+      "title": "6. Tips for a better response",
+      "html": "\n<p>Attach drawings, photos and any previous inspection reports. Say what you do not know — an honest “visibility unknown” helps suppliers propose options rather than guess. Ask all suppliers to answer in the same structure so that quotations can be compared directly.</p>\n<p>Set a clear deadline for questions and for quotations, and share answers to suppliers’ questions with all of them. A fair process produces comparable offers and better relationships with the supplier you choose.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How detailed should an ROV RFQ be?",
+      "answer": "Detailed enough to describe the task, site and required results. Leave the configuration to suppliers, but ask them to explain their choices."
+    },
+    {
+      "question": "Should I specify a particular ROV model?",
+      "answer": "It is usually better to specify the task and results, and let suppliers propose models. Name a model only if you have a specific reason."
+    },
+    {
+      "question": "What documents should I attach?",
+      "answer": "Drawings, site photos, previous inspection reports and any client specifications for the deliverables."
+    }
+  ],
+  "sources": [
+    {
+      "title": "PanPan Marine project brief structure",
+      "url": "",
+      "note": "General procurement guidance."
+    }
+  ],
+  "related_paths": [
+    "/request-a-proposal/",
+    "/resources/"
+  ]
+}

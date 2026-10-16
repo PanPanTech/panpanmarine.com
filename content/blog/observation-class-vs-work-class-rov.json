@@ -1,0 +1,72 @@
+{
+  "status": "published",
+  "slug": "observation-class-vs-work-class-rov",
+  "title": "Observation-Class vs Work-Class ROV: The Practical Difference",
+  "description": "Compare observation-class and work-class ROVs by weight, payload, thrust, deployment, crew and cost of operation, with examples from 42 kg to 520 kg.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "observation class vs work class ROV",
+  "related_keywords": [
+    "work class ROV",
+    "observation class ROV",
+    "light work class ROV",
+    "ROV classes explained"
+  ],
+  "published_at": "2026-10-27",
+  "updated_at": "2026-10-27",
+  "image": "r-150.png",
+  "alt": "Manufacturer rendering of the R-150 light work-class ROV",
+  "answer": "Observation-class ROVs are small, quick to deploy and built to look: cameras plus light sensors. Work-class ROVs are larger and more powerful, built to carry heavy sensors and tools and to work in current. Between them sit light work-class vehicles. Choose the smallest class that can deliver your result in your conditions, because every step up adds deployment equipment, crew and operating cost.",
+  "sections": [
+    {
+      "id": "comparison",
+      "title": "Side-by-side comparison",
+      "html": "\n<table><thead><tr><th></th><th>Observation class</th><th>Light work class</th><th>Work class</th></tr></thead><tbody>\n<tr><td>Example</td><td><a href=\"/equipment/r-45-inspection-rov/\">R-45</a>: 42 kg, 350 m, 8 kg payload</td><td><a href=\"/equipment/r-150-light-work-class-rov/\">R-150</a>: 195 kg, 500 m, 20 kg payload</td><td><a href=\"/equipment/r-400-work-class-rov/\">R-400</a>: 520 kg, 800 m, 50 kg payload</td></tr>\n<tr><td>Thrusters</td><td>6</td><td>8</td><td>12</td></tr>\n<tr><td>Typical tasks</td><td>Visual inspection, light sonar</td><td>Heavier sensors, light tools</td><td>Heavy tooling, manipulators, work in current</td></tr>\n<tr><td>Deployment</td><td>By hand, two people</td><td>Davit or crane</td><td>Crane or A-frame, larger deck</td></tr>\n<tr><td>Crew</td><td>Small team</td><td>Larger team</td><td>Dedicated offshore crew</td></tr>\n</tbody></table>\n<p>Heavy work-class systems such as the <a href=\"/equipment/r-2000-heavy-work-class-rov/\">R-2000</a> and <a href=\"/equipment/r-4000-heavy-work-class-rov/\">R-4000</a> extend this further, with tether management systems and deep ratings.</p>\n<p>Figures are taken from the manufacturer’s 2026 product introduction. Weights refer to the vehicle alone; tether, reel, control station and launch equipment add considerably to what has to be transported and handled.</p>"
+    },
+    {
+      "id": "what-changes",
+      "title": "What really changes as you step up",
+      "html": "\n<p>The vehicle is only part of the difference. A heavier class needs a larger power supply, a heavier tether and reel, lifting equipment, a bigger vessel or quayside space, and more people. Spares, maintenance and transport all scale with it. A work-class system that sits idle because the right vessel is not available is more expensive than a smaller vehicle that can be deployed at short notice.</p>\n<p>Transport and logistics follow the same pattern. An observation-class system usually travels in a few cases that can go as checked luggage or by courier. A work-class system may need a container, a crane at both ends and import paperwork for heavy equipment. If you work across many sites or countries, mobilisation effort can matter as much as performance.</p>"
+    },
+    {
+      "id": "when-observation",
+      "title": "When observation class is enough",
+      "html": "\n<p>Choose observation class for visual inspection, general condition surveys and light sonar work in moderate current, especially where access is tight or the team must deploy quickly from small boats, quays or dam crests. See our <a href=\"/blog/inspection-rov-payload-capacity/\">payload guide</a> to check whether your sensors fit.</p>\n<p>Observation-class vehicles also suit teams that are building experience. They are easier to learn, cheaper to repair and less punishing when mistakes happen. Many contractors start with an observation-class vehicle and add a work-class system when their project mix justifies it.</p><p>They are also easier to keep on standby for unplanned inspections.</p>"
+    },
+    {
+      "id": "when-work-class",
+      "title": "When to move up",
+      "html": "\n<p>Move up when your sensor package exceeds an observation-class allowance with margin, when you need manipulators or tools that push against structures, or when current regularly exceeds what a small vehicle can handle. Offshore wind and subsea cable scopes often fall into this category; see our guide to <a href=\"/blog/offshore-wind-monopile-scour-inspection/\">monopile and scour inspection</a>.</p>\n<p>A middle path is often available. A light work-class vehicle such as the R-150 adds payload and thrust while remaining manageable from smaller vessels and quaysides. It can be the right step for teams that have outgrown an observation vehicle but do not need full work-class capability.</p>"
+    },
+    {
+      "id": "ask",
+      "title": "What to ask before deciding",
+      "html": "\n<p>Ask the supplier to describe the complete system for each option: vehicle, tether, power, launch and recovery, crew and training. Compare those, not only the vehicle specifications. Our note on <a href=\"/blog/rov-launch-and-recovery/\">launch and recovery</a> covers the deck side in more detail.</p>\n<p>Ask also how each option will be supported: spare parts held locally, the response time for repairs and the training offered to your pilots. For heavier systems these questions decide whether a campaign continues after a fault.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a work-class ROV always more capable?",
+      "answer": "It carries more and works in stronger current, but it is harder to deploy and costs more to operate. For many inspection tasks an observation-class vehicle is the better choice."
+    },
+    {
+      "question": "What is a light work-class ROV?",
+      "answer": "A middle class with more payload and thrust than observation vehicles, but smaller and easier to deploy than full work-class systems. The R-150 is an example."
+    },
+    {
+      "question": "Can an observation-class ROV carry a manipulator?",
+      "answer": "Small grippers and light arms often fit. Heavier manipulators and tools that apply force usually need a light work-class vehicle or larger."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-45, R-150, R-400, R-2000 and R-4000",
+      "url": "",
+      "note": "Specifications from the manufacturer’s 2026 product introduction."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-45-inspection-rov/",
+    "/equipment/r-150-light-work-class-rov/",
+    "/equipment/r-400-work-class-rov/"
+  ]
+}

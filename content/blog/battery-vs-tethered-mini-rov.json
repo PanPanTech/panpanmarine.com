@@ -1,0 +1,70 @@
+{
+  "status": "published",
+  "slug": "battery-vs-tethered-mini-rov",
+  "title": "Battery-Powered or Tethered-Power Mini ROV?",
+  "description": "Compare battery-powered and tethered-power mini ROVs by runtime, site power, logistics, shipping and maintenance, using the R-20 and R-20Li as an example.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "battery powered ROV",
+  "related_keywords": [
+    "lithium battery ROV",
+    "tethered power ROV",
+    "portable ROV no generator",
+    "mini ROV runtime"
+  ],
+  "published_at": "2026-11-05",
+  "updated_at": "2026-11-05",
+  "image": "r-20.png",
+  "alt": "Manufacturer rendering of the R-20 / R-20Li portable ROV",
+  "answer": "Choose battery power when sites have no convenient power and dives are short, so you can deploy quickly with less equipment. Choose tethered surface power when dives are long or frequent, when you run power-hungry sensors, or when you want to avoid battery shipping and replacement. Both still use a tether for data; the difference is where the vehicle’s power comes from.",
+  "sections": [
+    {
+      "id": "difference",
+      "title": "What actually differs",
+      "html": "\n<p>A battery-powered mini ROV carries its energy on board and uses the tether mainly for control and video. A tethered-power ROV draws power from the surface through the tether. The <a href=\"/equipment/r-20-portable-inspection-rov/\">R-20 and R-20Li</a> illustrate the choice well: the same 16 kg, 150 m vehicle with the same payload and camera, but the R-20 uses an external tethered supply and the R-20Li an internal lithium battery listed at 2–5 hours.</p>\n<p>Because both versions share the same vehicle, the choice is not about inspection capability but about how and where you work. That makes it a good example of matching equipment to logistics rather than to specifications alone.</p>"
+    },
+    {
+      "id": "comparison",
+      "title": "Side by side",
+      "html": "\n<table><thead><tr><th></th><th>Battery power</th><th>Tethered power</th></tr></thead><tbody>\n<tr><td>Runtime</td><td>Limited by battery; depends on load and current</td><td>Continuous while surface power is available</td></tr>\n<tr><td>Site power</td><td>Not needed for the vehicle</td><td>Generator or mains needed</td></tr>\n<tr><td>Set-up time</td><td>Faster</td><td>Slightly longer</td></tr>\n<tr><td>Sensors and lights</td><td>Reduce runtime</td><td>Less constrained</td></tr>\n<tr><td>Shipping</td><td>Lithium battery rules apply</td><td>Simpler</td></tr>\n<tr><td>Long-term cost</td><td>Battery ageing and replacement</td><td>Power supply maintenance</td></tr>\n</tbody></table>\n<p>Note that the tether still matters in both cases. A battery vehicle often uses a thinner, lighter tether because it carries no power, which reduces drag and makes handling easier on small boats.</p>"
+    },
+    {
+      "id": "runtime",
+      "title": "Runtime in practice",
+      "html": "\n<p>Battery runtime falls with strong current, frequent manoeuvring, bright lighting, cold water and added sensors. Treat a manufacturer range such as 2–5 hours as a planning band and test with your own configuration. Carrying a spare battery or planning charging between dives may be needed for a full day of work.</p>\n<p>Plan the day around the battery. Note the start and end time of each dive, the charge used and the conditions, and build a simple table after a few jobs. That record turns the manufacturer’s range into a figure you can plan with.</p>"
+    },
+    {
+      "id": "logistics",
+      "title": "Logistics and shipping",
+      "html": "\n<p>Lithium batteries are dangerous goods for transport and need test reports and proper packaging. If you fly to sites often, check airline and courier rules before choosing a battery vehicle. Tethered-power vehicles avoid this, but you must carry or source a power supply at each site.</p>\n<p>Batteries also age. Capacity falls with charge cycles and time, so a battery that gives four hours when new may give less after a few years. Ask about expected battery life, replacement cost and availability, and how batteries should be stored between jobs.</p><p>Keep batteries at a moderate charge for storage, away from heat, and follow the manufacturer’s charging instructions to extend their life.</p>"
+    },
+    {
+      "id": "choose",
+      "title": "How to choose",
+      "html": "\n<p>Battery power suits quick checks of piers, hulls, intakes and fish-farm moorings from small boats without generators. Tethered power suits long inspections, tunnels, heavier sensor packages and teams who work daily. For sensor considerations, see our <a href=\"/blog/inspection-rov-payload-capacity/\">payload guide</a>; for aquaculture use, our <a href=\"/blog/fish-farm-net-inspection-rov/\">fish-farm inspection guide</a>.</p>\n<p>Some teams keep both: a battery vehicle in the truck for quick call-outs, and a tethered-power system for planned inspections. If you can only have one, choose by the work you do most often rather than the occasional exception.</p>\n<p>Whichever you choose, run a few jobs and record runtime, set-up time and any problems. A short log after a month will show whether the choice suits your work.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does a battery ROV still need a tether?",
+      "answer": "Usually yes, for control and live video. The difference is that power comes from the on-board battery rather than the surface."
+    },
+    {
+      "question": "How long does an R-20Li battery last?",
+      "answer": "The manufacturer lists 2–5 hours. Actual runtime depends on current, manoeuvring, lighting, temperature and added equipment."
+    },
+    {
+      "question": "Can batteries be shipped by air?",
+      "answer": "Often, under dangerous-goods rules with suitable test reports and packaging. Check carrier rules before travelling."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: R-20 and R-20Li (2026 product introduction)",
+      "url": "",
+      "note": "Power supply and battery runtime as listed by the manufacturer."
+    }
+  ],
+  "related_paths": [
+    "/equipment/r-20-portable-inspection-rov/"
+  ]
+}

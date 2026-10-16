@@ -1,0 +1,72 @@
+{
+  "status": "published",
+  "slug": "underwater-defect-measurement",
+  "title": "Measuring Underwater Defects: Camera, Sonar or Laser Scale?",
+  "description": "Seeing a defect is not the same as measuring it. Compare scaled imagery, laser scales and rangefinders, and sonar for sizing cracks, spalls and scour underwater.",
+  "category_slug": "equipment-selection",
+  "primary_keyword": "underwater defect measurement",
+  "related_keywords": [
+    "laser scale ROV",
+    "underwater crack measurement",
+    "ROV measurement tools",
+    "measure defects underwater"
+  ],
+  "published_at": "2026-11-10",
+  "updated_at": "2026-11-10",
+  "image": "r-30.png",
+  "alt": "Manufacturer rendering of the R-30 inspection ROV",
+  "answer": "A camera shows a defect; a measurement needs a scale. Laser scales project reference points into the image so that cracks and spalls can be sized from video; short-range laser rangefinders measure standoff distance; sonar measures shapes and volumes where the camera cannot see. Decide what dimension you must report and with what accuracy, then choose the tool and agree how accuracy will be demonstrated.",
+  "sections": [
+    {
+      "id": "see-vs-measure",
+      "title": "Seeing is not measuring",
+      "html": "\n<p>Underwater video makes defects visible, but judging their size by eye is unreliable. Distance to the surface is hard to estimate, wide-angle lenses distort scale and turbidity hides edges. A report that says a crack is “about 20 cm long” without a reference is an estimate, not a measurement. If the owner will make decisions on size — repair or not, monitor or not — the inspection needs a measurement method.</p>\n<p>Measurement also matters for monitoring. If a crack is measured the same way each year, its growth can be tracked; if each inspection estimates differently, apparent changes may just be noise. Consistent methods are as important as accurate ones.</p>"
+    },
+    {
+      "id": "laser-scale",
+      "title": "Laser scales and rangefinders",
+      "html": "\n<p>A laser scale projects two or more parallel laser dots or lines at a known spacing onto the surface. Because the spacing is known, features in the image can be sized against it, provided the camera views the surface square-on. Short-range laser rangefinders measure the distance from the camera to the surface, which helps keep standoff consistent and scale images. The manufacturer’s accessory range includes a laser scale and the F-LM50 short-range laser measuring device, listed with a 50 cm maximum range; see our <a href=\"/equipment/rov-tools-accessories/\">tools and accessories</a> page.</p>\n<p>The manufacturer reports using a laser scale together with an HD camera, multibeam and pipe sonar on an <a href=\"/equipment/r-30-inspection-rov/\">R-30</a> during a water-tunnel inspection to locate leaks and assess the structure.</p>\n<p>Viewing angle is the main source of error with laser scales. If the camera looks at the surface obliquely, distances in the image are distorted and the scale no longer applies evenly. Pilots should position the vehicle square to the surface and record frames where the laser points are clearly visible.</p>"
+    },
+    {
+      "id": "sonar",
+      "title": "Sonar for shapes and volumes",
+      "html": "\n<p>Where visibility is poor or the feature is large — scour holes, sediment piles, deformed tunnel sections — sonar is the better measuring tool. Profiling and multibeam sonar produce cross-sections and surface models from which depths, widths and volumes are calculated. Accuracy depends on the sonar, positioning and processing; agree it in advance. Our <a href=\"/resources/rov-camera-vs-sonar/\">camera versus sonar guide</a> explains which sensor sees what.</p>"
+    },
+    {
+      "id": "accuracy",
+      "title": "Agree accuracy before the dive",
+      "html": "\n<p>State what dimension must be reported (length, width, depth, area, volume), the accuracy needed and how it will be checked — for example by measuring a known reference object on site with the same set-up. Record standoff, viewing angle and lighting with each measurement. Without this, two inspections of the same defect can give different numbers simply because the method changed.</p>\n<p>Photogrammetry — building 3D models from many overlapping images — is another option for detailed measurement of complex surfaces, provided visibility and lighting allow. It needs careful image capture and processing but can produce rich, measurable models.</p>"
+    },
+    {
+      "id": "checklist",
+      "title": "A quick checklist",
+      "html": "\n<ul>\n<li>Which defects must be sized, and to what accuracy?</li>\n<li>Camera with laser scale, rangefinder, sonar, or a combination?</li>\n<li>How will the method be validated on site?</li>\n<li>How will measurements be recorded in the report?</li>\n</ul>\n<p>For payload implications of adding measuring tools, see our <a href=\"/blog/inspection-rov-payload-capacity/\">payload guide</a>.</p><p>Keep a reference object on board, such as a plate with a printed scale, to check the method at the start of each dive.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can an ROV measure crack width?",
+      "answer": "With a laser scale, square-on viewing, good visibility and enough resolution, width can be estimated. Very fine cracks may need close contact methods. Agree the accuracy required."
+    },
+    {
+      "question": "What is a laser scale?",
+      "answer": "A device that projects laser points or lines at a known spacing onto the surface so that features in the video can be sized."
+    },
+    {
+      "question": "When is sonar better than a camera for measurement?",
+      "answer": "When visibility is poor or the feature is large, such as scour or sediment. Sonar measures shape and volume rather than surface detail."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manufacturer product information: tools and accessories, R-30 (2026 product introduction)",
+      "url": "",
+      "note": "Laser scale and F-LM50 as listed by the manufacturer; R-30 tunnel reference reported by the manufacturer."
+    }
+  ],
+  "related_paths": [
+    "/equipment/rov-tools-accessories/",
+    "/equipment/r-30-inspection-rov/",
+    "/resources/rov-camera-vs-sonar/"
+  ]
+}
