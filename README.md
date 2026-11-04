@@ -33,3 +33,10 @@ Equipment and manufacturer references are attributed to Boya Gongdao / ROBOOCEAN
 The site does not claim exclusive distribution, unverified CE certification, overseas repair centres or guaranteed turnaround times. Configurations, authorization scope, acceptance and commercial commitments are confirmed per project. `authorization_verified` stays false until the applicable documentation is verified.
 
 Source differences remain explicit: R-30/R-45 images and figures may refer to different versions; AD-400 official-page range is 5 km while the brochure says 5.5 km; AD-100's 5 m3/h describes the paired separation system, not verified robot dredging productivity.
+
+## SEO, images and AI-assistant files
+
+- `config.json` → `site_updated`: default sitemap `lastmod` and CSS/JS cache-busting version. Bump it when pages change.
+- After adding or replacing a product image in `dist/assets/`, run `python tools/optimize_images.py` (needs Pillow, run locally) and commit the generated `<name>-600.webp`, `<name>-1200.webp` and `og-<name>.jpg`. Pages fall back to the original file when the variants are missing.
+- The build writes `dist/llms.txt` (a plain-language site map for AI assistants), Organization/WebSite schema on the home page, Product schema on equipment pages, FAQPage schema where FAQs are shown and BreadcrumbList schema on every indexable page. Meta descriptions are trimmed to 155 characters at a sentence or word boundary.
+- Fonts (DM Sans, Manrope; SIL OFL) are self-hosted in `dist/assets/fonts/`.

@@ -33,6 +33,8 @@ for r in routes:
  if '/blog/' not in p.refs:errors.append(f'{path}: missing blog navigation')
  for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>',html,re.S):json.loads(block)
  if p.h1!=1:errors.append(f'{path}: h1 count {p.h1}')
+ if len(p.meta.get('description',''))>160:errors.append(f'{path}: description over 160 chars')
+ if path!='/' and not r.get('noindex') and 'BreadcrumbList' not in html:errors.append(f'{path}: missing breadcrumb schema')
  if not p.meta.get('description'):errors.append(f'{path}: missing description')
  for im in p.images:
   if not im.get('alt'):errors.append(f'{path}: missing image alt')
@@ -61,5 +63,10 @@ for post in posts:
  assert article['url']==origin+article_path(post)
  assert len(faq['mainEntity'])==len(post['faq'])
  assert all(f'id="{section["id"]}"' in html and f'href="#{section["id"]}"' in html for section in post['sections'])
+for f in ['llms.txt','assets/logo.png','assets/fonts/manrope-latin-800-normal.woff2']:
+ if not (DIST/f).is_file():errors.append(f'missing {f}')
+for r in routes:
+ if r['path'].startswith('/equipment/') and r['path'].count('/')==3 and r['path']!='/equipment/rov-tools-accessories/':
+  if '"@type": "Product"' not in (DIST/r['path'].strip('/')/'index.html').read_text(encoding='utf-8'):errors.append(f"{r['path']}: missing Product schema")
 assert not errors, '\n'.join(errors)
 print(f'PASS: {len(routes)} HTTP routes, local links/assets, metadata, blog navigation, article schema, TOC, RSS and sitemap indexing.')
