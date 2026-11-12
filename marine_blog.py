@@ -121,7 +121,8 @@ def breadcrumbs(origin, parts):
     return {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [dict({'@type': 'ListItem'}, position=i, name=name, item=origin + path) for i, (name, path) in enumerate(parts, 1)]}
 
 
-def render_blog(root, posts, write, intro, cta, origin, company, brand):
+def render_blog(root, posts, write, intro, cta, origin, company, brand, contact=None):
+    contact = contact or {}
     cats = active_categories(posts)
     body = intro('BLOG / BUYING GUIDES', 'Better briefs.<br>Better equipment decisions.', 'Practical guidance for teams buying underwater inspection, cleaning and dredging equipment.')
     body += '<section class="wrap section"><div class="blog-index-heading"><p>Start with your task, then review the configuration, evidence and responsibilities behind the quotation.</p><a class="text-link" href="/blog/feed.xml">Follow the RSS feed</a></div>' + topic_nav('', cats) + cards(posts) + '</section>'
@@ -156,7 +157,21 @@ def render_blog(root, posts, write, intro, cta, origin, company, brand):
         body += '<section class="blog-source-note" id="sources"><h2>Sources &amp; scope</h2><ul>' + sources + '</ul><p>This guide offers procurement-planning guidance. Manufacturer specifications, site feasibility and contractual responsibilities are confirmed for the proposed system; this page is not an operating procedure.</p></section></div></article>'
         other = [a for a in posts if a['slug'] != p['slug']][:2]
         body += '<section class="section band"><div class="wrap"><p class="eyebrow">CONTINUE YOUR RESEARCH</p><h2>Related buying guides.</h2>' + cards(other) + '</div></section>' + cta()
-        schema = {'@context': 'https://schema.org', '@type': 'BlogPosting', '@id': origin + path + '#article', 'headline': title, 'description': description, 'url': origin + path, 'mainEntityOfPage': origin + path, 'datePublished': p['published_at'], 'dateModified': p['updated_at'], 'inLanguage': 'en', 'articleSection': p['category'], 'wordCount': p['word_count'], 'image': origin + '/assets/' + p['image'], 'author': {'@type':'Organization','name':brand,'url':origin + '/about/'}, 'publisher': {'@type':'Organization','name':company,'url':origin}, 'citation': [s['url'] for s in p['sources'] if s.get('url')]}
+        publisher = {'@type':'Organization','name':company,'url':origin}
+        if contact.get('email'):
+            publisher['email'] = contact['email']
+        if contact.get('telephone'):
+            publisher['telephone'] = contact['telephone']
+        if contact.get('email') or contact.get('telephone'):
+            point = {'@type':'ContactPoint','contactType':'sales'}
+            if contact.get('email'):
+                point['email'] = contact['email']
+            if contact.get('telephone'):
+                point['telephone'] = contact['telephone']
+            if contact.get('whatsapp'):
+                point['url'] = contact['whatsapp']
+            publisher['contactPoint'] = point
+        schema = {'@context': 'https://schema.org', '@type': 'BlogPosting', '@id': origin + path + '#article', 'headline': title, 'description': description, 'url': origin + path, 'mainEntityOfPage': origin + path, 'datePublished': p['published_at'], 'dateModified': p['updated_at'], 'inLanguage': 'en', 'articleSection': p['category'], 'wordCount': p['word_count'], 'image': origin + '/assets/' + p['image'], 'author': {'@type':'Organization','name':brand,'url':origin + '/about/'}, 'publisher': publisher, 'citation': [s['url'] for s in p['sources'] if s.get('url')]}
         fq = {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type':'Question','name':f['question'],'acceptedAnswer':{'@type':'Answer','text':f['answer']}} for f in p['faq']]}
         write(path, title, description, body, schema_extra=[schema, fq, breadcrumbs(origin, [('Home','/'), ('Blog','/blog/'), (title,path)])], og_type='article', og_image=p['image'], lastmod=p['updated_at'])
     feed = '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PanPan Marine Blog</title><link>' + escape(origin + '/blog/') + '</link><description>Underwater robotics buying guides and procurement planning.</description><language>en</language><atom:link href="' + escape(origin + '/blog/feed.xml', quote=True) + '" rel="self" type="application/rss+xml"/>'
