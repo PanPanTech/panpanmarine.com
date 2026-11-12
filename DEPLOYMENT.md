@@ -26,4 +26,4 @@ Run `python build.py`, start `python -m http.server 4173 --directory dist --bind
 
 ## Enquiries
 
-The project-brief form posts to the shared enquiry service `https://inquiry.panpantechnology.com/api/inquiries` with `lead_brand: "PanPan Marine"`; leads go to Feishu and Zoho like the other PanPanTech sites. The service must list `https://panpanmarine.com` and `https://www.panpanmarine.com` as allowed origins. If submission fails, the form shows the brief with download and email-draft options addressed to `panda@panpantechnology.com`.
+The project-brief form posts to the shared enquiry service `https://inquiry.panpantechnology.com/api/inquiries` with `lead_brand: "PanPan Marine"`; leads go to Feishu and Zoho like the other PanPanTech sites. The service must list `https://panpanmarine.com` and `https://www.panpanmarine.com` as allowed origins. If submission fails, the form shows the brief with download and email-draft options addressed to `panda@panpanmarine.com`.

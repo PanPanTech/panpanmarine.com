@@ -5,10 +5,10 @@ English B2B website for industrial underwater inspection and maintenance equipme
 - Brand: PanPan Marine, a PanPanTech brand
 - Website operator: Guangzhou PanPanTech Co., Ltd.
 - Primary domain: https://www.panpanmarine.com
-- Enquiries: panda@panpantechnology.com
+- Enquiries: panda@panpanmarine.com · WeChat and WhatsApp +86 13925118851
 - Source repository: https://github.com/PanPanTech/panpanmarine.com
 
-The site contains 50 content routes: five application pillars, nineteen equipment models (including five unmanned surface vessels and two ocean observation systems), a tools & accessories page, four manufacturer case studies, a manufacturer capabilities page, support, buying resources, company information, a project-brief form and legal pages, plus a blog hub, three topic pages and three initial buying guides.
+The site contains 71 content routes: five application pillars, nineteen equipment models (including five unmanned surface vessels and two ocean observation systems), a tools & accessories page, four manufacturer case studies, a manufacturer capabilities page, support, buying resources, company information, a project-brief form and legal pages, plus the blog hub, topic pages and buying guides published through 12 November 2026.
 
 ## Build and preview
 
@@ -16,11 +16,11 @@ Python 3 standard library only; no package installation is required.
 
 Run `python build.py`, then `python -m http.server 4173 --directory dist --bind 127.0.0.1`. In another terminal, run `python validate.py` and `node --check dist/assets/site.js`.
 
-`config.json` controls the brand, operator, email and canonical origin. `build.py` and `marine_blog.py` generate HTML, sitemap, RSS and downloads. Blog articles live in `content/blog/`; see [BLOG_PUBLISHING.md](BLOG_PUBLISHING.md) for the publishing workflow and topic plan. Styles, JavaScript and images are retained in `dist/assets/`.
+`config.json` controls the brand, operator, public email, phone and canonical origin. `build.py` and `marine_blog.py` generate HTML, sitemap, RSS and downloads. Blog articles live in `content/blog/`; see [BLOG_PUBLISHING.md](BLOG_PUBLISHING.md) for the publishing workflow and topic plan. Styles, JavaScript and images are retained in `dist/assets/`.
 
 ## Enquiries
 
-The project-brief form sends enquiries to the shared PanPanTech enquiry service (Feishu + Zoho), tagged `lead_brand: "PanPan Marine"`. If online sending fails, the visitor can download the brief or open an email draft to the confirmed business email.
+The project-brief form sends enquiries to the shared PanPanTech enquiry service (Feishu + Zoho), tagged `lead_brand: "PanPan Marine"`. If online sending fails, the visitor can download the brief or open an email draft to panda@panpanmarine.com. WeChat and WhatsApp are both +86 13925118851.
 
 ## Hosting
 

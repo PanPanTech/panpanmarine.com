@@ -305,28 +305,175 @@
     "title": "Underwater Robotics Blog & Buying Guides",
     "description": "Buying guides for industrial inspection ROVs, flooded tunnel inspection, underwater cleaning and dredging systems.",
     "noindex": false,
-    "lastmod": "2026-10-10"
+    "lastmod": "2026-11-12"
   },
   {
     "path": "/blog/topics/equipment-selection/",
     "title": "Equipment selection Buying Guides",
     "description": "Compare inspection tasks, sensing, payloads and the complete field system before requesting a quotation.",
-    "noindex": true,
-    "lastmod": "2026-10-10"
+    "noindex": false,
+    "lastmod": "2026-11-12"
   },
   {
     "path": "/blog/topics/tunnel-inspection/",
     "title": "Tunnel inspection Buying Guides",
     "description": "Plan flooded-tunnel procurement around route geometry, usable inspection evidence and a reviewed recovery approach.",
     "noindex": true,
-    "lastmod": "2026-10-10"
+    "lastmod": "2026-10-21"
   },
   {
     "path": "/blog/topics/cleaning-dredging/",
     "title": "Cleaning & dredging Buying Guides",
     "description": "Identify whether your task involves surface deposits or loose sediment, then specify the tools and supporting system.",
-    "noindex": true,
-    "lastmod": "2026-10-10"
+    "noindex": false,
+    "lastmod": "2026-11-09"
+  },
+  {
+    "path": "/blog/topics/offshore-subsea/",
+    "title": "Offshore & subsea Buying Guides",
+    "description": "Plan offshore wind, cable and subsea structure work around the deliverable, the ROV class and the launch and recovery arrangement.",
+    "noindex": false,
+    "lastmod": "2026-10-29"
+  },
+  {
+    "path": "/blog/topics/surface-water/",
+    "title": "Surface vessels & survey Buying Guides",
+    "description": "Specify unmanned surface vessels for floating-debris collection and bathymetric survey, including shore facilities and local approvals.",
+    "noindex": false,
+    "lastmod": "2026-11-06"
+  },
+  {
+    "path": "/blog/rov-rfq-checklist/",
+    "title": "What to Include in an ROV Request for Quotation",
+    "description": "A practical checklist for an ROV request for quotation: the task, site conditions, required results, system scope, delivery, training and support.",
+    "noindex": false,
+    "lastmod": "2026-11-12"
+  },
+  {
+    "path": "/blog/inspection-rov-total-cost-of-ownership/",
+    "title": "The Total Cost of Owning an Inspection ROV (Beyond the Purchase Price)",
+    "description": "The purchase price is only part of what an inspection ROV costs. Review options, spares, training, maintenance, downtime, logistics and support so you compare quotations properly.",
+    "noindex": false,
+    "lastmod": "2026-11-11"
+  },
+  {
+    "path": "/blog/underwater-defect-measurement/",
+    "title": "Measuring Underwater Defects: Camera, Sonar or Laser Scale?",
+    "description": "Seeing a defect is not the same as measuring it. Compare scaled imagery, laser scales and rangefinders, and sonar for sizing cracks, spalls and scour underwater.",
+    "noindex": false,
+    "lastmod": "2026-11-10"
+  },
+  {
+    "path": "/blog/sump-dredging-robot-system-sizing/",
+    "title": "Sump and Pit Dredging Robots: Sizing the Pump, Pipe and Separation System",
+    "description": "Size a robotic sump-dredging system: sediment properties, lift and distance, pump and pipe, mud-water separation, clogging and acceptance, with a hydropower sump example.",
+    "noindex": false,
+    "lastmod": "2026-11-09"
+  },
+  {
+    "path": "/blog/reservoir-bathymetry-unmanned-survey-vessel/",
+    "title": "Reservoir and River Bathymetry with Unmanned Survey Vessels",
+    "description": "Plan reservoir and river bathymetric surveys with unmanned survey vessels: sensors, minimum depth, positioning, coverage, data handling and when to add an ROV.",
+    "noindex": false,
+    "lastmod": "2026-11-06"
+  },
+  {
+    "path": "/blog/battery-vs-tethered-mini-rov/",
+    "title": "Battery-Powered or Tethered-Power Mini ROV?",
+    "description": "Compare battery-powered and tethered-power mini ROVs by runtime, site power, logistics, shipping and maintenance, using the R-20 and R-20Li as an example.",
+    "noindex": false,
+    "lastmod": "2026-11-05"
+  },
+  {
+    "path": "/blog/fish-farm-net-inspection-rov/",
+    "title": "Fish Farm Net and Mooring Inspection with Small ROVs",
+    "description": "Plan net-pen and mooring inspection with small ROVs: what to inspect, how to avoid entanglement, biosecurity, cold water and how to choose between compact inspection vehicles.",
+    "noindex": false,
+    "lastmod": "2026-11-04"
+  },
+  {
+    "path": "/blog/floating-debris-collection-capacity/",
+    "title": "How Much Floating Debris Can a Cleaning Vessel Collect in a Day?",
+    "description": "Estimate the daily collection of an autonomous cleaning vessel from basket size, unloading trips, operating hours and debris density, and why rated coverage differs from real results.",
+    "noindex": false,
+    "lastmod": "2026-11-03"
+  },
+  {
+    "path": "/blog/autonomous-surface-cleaning-vessel-guide/",
+    "title": "Autonomous Surface Cleaning Vessels for Harbours and Reservoirs: A Buyer\u2019s Guide",
+    "description": "How to choose an autonomous trash-skimming vessel: debris volume, water area, vessel size, docking and charging, local approvals and how to verify cleaning results.",
+    "noindex": false,
+    "lastmod": "2026-11-02"
+  },
+  {
+    "path": "/blog/underwater-trash-rack-cleaning-robot/",
+    "title": "Underwater Trash Rack Cleaning: Robotic Options, Risks and Acceptance Tests",
+    "description": "How robotic trash-rack cleaning works, when it suits a hydropower intake, what to survey first and how to agree acceptance tests, with a crawler cleaning robot example.",
+    "noindex": false,
+    "lastmod": "2026-10-30"
+  },
+  {
+    "path": "/blog/rov-launch-and-recovery/",
+    "title": "Launch and Recovery for a 200\u2013500 kg ROV: Crane, A-Frame or Davit?",
+    "description": "Compare cranes, A-frames and davits for launching and recovering light work-class and work-class ROVs, and plan deck space, crew, sea state and when a TMS is needed.",
+    "noindex": false,
+    "lastmod": "2026-10-29"
+  },
+  {
+    "path": "/blog/subsea-cable-route-burial-survey/",
+    "title": "Subsea Cable Route and Burial-Depth Surveys: Sensors, ROV Class and Deliverables",
+    "description": "Plan subsea cable inspection: visual surveys, seabed mapping, burial-depth measurement and free-span checks, with the sensors, ROV class, positioning and reports each needs.",
+    "noindex": false,
+    "lastmod": "2026-10-28"
+  },
+  {
+    "path": "/blog/observation-class-vs-work-class-rov/",
+    "title": "Observation-Class vs Work-Class ROV: The Practical Difference",
+    "description": "Compare observation-class and work-class ROVs by weight, payload, thrust, deployment, crew and cost of operation, with examples from 42 kg to 520 kg.",
+    "noindex": false,
+    "lastmod": "2026-10-27"
+  },
+  {
+    "path": "/blog/offshore-wind-monopile-scour-inspection/",
+    "title": "Offshore Wind Monopile and Scour Inspection with ROVs: What to Specify",
+    "description": "Plan ROV inspection of offshore wind monopiles and scour protection: the deliverables owners expect, the sensors each needs, ROV class, weather windows and data.",
+    "noindex": false,
+    "lastmod": "2026-10-26"
+  },
+  {
+    "path": "/blog/dam-inspection-rov-vs-crawler/",
+    "title": "Dam Inspection: When to Use a Swimming ROV and When to Use a Crawler",
+    "description": "Compare free-swimming ROVs and crawler robots for dam, intake and gate inspection: flow, surface condition, coverage, data and deployment. Includes a decision table.",
+    "noindex": false,
+    "lastmod": "2026-10-23"
+  },
+  {
+    "path": "/blog/rov-tether-length/",
+    "title": "How Long Should an ROV Tether Be?",
+    "description": "Estimate ROV tether length from depth, horizontal distance, route and slack, and understand the trade-offs: drag, power, handling and buoyancy.",
+    "noindex": false,
+    "lastmod": "2026-10-22"
+  },
+  {
+    "path": "/blog/tunnel-inspection-without-dewatering/",
+    "title": "Penstock and Headrace Tunnel Inspection Without Dewatering: A Planning Guide",
+    "description": "When can a flooded penstock or headrace tunnel be inspected without draining it? Compare wet and dry inspection, then plan flow, access, tether, positioning, recovery and deliverables.",
+    "noindex": false,
+    "lastmod": "2026-10-21"
+  },
+  {
+    "path": "/blog/rov-depth-rating-explained/",
+    "title": "What an ROV Depth Rating Does \u2014 and Doesn\u2019t \u2014 Tell You",
+    "description": "An ROV depth rating describes the vehicle\u2019s pressure housings, not the whole system. Learn what else limits working depth and how to specify depth correctly.",
+    "noindex": false,
+    "lastmod": "2026-10-20"
+  },
+  {
+    "path": "/blog/inspection-rov-payload-capacity/",
+    "title": "How Much Payload Does an Inspection ROV Really Need?",
+    "description": "Work out the payload an inspection ROV must carry: in-water weight, trim, tether drag and the sensors your inspection result needs. Includes a worksheet and R-30/R-45 example.",
+    "noindex": false,
+    "lastmod": "2026-10-19"
   },
   {
     "path": "/blog/underwater-cleaning-vs-dredging/",
