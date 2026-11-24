@@ -36,7 +36,7 @@
 - 所有性能数字注明来源、版本和条件；不虚构工程师署名、客户评价、认证。
 - 标题 ≤ 60 字符，description ≤ 155 字符。
 - 内链：博客 → 应用页（/solutions/…）/ 产品页（/equipment/…）→ /request-a-proposal/。正文只能链接发布日期不晚于本文的文章。
-- 当前定时文章已全部发布完（最后一篇 2026-11-13）；之后没有排期 — TODO：补后续选题。
+- 2026-12 起的选题排期见 `BLOG_PUBLISHING.md` 末尾（按 GSC 曝光定）；文章先 draft，资料核实后再发布。
 
 ## 技术 / 部署
 - 纯静态站，Python 3 标准库生成：`build.py`（全站）+ `marine_blog.py`（博客、RSS、主题页）；输出 `dist/`。
@@ -46,10 +46,10 @@
 - 本地预览：`python build.py` → `python -m http.server 4173 --directory dist --bind 127.0.0.1` → `python validate.py`。预览未来文章用 `BLOG_BUILD_DATE=YYYY-MM-DD python build.py`，**提交前删掉 dist/blog 下的未来文章目录**，否则提前公开。
 - 仓库里提交的 `dist/` 可能落后于线上（CI 每次重新构建）；以线上和 CI 产物为准。
 - 收录（GSC 2026-11）：59 已编入索引，16 未编入（7 个“已发现-尚未编入索引”：R-30、R-400、trash-rack 应用页、隧洞案例、两篇首批博客、underwater-defect-measurement；4 个 noindex 主题页属正常；3 个重定向）。
-- GA4：G-7QZTRGDKB3（账号 PanPanTech 414295528，媒体资源 561863528「panpanmarine.com」，约 2026-11 下旬才开始有数据），代码在 `dist/assets/site.js` 顶部（`build.py` 引用 `site.js?v=…`，改 site.js 后记得更新版本号）。
+- GA4：G-7QZTRGDKB3（账号 PanPanTech 414295528，媒体资源 561863528「panpanmarine.com」，约 2026-11 下旬才开始有数据），代码在 `dist/assets/site.js` 顶部（CSS/JS 版本号和默认 sitemap lastmod 取自 `config.json` 的 `site_updated`，改 site.js/css 后要更新它）。
 - 询盘表单（/request-a-proposal/）→ `https://inquiry.panpantechnology.com/api/inquiries`，`lead_brand: "PanPan Marine"`，进飞书 + Zoho；失败时可下载 brief 或打开邮件草稿。
-- 转化事件：TODO — 目前**未发送 `generate_lead`**；应在提交成功和邮件兜底时发 `generate_lead`，mailto 点击发 `contact_click`，并在 GA4 设为关键事件。
-- llms.txt：TODO — 目前没有（线上 404），应由 build.py 生成并纳入校验。
+- 转化事件（2026-11-24 起，PR #4）：`generate_lead`（表单提交成功，等 GA4 回调最多 1.5 秒再跳 /thank-you/；邮件草稿兜底也发），`contact_click`（mailto / tel / WhatsApp 链接）。代码在 `dist/assets/site.js` 的 `track()`。
+- llms.txt：由 `build.py` 末尾生成（产品、应用、案例、博客、联系方式），`validate.py` 检查存在；改品牌事实时同步检查 llms.txt 输出。
 - 危险操作：不要 force push `main`；不要手改 `dist/` 下由 build.py 生成的 HTML（会被下次构建覆盖），改源码再构建；不要提交凭据。
 
 ## 工作流
