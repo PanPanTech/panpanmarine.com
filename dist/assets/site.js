@@ -16,6 +16,18 @@
 
 (() => {
   const inquiryEndpoint = 'https://inquiry.panpantechnology.com/api/inquiries';
+  /* GA4 conversion events. track() resolves after GA4 confirms or 1.5 s, so navigation never waits longer. */
+  const track = (name, params) => new Promise(resolve => {
+    let done = false; const finish = () => { if (!done) { done = true; resolve(); } };
+    try { window.gtag('event', name, Object.assign({transport_type: 'beacon', event_callback: finish}, params || {})); } catch (e) { finish(); }
+    setTimeout(finish, 1500);
+  });
+  document.addEventListener('click', e => {
+    const a = e.target.closest && e.target.closest('a[href^="mailto:"],a[href^="tel:"],a[href*="wa.me/"]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    track('contact_click', {contact_method: href.startsWith('mailto:') ? 'email' : href.startsWith('tel:') ? 'phone' : 'whatsapp', link_url: href.split('?')[0], page_path: location.pathname});
+  });
   const header = document.querySelector('header.header');
   if (header) {
     const mark = () => header.classList.toggle('scrolled', window.scrollY > 8);
@@ -108,6 +120,7 @@
       const body = await res.json().catch(() => ({}));
       if (!res.ok || body.ok === false) throw new Error(body.error || 'HTTP ' + res.status);
       document.getElementById('form-status').textContent = 'Sent. Thank you — our team will reply by email.';
+      await track('generate_lead', {lead_source: 'project_brief_form', lead_brand: 'PanPan Marine', product_interest: payload.product_interest, form_id: 'project-brief'});
       location.href = '/thank-you/';
     } catch (err) {
       console.error('[PanPan Marine inquiry failed]', err);
@@ -130,6 +143,7 @@
     });
     document.getElementById('email-brief')?.addEventListener('click', () => {
       if (!currentBrief || !form.dataset.email) return;
+      track('generate_lead', {lead_source: 'email_draft_fallback', lead_brand: 'PanPan Marine', form_id: 'project-brief'});
       const mailto='mailto:'+encodeURIComponent(form.dataset.email)+'?subject='+encodeURIComponent('Underwater equipment project — '+form.elements.company.value)+'&body='+encodeURIComponent(currentBrief);
       location.href=mailto;
       document.getElementById('form-status').textContent='Email draft opened. Press Send in your mail application to deliver it.';
