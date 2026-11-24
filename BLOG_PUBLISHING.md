@@ -8,7 +8,7 @@
 2. 填写标题、描述、直接答案、章节 HTML、FAQ、来源、图片和内链。图片文件放在 `dist/assets/`，`image` 只填写文件名。所有性能数字注明来源、适用版本和条件。
 3. 草稿保持 `status: draft`。审核后改为 `published`，填写实际发布日期和更新日期。仅有实质内容更新时修改 `updated_at`。
 4. 运行 `python build.py`，启动 `python -m http.server 4173 --directory dist --bind 127.0.0.1`，再运行 `python validate.py`。检查桌面、手机菜单、表格、图片和询价入口。
-5. 通过已有 Sites 工作流推送对应源代码，打包并保存版本、部署，然后同步 GitHub。仅推送 GitHub 不会自动更新现有托管网站。
+5. 提交并合并到 GitHub `main`；GitHub Actions（`.github/workflows/pages.yml`）自动构建并发布到 GitHub Pages。旧的 Sites 托管已不再使用。
 6. 检查线上文章、博客列表、RSS 和 sitemap。文章发布后再在 Search Console 中观察发现、收录和相关查询表现。
 
 生成器会更新全站 Blog 导航、首页最近三篇文章、应用页相关文章、博客列表、主题页、RSS 和 sitemap。每篇文章有独立 URL、canonical、日期、作者、目录、BlogPosting、FAQPage 和面包屑结构化数据。主题页不足三篇时保留浏览入口但设置 noindex。没有可视化后台或自动定时发布功能；这些内容文件是现阶段的编辑入口。
@@ -47,3 +47,20 @@
 先回答问题，再解释适用条件、比较方法、采购所需数据和下一步。每篇至少连接到相关应用、产品或资料页，并设置项目咨询入口。FAQ 必须在页面上可见并与结构化数据一致。来源优先厂家原始资料及官方技术说明，避免虚构工程师署名、认证、客户评价或海外服务网点。
 
 SEO/GEO 以可抓取、可理解、可核对的内容为基础；标记本身不保证排名、富媒体结果或 AI 引用。观察有效询盘、相关搜索展示、点击和被引用情况，避免仅追求文章数量。
+
+## 2026-12 起排期（依据 GSC 2026-08-24 ~ 11-23）
+
+GSC 显示 work-class / observation-class ROV、ROV 机械手与工具、水下爬行器有真实曝光；问句型文章排名 3–7 但曝光少。下一批优先写有曝光支撑、能导向产品页的题目。每篇写完先 `status: draft`，资料核实后再改 `published` 并填 `published_at`（每周二、周四各一篇）。
+
+| 计划日期 | slug（暂定） | 核心关键词 | 导向页面 | 发布前需要的资料 |
+|---|---|---|---|---|
+| 2026-12-08 | rov-manipulator-arm-selection | rov manipulator / 5 function manipulator | /equipment/rov-tools-accessories/、R-150 | 各 F-ARM 型号重量、水中重量、负载、接口 |
+| 2026-12-10 | light-work-class-rov-guide | light work class rov | R-150 | R-150 完整配置、可挂载工具清单 |
+| 2026-12-15 | r30-vs-r45-inspection-rov | R30 vs R45 inspection ROV | R-30、R-45 | 同一日期的两型配置表 |
+| 2026-12-17 | underwater-inspection-crawler-vs-rov | subsea crawler / underwater inspection crawler | A-30、A-400 | 爬行器附着方式、坡度和流速限制 |
+| 2026-12-22 | work-class-rov-cost | work class rov price / cost | R-400、R-2000 | 系统组成与报价区间（如无法公开则只写成本构成） |
+| 2026-12-29 | hydraulic-rov-tools-guide | rov tooling / hydraulic rov tools | 工具配件页、R-400 | 各工具液压压力、流量、所需动力单元 |
+| 2027-01-05 | flooded-tunnel-inspection-report | tunnel inspection report | AD-400、隧洞案例 | 可公开的脱敏报告样例 |
+| 2027-01-07 | dredging-pump-pipeline-selection | dredging pump pipeline | AD-100 | 输送距离、扬程、粒径、泵曲线 |
+
+不追：underwater scrubber installation（船舶尾气洗涤塔）、海缆路由测量服务类词、消费级水下无人机。

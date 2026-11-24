@@ -1,8 +1,8 @@
 {
   "status": "published",
   "slug": "observation-class-vs-work-class-rov",
-  "title": "Observation-Class vs Work-Class ROV: The Practical Difference",
-  "description": "Compare observation-class and work-class ROVs by weight, payload, thrust, deployment, crew and cost of operation, with examples from 42 kg to 520 kg.",
+  "title": "Work-Class vs Observation-Class ROV: Which Do You Need?",
+  "description": "Work-class vs observation-class ROVs compared by weight, depth, payload, thrust, crew and cost, from a 42 kg inspection ROV to 3.3 t heavy systems.",
   "category_slug": "equipment-selection",
   "primary_keyword": "observation class vs work class ROV",
   "related_keywords": [
@@ -12,11 +12,16 @@
     "ROV classes explained"
   ],
   "published_at": "2026-10-27",
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-11-24",
   "image": "r-150.png",
   "alt": "Manufacturer rendering of the R-150 light work-class ROV",
-  "answer": "Observation-class ROVs are small, quick to deploy and built to look: cameras plus light sensors. Work-class ROVs are larger and more powerful, built to carry heavy sensors and tools and to work in current. Between them sit light work-class vehicles. Choose the smallest class that can deliver your result in your conditions, because every step up adds deployment equipment, crew and operating cost.",
+  "answer": "An observation-class ROV is a small vehicle (roughly 15–50 kg) built to look, with cameras and light sensors. A work-class ROV (hundreds of kilograms to several tonnes) carries heavy sensors, manipulators and tools and holds position in current. Light work-class vehicles sit between them. Pick the smallest class that delivers your result, because each step up adds deployment equipment, crew and cost.",
   "sections": [
+    {
+      "id": "definitions",
+      "title": "What is a work-class ROV? What is an observation-class ROV?",
+      "html": "\n<p><strong>Observation-class ROV:</strong> a small, electrically powered vehicle that can be launched by hand or with a light davit. It carries cameras, lights and light sensors such as imaging sonar or a thickness gauge. Example: the <a href=\"/equipment/r-45-inspection-rov/\">R-45 inspection ROV</a> (42 kg, 350 m, 8 kg payload).</p>\n<p><strong>Light work-class ROV:</strong> a middle class with more thrust and payload for heavier sensors and small manipulators, still deployable without a large vessel. Example: the <a href=\"/equipment/r-150-light-work-class-rov/\">R-150 light work-class ROV</a> (195 kg, 500 m, 20 kg payload).</p>\n<p><strong>Work-class ROV:</strong> a vehicle built to carry tools and manipulators and to keep working in open-water current; it needs a crane or launch and recovery system and a larger crew. Example: the <a href=\"/equipment/r-400-work-class-rov/\">R-400 work-class ROV</a> (520 kg, 800 m, 50 kg payload, 12 thrusters).</p>\n<p><strong>Heavy work-class ROV:</strong> deep-water systems in the tonne range, usually with a tether management system (TMS). Examples: the <a href=\"/equipment/r-2000-heavy-work-class-rov/\">R-2000</a> (2.2 t, 1,000 m) and <a href=\"/equipment/r-4000-heavy-work-class-rov/\">R-4000</a> (3.3 t, 3,000 m, 200 kg payload).</p>\n<p>Figures are manufacturer figures for the listed versions and are confirmed for the supplied configuration in each quotation.</p>\n"
+    },
     {
       "id": "comparison",
       "title": "Side-by-side comparison",
@@ -41,9 +46,18 @@
       "id": "ask",
       "title": "What to ask before deciding",
       "html": "\n<p>Ask the supplier to describe the complete system for each option: vehicle, tether, power, launch and recovery, crew and training. Compare those, not only the vehicle specifications. Our note on <a href=\"/blog/rov-launch-and-recovery/\">launch and recovery</a> covers the deck side in more detail.</p>\n<p>Ask also how each option will be supported: spare parts held locally, the response time for repairs and the training offered to your pilots. For heavier systems these questions decide whether a campaign continues after a fault.</p>"
+    },
+    {
+      "id": "next-step",
+      "title": "Not sure which class fits your site?",
+      "html": "\n<p>Send the task, depth, current, sensors or tools and the deployment platform you have. We will reply with the smallest class that can do the job and an itemised system scope: <a href=\"/request-a-proposal/?task=inspection&amp;model=r-150\">request a technical proposal</a>.</p>\n"
     }
   ],
   "faq": [
+    {
+      "question": "What is the difference between a work-class and an observation-class ROV?",
+      "answer": "Observation-class ROVs are small vehicles built to inspect with cameras and light sensors. Work-class ROVs are much larger, carry manipulators, tools and heavy sensors, and need lifting equipment, more power and a bigger crew."
+    },
     {
       "question": "Is a work-class ROV always more capable?",
       "answer": "It carries more and works in stronger current, but it is harder to deploy and costs more to operate. For many inspection tasks an observation-class vehicle is the better choice."
@@ -67,6 +81,7 @@
   "related_paths": [
     "/equipment/r-45-inspection-rov/",
     "/equipment/r-150-light-work-class-rov/",
-    "/equipment/r-400-work-class-rov/"
+    "/equipment/r-400-work-class-rov/",
+    "/equipment/r-2000-heavy-work-class-rov/"
   ]
 }
